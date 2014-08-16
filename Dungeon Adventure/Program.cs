@@ -103,10 +103,11 @@ namespace Dungeon_Adventure
                 string welcometo = " Welcome to the ";
 
                 string[][] thepowerof = new string[][]{
-new string[]{" The Power of "},
-new string[]{" Green ", " Red ", " White ", " Blue ", " Black "},
- new string[]{" mana infuses you. "}             
-              };
+                            new string[]{" The Power of "},
+                            new string[]{" Green ", " Red ", " White ", " Blue ", " Black "},
+                            new string[]{" mana infuses you. "}             
+                                                      };
+
                 string manasent = " mana infuses you. ";
                 string[] mycolor = { " Green ", "Red", "White", "Blue", " Black " };
                 switch (adventure)
@@ -252,16 +253,57 @@ new string[]{" Green ", " Red ", " White ", " Blue ", " Black "},
                         }
 
                         // Adventure Choice Four
+                        if (managoal == 4)
+                        {
+                            Console.Clear();
+                            Console.WriteLine();
+                            Console.WriteLine("You feel the black mana growing as you find your way deeper into the swamps maze.");
+                            Console.WriteLine();
+                            Console.WriteLine("Your vision blurries as the mana creeps into your soul.");
+                            Console.WriteLine();
+                            Console.WriteLine("In your blurried vision you see a fiend self producing itself from the swamps mana");
+                            Console.WriteLine();
+                            Console.WriteLine("Do you engage this foe with the magic might you have fought so hard to procur?");
+                            mycode = myYesNo();
+                            
+                            if(mycode == "YES"){
+
+
+                                BlackMana.myBlackMana();
+                                managoal++;
+                            }
+                            else
+                            {
+                                Console.WriteLine(" You will spend all of your years in the swamp, Adept.");
+                                Console.WriteLine(" Your Mana Force is : " + managoal);
+                                break;
+                            }                           
+                        }
+                        else
+                        {
+                            Console.WriteLine(" One Day you may be a master, Adept.");
+                            Console.WriteLine(" Your Mana Force is : " + managoal);
+                            break;
+                        }
 
 
 
+
+
+
+
+
+
+
+
+                        // Adventure Choice Four
                             if (managoal == 10)
                             {
                                 Console.WriteLine("You are now the avatar of Black Mana");
                                 break;
                             }
                             else
-                            {
+                            {   
                                 Console.WriteLine(" The Force of Dark Power is still out of your Grasp.");
                                 break;
                             }
