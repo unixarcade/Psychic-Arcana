@@ -271,6 +271,7 @@ namespace Dungeon_Adventure
 
                                 BlackMana.myBlackMana();
                                 managoal++;
+                                Console.ReadKey();
                             }
                             else
                             {
@@ -286,17 +287,87 @@ namespace Dungeon_Adventure
                             break;
                         }
 
+                        // Adventure Choice Five
+
+                        if (managoal == 5)
+                        {
+                            BlackMana.myBlackMana();
+                            managoal++;
+                            Console.ReadKey();
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            break;
+                        }
+
+                        // Adventure Choice Six
+                        if (managoal == 6)
+                        {
+                            BlackMana.myBlackMana();
+                            managoal++;
+                            Console.ReadKey();
+                          
+                        }
+                        else
+                        {
+                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            break;   
+                        }
+
+                        // Adventure Choice Seven
+
+                        if (managoal == 7)
+                        {
+                            BlackMana.myBlackMana();
+                            managoal++;
+                            Console.ReadKey();
+                           
+                        }
+                        else
+                        {
+                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            break;
+                        }
+
+                        // Adventure Choice Eight
 
 
+                        if (managoal == 8)
+                        {
+                            BlackMana.myBlackMana();
+                            managoal++;
+                            Console.ReadKey();
+                           
+                        }
+                        else
+                        {
+                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            break;
+                        }
 
+                        // Adventure Choice Nine
 
+                        if (managoal == 9)
+                        {
+                            BlackMana.myBlackMana();
+                            managoal++;
+                            Console.ReadKey();
+                           
+                        }
+                        else
+                        {
+                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            break;
+                        }
 
-
-
-
-
-
-                        // Adventure Choice Four
+                        // Adventure Choice Ten
                             if (managoal == 10)
                             {
                                 Console.WriteLine("You are now the avatar of Black Mana");
