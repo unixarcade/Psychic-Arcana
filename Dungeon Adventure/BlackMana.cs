@@ -2,8 +2,8 @@
 
 public static class BlackMana
 {
-	public static void myBlackMana()
-	{
+    public static void myBlackMana()
+    {
         Console.BackgroundColor = ConsoleColor.DarkGray;
         Console.ForegroundColor = ConsoleColor.Black;
         Console.WriteLine("             .:::::::::..      ");
@@ -27,13 +27,22 @@ public static class BlackMana
         Console.WriteLine("         `::::::88::88:::::::88::::::'       ");
         Console.WriteLine("            ``:::::::::::::::::::''       ");
         Console.WriteLine("                 ``:::::::::''           ");
-       
+
+
+
+
+
+    }
+
+
+    public static void myPsychicArcanaTitle()
+    {
+
         Console.BackgroundColor = ConsoleColor.Black;
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine(" ");
         Console.WriteLine("Psychic Arcana");
-        
 
+    }
 
-	}
 }

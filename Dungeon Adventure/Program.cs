@@ -82,8 +82,7 @@ namespace Dungeon_Adventure
 
 
             BlackMana.myBlackMana();
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
+            BlackMana.myPsychicArcanaTitle();
             Console.WriteLine("");
             Console.Title = " Mindscape Dungeon Adventure ";
             Console.WriteLine(" Welcome Adventurer ");
