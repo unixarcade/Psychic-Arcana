@@ -356,6 +356,15 @@ namespace Dungeon_Adventure
                         if (managoal == 9)
                         {
                             BlackMana.myBlackMana();
+
+
+
+
+
+                           
+                            Console.WriteLine();
+                            Console.WriteLine("   " + name + " " +"You have found the sacred heart of the swamp the mox jet. ");
+                            Console.WriteLine();
                             managoal++;
                             Console.ReadKey();
                            
