@@ -113,6 +113,8 @@ namespace Dungeon_Adventure
                 string[] mycolor = { " Green ", "Red", "White", "Blue", " Black " };
                 switch (adventure)
                 {
+
+                    #region Forest Region
                     case "FORESTS":
                         // colorint = 0;
                         Mana.myGreenMana();
@@ -123,7 +125,11 @@ namespace Dungeon_Adventure
                         Console.WriteLine(thepowerof[0][0] + mycolor[0] + manasent);
 
                         break;
+                    #endregion
 
+
+
+                    #region Mountain Region
                     case "MOUNTAINS":
                         Mana.myRedMana();
                         Console.WriteLine();
@@ -134,6 +140,11 @@ namespace Dungeon_Adventure
 
 
                         break;
+                    #endregion 
+
+
+
+                    #region Plains Region
                     case "PLAINS":
                         Mana.myWhiteMana();
                         Console.WriteLine();
@@ -145,6 +156,11 @@ namespace Dungeon_Adventure
 
 
                         break;
+                    #endregion
+
+
+
+                    #region Island Region
                     case "ISLANDS":
                         Mana.myBlueMana();
                         Console.WriteLine();
@@ -155,6 +171,11 @@ namespace Dungeon_Adventure
 
                         break;
 
+                    #endregion
+
+
+
+                    #region Swamp Region
                     case "SWAMPS":
                         Console.Clear();
                         BlackMana.myBlackMana();
@@ -393,7 +414,13 @@ namespace Dungeon_Adventure
                                 break;
                         }             
                 Console.ReadKey();
-                }
+
+
+
+                        #endregion
+
+
+            }
             }
         }
     }
