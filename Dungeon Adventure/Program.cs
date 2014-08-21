@@ -81,7 +81,8 @@ namespace Dungeon_Adventure
 
 
 
-            BlackMana.myBlackMana();
+            //BlackMana.myBlackMana();
+            BlackMana.myBlackManaColor();
             BlackMana.myPsychicArcanaTitle();
             Console.WriteLine("");
             Console.Title = " Mindscape Dungeon Adventure ";
