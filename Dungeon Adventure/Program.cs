@@ -106,13 +106,28 @@ namespace Dungeon_Adventure
             Console.WriteLine(" Welcome Adventurer ");
             Console.WriteLine(" What is your name? ");
             name = Console.ReadLine();
+
+
+            // Game Loop
+            do {
+                Console.Clear();
+
+
             Console.WriteLine(" Would you like to go on an adventure " + name);
 
             string mycode;
             mycode = myYesNo();
 
+            if (mycode == "NO")
+            {
+                myexit();
+            }
+
             if (mycode == "YES")
             {
+
+                
+
                 Console.WriteLine(" Then let the adventure begin ");
                 Console.WriteLine(" Do you want to go to the Forests, Mountains, Plains, Islands, Swamps? ");
                 adventure = Console.ReadLine();
@@ -437,7 +452,12 @@ namespace Dungeon_Adventure
                         #endregion
 
 
+
+
+
             }
+                // End Game Loop
+            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
             }
         }
     }
