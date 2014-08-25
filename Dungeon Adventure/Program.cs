@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Speech.Synthesis;
+
 // Luminosity
 // http://luminosity.livejournal.com
 
@@ -78,14 +80,29 @@ namespace Dungeon_Adventure
             string name, adventure;
             int managoal = 0;
 
-
-
+          
+            
 
             //BlackMana.myBlackMana();
+
+
+            // Game Start Up
             BlackMana.myBlackManaColor();
-            BlackMana.myPsychicArcanaTitle();
+
+            using (SpeechSynthesizer synth = new SpeechSynthesizer())
+            {
+                BlackMana.myPsychicArcanaTitle();
+                synth.Speak("Psychic Arcana");
+               
+            }
+           
+            
+           
+
+
             Console.WriteLine("");
             Console.Title = " Mindscape Dungeon Adventure ";
+            Console.WriteLine();
             Console.WriteLine(" Welcome Adventurer ");
             Console.WriteLine(" What is your name? ");
             name = Console.ReadLine();
