@@ -68,6 +68,7 @@
     <Compile Include="BlackMana.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GameHelpers.cs" />
     <Compile Include="Mana.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -211,8 +211,21 @@ namespace Dungeon_Adventure
                         {
                             //managoal++;
                             managoal  = 2;
+
+
+
+                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                            Console.WriteLine("");
+                            Console.WriteLine(" The force is felt through you as you tense and point your finger at the bat.");
+                            Console.WriteLine("");
+                            Console.WriteLine(" You feel an exchange in life between you and the bat as it falls to the swamp floor with a thud.");
+
+
+
                             Console.Write(" You have grown in Dark Power  ");
                             Console.WriteLine(managoal);
+
+                            Console.ReadKey();
                             
                         }
                         else
@@ -330,6 +343,12 @@ namespace Dungeon_Adventure
                         {
                             BlackMana.myBlackMana();
                             managoal++;
+                           
+
+
+                            Console.Write(" You have grown in Dark Power  ");
+                            Console.WriteLine(managoal);
+
                             Console.ReadKey();
 
                         }
@@ -345,6 +364,12 @@ namespace Dungeon_Adventure
                         {
                             BlackMana.myBlackMana();
                             managoal++;
+
+
+
+                            Console.Write(" You have grown in Dark Power  ");
+                            Console.WriteLine(managoal);
+
                             Console.ReadKey();
                           
                         }
@@ -361,6 +386,12 @@ namespace Dungeon_Adventure
                         {
                             BlackMana.myBlackMana();
                             managoal++;
+
+
+
+                            Console.Write(" You have grown in Dark Power  ");
+                            Console.WriteLine(managoal);
+
                             Console.ReadKey();
                            
                         }
@@ -378,6 +409,12 @@ namespace Dungeon_Adventure
                         {
                             BlackMana.myBlackMana();
                             managoal++;
+
+
+
+                            Console.Write(" You have grown in Dark Power  ");
+                            Console.WriteLine(managoal);
+
                             Console.ReadKey();
                            
                         }
