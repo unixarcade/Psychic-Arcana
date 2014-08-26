@@ -18,11 +18,15 @@ namespace Dungeon_Adventure
     class Program
     {
 
+        #region myExit
         static void myexit()
         {
             Environment.Exit(0);
         }
+        #endregion
 
+
+        #region myYesNo
         static string myYesNo()
         {
             Console.WriteLine(" Yes or No? ");
@@ -40,6 +44,9 @@ namespace Dungeon_Adventure
 
             return yn;
         }
+# endregion
+
+
 
         //static int mymanagoal(int managoal)
         //{
@@ -50,36 +57,12 @@ namespace Dungeon_Adventure
         //}
         static void Main(string[] args)
         {
-            // Form Source Code
-
-            // new myform();
-            // This Code Should really be in a Class
-            //public static myform
-            // {
-            // Form f = new Form();
-
-            // f.Text = "  Empty Dungeon Adventure  ";
-            // f.Name = "Empty Dungeon Adventure";
-            // Label nameLabel = new Label();
-            // nameLabel.AutoSize = true;
-            // nameLabel.Text = "Empty Dungeon Adventure";
-            // nameLabel.Top = 100;
-            // nameLabel.Left = 80;
-            // f.Controls.Add(nameLabel);
-            // f.ShowDialog();
-
-            // }
-
-
-
-            // End of Form Code
-
-
-
-
+           
+#region Vars
             string name, adventure;
             int managoal = 0;
 
+#endregion
           
             
 
@@ -95,9 +78,9 @@ namespace Dungeon_Adventure
                 synth.Speak("Psychic Arcana");
                
             }
-           
-            
-           
+
+
+        
 
 
             Console.WriteLine("");
@@ -107,7 +90,7 @@ namespace Dungeon_Adventure
             Console.WriteLine(" What is your name? ");
             name = Console.ReadLine();
 
-
+            #region Game Loop
             // Game Loop
             do {
                 Console.Clear();
@@ -458,6 +441,8 @@ namespace Dungeon_Adventure
             }
                 // End Game Loop
             } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
-            }
+            #endregion
+        
+        }
         }
     }
