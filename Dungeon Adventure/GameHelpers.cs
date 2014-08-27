@@ -4,9 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Psychic_Arcana
-{
-    class GameHelpers
+
+    public static class GameHelpers
     {
+
+        public static void RefreshConsole()
+        {
+    Console.Clear();
+    Console.BackgroundColor = ConsoleColor.Black;
+    Console.ForegroundColor = ConsoleColor.White;
+    
     }
-}
+    
+
+
+    }
+

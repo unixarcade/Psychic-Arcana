@@ -93,7 +93,8 @@ namespace Dungeon_Adventure
             #region Game Loop
             // Game Loop
             do {
-                Console.Clear();
+                GameHelpers.RefreshConsole();
+                
 
 
             Console.WriteLine(" Would you like to go on an adventure " + name);
@@ -477,6 +478,7 @@ namespace Dungeon_Adventure
 
             }
                 // End Game Loop
+            GameHelpers.RefreshConsole();
             } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
             #endregion
         
