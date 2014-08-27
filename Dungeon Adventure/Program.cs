@@ -330,6 +330,17 @@ namespace Dungeon_Adventure
                             if(mycode == "YES"){
 
 
+                                Console.WriteLine(" You Engage this swamp fiend, and at first your mind is in terror, even as your power has grown");
+                                Console.WriteLine();
+                                Console.WriteLine(" The mana flows through you and you regain your composure.");
+                                Console.WriteLine();
+                                Console.WriteLine(" The beast that terrified you now also knows fear.");
+                                Console.WriteLine();
+
+
+
+
+
                                 BlackMana.myBlackMana();
                                 managoal++;
                                 Console.ReadKey();
@@ -480,6 +491,8 @@ namespace Dungeon_Adventure
                             break;
                         }
 #endregion
+
+
 
 #region Adventure Choice Ten
                         // Adventure Choice Ten
