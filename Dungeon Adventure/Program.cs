@@ -99,6 +99,7 @@ namespace Dungeon_Adventure
 
             Console.WriteLine(" Would you like to go on an adventure " + name);
 
+           
             string mycode;
             mycode = myYesNo();
 
@@ -201,6 +202,7 @@ namespace Dungeon_Adventure
                         Console.WriteLine(welcometo + " Swamps ");
                         Console.WriteLine(thepowerof[0][0] + mycolor[4] + manasent);             
                     
+#region Adventure Choice One
                         // Adventure Choice One
                         Console.WriteLine();
                         Console.WriteLine();
@@ -234,7 +236,10 @@ namespace Dungeon_Adventure
                             Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
                             break;
                         }
+# endregion
 
+
+#region  Adventure Choice Two
                         // Adventure Choice Two
 
                         if (managoal == 2)
@@ -259,7 +264,10 @@ namespace Dungeon_Adventure
                                 break;
                             }
                         }
+#endregion
 
+
+#region Adventure Choice Three
                         // Adventure Choice Three
                         if (managoal == 3)
                         {
@@ -302,19 +310,21 @@ namespace Dungeon_Adventure
                             Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;
                         }
+# endregion
 
+#region Adventure Choice Four
                         // Adventure Choice Four
                         if (managoal == 4)
                         {
                             Console.Clear();
                             Console.WriteLine();
-                            Console.WriteLine("You feel the black mana growing as you find your way deeper into the swamps maze.");
+                            Console.WriteLine(" You feel the black mana growing as you find your way deeper into the swamps maze.");
                             Console.WriteLine();
-                            Console.WriteLine("Your vision blurries as the mana creeps into your soul.");
+                            Console.WriteLine(" Your vision blurries as the mana creeps into your soul.");
                             Console.WriteLine();
-                            Console.WriteLine("In your blurried vision you see a fiend self producing itself from the swamps mana");
+                            Console.WriteLine(" In your blurried vision you see a fiend self producing itself from the swamps mana");
                             Console.WriteLine();
-                            Console.WriteLine("Do you engage this foe with the magic might you have fought so hard to procur?");
+                            Console.WriteLine(" Do you engage this foe with the magic might you have fought so hard to procur?");
                             mycode = myYesNo();
                             
                             if(mycode == "YES"){
@@ -337,7 +347,10 @@ namespace Dungeon_Adventure
                             Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;
                         }
+#endregion
 
+
+#region  Adventure Choice Five
                         // Adventure Choice Five
 
                         if (managoal == 5)
@@ -360,6 +373,10 @@ namespace Dungeon_Adventure
                             break;
                         }
 
+#endregion
+
+
+#region Adventure Choice Six
                         // Adventure Choice Six
                         if (managoal == 6)
                         {
@@ -381,6 +398,10 @@ namespace Dungeon_Adventure
                             break;   
                         }
 
+#endregion
+
+
+#region Adventure Choice Seven
                         // Adventure Choice Seven
 
                         if (managoal == 7)
@@ -403,6 +424,10 @@ namespace Dungeon_Adventure
                             break;
                         }
 
+#endregion
+
+
+#region Adventure Choice Eight
                         // Adventure Choice Eight
 
 
@@ -426,6 +451,10 @@ namespace Dungeon_Adventure
                             break;
                         }
 
+#endregion
+
+
+#region Adventure Choice Nine
                         // Adventure Choice Nine
 
                         if (managoal == 9)
@@ -450,7 +479,9 @@ namespace Dungeon_Adventure
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
                         }
+#endregion
 
+#region Adventure Choice Ten
                         // Adventure Choice Ten
                             if (managoal == 10)
                             {
@@ -467,10 +498,10 @@ namespace Dungeon_Adventure
                                 break;
                         }             
                 Console.ReadKey();
+#endregion // choice ten
 
 
-
-                        #endregion
+                    #endregion // swamp decision tree
 
 
 
