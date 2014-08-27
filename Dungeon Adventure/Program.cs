@@ -337,7 +337,39 @@ namespace Dungeon_Adventure
                                 Console.WriteLine(" The beast that terrified you now also knows fear.");
                                 Console.WriteLine();
 
+                               // Attack Choice
+                                Console.WriteLine(" How will you attack please input 1, 2, or 3");
+                                Int32 attackchoice;
+                                string mychoice;
+                                // convert string to int
+                               mychoice = Console.ReadLine();
+                                
+                              attackchoice = Convert.ToInt32(mychoice);
+                              if (attackchoice <= 3 && attackchoice > 0)
+                              {
+                                  if (attackchoice == 1)
+                                  {
+                                     
+                                          Console.WriteLine("line one");
+                                  } else if( attackchoice == 2) 
+                                  {
 
+                                      
+                                          Console.WriteLine("line two");
+                                  } else if(attackchoice == 3)
+                                  {
+
+                                     
+                                          Console.WriteLine("line three");
+                                         
+                                   }
+                              }
+                              else
+                              {
+                                  Console.WriteLine("The swamp fiend has defeated you");
+                                  Console.ReadKey();
+                                  myexit();
+                              }
 
 
 
