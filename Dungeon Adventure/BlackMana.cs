@@ -1,11 +1,11 @@
 ﻿using System;
-
+using System.Speech.Synthesis;
 public static class BlackMana
 {
     public static void myBlackMana()
     {
-       
-       
+
+
 
         Console.WriteLine("             .:::::::::..      "); // line one 
         Console.WriteLine("       ..:::aad8888888baa:::.."); // line two
@@ -55,10 +55,10 @@ public static class BlackMana
         ConsoleColor printlightgrey = ConsoleColor.Gray;
 
 
-        
+
 
         //Console.BackgroundColor = ConsoleColor.DarkGray;
-        
+
         // line one
         Console.ForegroundColor = ConsoleColor.Black;
 
@@ -69,7 +69,7 @@ public static class BlackMana
         Console.ForegroundColor = printblack;
         Console.Write("       ");
         Console.WriteLine();
-        
+
         // line two
         Console.ForegroundColor = printblack;
         Console.Write("       ");
@@ -96,7 +96,7 @@ public static class BlackMana
         Console.ForegroundColor = printwhite;
         Console.Write("::::.");
         Console.WriteLine();
-        
+
         // line four
         Console.ForegroundColor = printblack;
         Console.Write("   ");
@@ -117,7 +117,7 @@ public static class BlackMana
         Console.WriteLine();
 
         //line five
-       
+
         Console.ForegroundColor = printblack;
         Console.Write("  ");
         Console.ForegroundColor = printwhite;
@@ -129,7 +129,7 @@ public static class BlackMana
         Console.WriteLine();
 
         // line six
-        
+
         Console.ForegroundColor = printblack;
         Console.Write(" ");
         Console.ForegroundColor = printwhite;
@@ -149,7 +149,7 @@ public static class BlackMana
         Console.WriteLine();
 
         //line seven
-       
+
         Console.ForegroundColor = printblack;
         Console.Write(" ");
         Console.ForegroundColor = printwhite;
@@ -173,7 +173,7 @@ public static class BlackMana
         Console.WriteLine();
 
         //line eight
-        
+
         Console.ForegroundColor = printblack;
         Console.Write(" ");
         Console.ForegroundColor = printwhite;
@@ -197,7 +197,7 @@ public static class BlackMana
         Console.WriteLine();
 
         // line nine
-       
+
         Console.ForegroundColor = printblack;
         Console.Write(" ");
         Console.ForegroundColor = printwhite;
@@ -221,7 +221,7 @@ public static class BlackMana
         Console.WriteLine();
 
         // line ten
-       
+
         Console.ForegroundColor = printblack;
         Console.Write(" ");
         Console.ForegroundColor = printwhite;
@@ -244,13 +244,13 @@ public static class BlackMana
         Console.Write("88aaaaaaaaaad8");
         Console.ForegroundColor = printlightgrey;
         Console.Write("Y8");
-       
+
         Console.ForegroundColor = printwhite;
         Console.Write("::::.");
         Console.WriteLine();
 
         // line eleven
-        
+
         Console.ForegroundColor = printblack;
         Console.Write(" ");
         Console.ForegroundColor = printwhite;
@@ -259,9 +259,9 @@ public static class BlackMana
         Console.Write("Y");
         Console.ForegroundColor = printdarkgrey;
         Console.Write("8");
-       Console.ForegroundColor = printlightgrey;
+        Console.ForegroundColor = printlightgrey;
         Console.Write("888888888");
-        Console.ForegroundColor = printdarkgrey;  
+        Console.ForegroundColor = printdarkgrey;
         Console.Write("8");
         Console.ForegroundColor = printlightgrey;
         Console.Write("P");
@@ -286,7 +286,7 @@ public static class BlackMana
         Console.WriteLine();
 
         // line twelve
-        
+
         Console.ForegroundColor = printblack;
         Console.Write(" ");
         Console.ForegroundColor = printwhite;
@@ -305,14 +305,14 @@ public static class BlackMana
         Console.Write("8");
         Console.ForegroundColor = printdarkgrey;
         Console.Write("888");
-        
+
         Console.ForegroundColor = printwhite;
         Console.Write("::::::::::::::::");
         Console.WriteLine();
 
 
         // line thirteen
-       
+
         Console.ForegroundColor = printblack;
         Console.Write(" ");
         Console.ForegroundColor = printwhite;
@@ -328,7 +328,7 @@ public static class BlackMana
         Console.WriteLine();
 
         // line fourteen
-       
+
         Console.ForegroundColor = printblack;
         Console.Write("  ");
         Console.ForegroundColor = printwhite;
@@ -340,7 +340,7 @@ public static class BlackMana
         Console.WriteLine();
 
         // line fifteen
-      
+
         Console.ForegroundColor = printblack;
         Console.Write("   ");
         Console.ForegroundColor = printwhite;
@@ -358,7 +358,7 @@ public static class BlackMana
         Console.WriteLine();
 
         // line sixteen
-        
+
         Console.ForegroundColor = printblack;
         Console.Write("   ");
         Console.ForegroundColor = printwhite;
@@ -392,13 +392,13 @@ public static class BlackMana
         Console.WriteLine();
 
         // line seventeen
-       
+
 
         Console.ForegroundColor = printblack;
         Console.Write("     ");
         Console.ForegroundColor = printwhite;
         Console.Write("`::::::::::");
-        
+
         Console.ForegroundColor = printdarkgrey;
         Console.Write("8");
         Console.ForegroundColor = printwhite;
@@ -464,4 +464,68 @@ public static class BlackMana
 
 
     }
+
+
+    public static void myBlackManaAnimation()
+    {
+        GameHelpers.RefreshConsole();
+        for (int x = 0; x <= 600; x++)
+        {
+            Console.Clear();
+            Console.WriteLine("             .:::::::::..      "); // line one 
+            Console.WriteLine("       ..:::aad8888888baa:::.."); // line two
+            Console.WriteLine("     .::::d:?88888888888?::8b::::."); // line three
+            Console.WriteLine("   .:::d8888:?88888888??a888888b:::."); // line four
+            Console.WriteLine("  .:::d8888888a8888888aa8888888888b:::."); // line five
+            Console.WriteLine(" ::::dP::::::::88888888888::::::::Yb::::"); // line six 
+            Console.WriteLine(" ::::dP:::::::::Y888888888P:::::::::Yb::::"); // line seven
+            Console.WriteLine(" ::::d8:::::::::::Y8888888P:::::::::::8b::::"); // line eight
+            Console.WriteLine(" .::::88::::::::::::Y88888P::::::::::::88::::."); // line nine
+            Console.WriteLine(" :::::Y8baaaaaaaaaa88P:T:Y88aaaaaaaaaad8P:::::");  // line ten
+            Console.WriteLine(" :::::::Y88888888888P::|::Y88888888888P:::::::"); // line eleven
+            Console.WriteLine(" ::::::::::::::::888:::|:::888::::::::::::::::"); // line twelve
+            Console.WriteLine(" `:::::::::::::::8888888888888b::::::::::::::'"); // line thirteen
+            Console.WriteLine("  :::::::::::::::88888888888888::::::::::::::"); // line fourteen
+            Console.WriteLine("   :::::::::::::d88888888888888:::::::::::::  "); // line fifteen
+            Console.WriteLine("   ::::::::::::88::88::88:::88::::::::::::    "); // line sixteen
+            Console.WriteLine("     `::::::::::88::88::88:::88::::::::::'    "); // line seventeen
+            Console.WriteLine("       `::::::::88::88::P::::88::::::::'      "); // line eighteen
+            Console.WriteLine("         `::::::d88888888888888::::::'       "); // line nineteen
+            Console.WriteLine("            ``:::::::::::::::::::''       "); // line twenty
+            Console.WriteLine("                 ``:::::::::''           "); // line twentyone
+
+            Console.Clear();
+
+            Console.WriteLine("             .:::::::::..      "); // line one 
+            Console.WriteLine("       ..:::aad8888888baa:::.."); // line two
+            Console.WriteLine("     .::::d:?88888888888?::8b::::."); // line three
+            Console.WriteLine("   .:::d8888:?88888888??a888888b:::."); // line four
+            Console.WriteLine("  .:::d8888888a8888888aa8888888888b:::."); // line five
+            Console.WriteLine(" ::::dP::::::::88888888888::::::::Yb::::"); // line six 
+            Console.WriteLine(" ::::dP:::::::::Y888888888P:::::::::Yb::::"); // line seven
+            Console.WriteLine(" ::::d8:::::::::::Y8888888P:::::::::::8b::::"); // line eight
+            Console.WriteLine(" .::::88::::::::::::Y88888P::::::::::::88::::."); // line nine
+            Console.WriteLine(" :::::Y8baaaaaaaaaa88P:T:Y88aaaaaaaaaad8P:::::");  // line ten
+            Console.WriteLine(" :::::::Y88888888888P::|::Y88888888888P:::::::"); // line eleven
+            Console.WriteLine(" ::::::::::::::::888:::|:::888::::::::::::::::"); // line twelve
+            Console.WriteLine(" `:::::::::::::::8888888888888b::::::::::::::'"); // line thirteen
+            Console.WriteLine("  :::::::::::::::88888888888888::::::::::::::"); // line fourteen
+            Console.WriteLine("   :::::::::::::d88888888888888:::::::::::::  "); // line fifteen
+            Console.WriteLine("   ::::::::::::88::88::88:::88::::::::::::    "); // line sixteen
+            Console.WriteLine("     `:::::::::::::::::::::::::::::::::::'    "); // line seventeen
+            Console.WriteLine("       `::::::::88::88::P::::88::::::::'      "); // line eighteen
+            Console.WriteLine("         `::::::d88888888888888::::::'       "); // line nineteen
+            Console.WriteLine("            ``:::::::::::::::::::''       "); // line twenty
+            Console.WriteLine("                 ``:::::::::''           "); // line twentyone
+
+            Console.Clear();
+        }
+        using (SpeechSynthesizer synth = new SpeechSynthesizer())
+        {
+            BlackMana.myPsychicArcanaTitle();
+            synth.Speak("HA HA HA HA HA HA");
+
+        }
+    }
+
 }

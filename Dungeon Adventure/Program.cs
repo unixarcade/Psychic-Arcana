@@ -70,6 +70,9 @@ namespace Dungeon_Adventure
 
 
             // Game Start Up
+            BlackMana.myBlackManaAnimation();
+
+
             BlackMana.myBlackManaColor();
 
             using (SpeechSynthesizer synth = new SpeechSynthesizer())
@@ -368,6 +371,7 @@ namespace Dungeon_Adventure
                               {
                                   Console.WriteLine("The swamp fiend has defeated you");
                                   Console.ReadKey();
+                                  BlackMana.myBlackManaAnimation();
                                   myexit();
                               }
 
