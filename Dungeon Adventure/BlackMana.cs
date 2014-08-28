@@ -465,12 +465,37 @@ public static class BlackMana
 
     }
 
-
+    #region myBlackManaAnimation
     public static void myBlackManaAnimation()
     {
         GameHelpers.RefreshConsole();
         for (int x = 0; x <= 600; x++)
         {
+            Console.Clear();
+            Console.WriteLine("             .:::::::::..      "); // line one 
+            Console.WriteLine("       ..:::aad8888888baa:::.."); // line two
+            Console.WriteLine("     .::::d:?88888888888?::8b::::."); // line three
+            Console.WriteLine("   .:::d8888:?88888888??a888888b:::."); // line four
+            Console.WriteLine("  .:::d8888888a8888888aa8888888888b:::."); // line five
+            Console.WriteLine(" ::::dP::::::::88888888888::::::::Yb::::"); // line six 
+            Console.WriteLine(" ::::dP:::::::::Y888888888P:::::::::Yb::::"); // line seven
+            Console.WriteLine(" ::::d8:::::::::::Y8888888P:::::::::::8b::::"); // line eight
+            Console.WriteLine(" .::::88::::::::::::Y88888P::::::::::::88::::."); // line nine
+            Console.WriteLine(" :::::Y8baaaaaaaaaa88P:T:Y88aaaaaaaaaad8P:::::");  // line ten
+            Console.WriteLine(" :::::::Y88888888888P::|::Y88888888888P:::::::"); // line eleven
+            Console.WriteLine(" ::::::::::::::::888:::|:::888::::::::::::::::"); // line twelve
+            Console.WriteLine(" `:::::::::::::::8888888888888b::::::::::::::'"); // line thirteen
+            Console.WriteLine("  :::::::::::::::88888888888888::::::::::::::"); // line fourteen
+            Console.WriteLine("   :::::::::::::d88888888888888:::::::::::::  "); // line fifteen
+            Console.WriteLine("   ::::::::::::88::88::88:::88::::::::::::    "); // line sixteen
+            Console.WriteLine("     `::::::::::88::88::88:::88::::::::::'    "); // line seventeen
+            Console.WriteLine("       `::::::::88::88::P::::88::::::::'      "); // line eighteen
+            Console.WriteLine("         `::::::88::88:::::::88::::::'       "); // line nineteen
+            Console.WriteLine("            ``:::::::::::::::::::''       "); // line twenty
+            Console.WriteLine("                 ``:::::::::''           "); // line twentyone
+
+
+
             Console.Clear();
             Console.WriteLine("             .:::::::::..      "); // line one 
             Console.WriteLine("       ..:::aad8888888baa:::.."); // line two
@@ -511,8 +536,8 @@ public static class BlackMana
             Console.WriteLine(" `:::::::::::::::8888888888888b::::::::::::::'"); // line thirteen
             Console.WriteLine("  :::::::::::::::88888888888888::::::::::::::"); // line fourteen
             Console.WriteLine("   :::::::::::::d88888888888888:::::::::::::  "); // line fifteen
-            Console.WriteLine("   ::::::::::::88::88::88:::88::::::::::::    "); // line sixteen
-            Console.WriteLine("     `:::::::::::::::::::::::::::::::::::'    "); // line seventeen
+            Console.WriteLine("   ::::::::::::88::88::88:::88::::::::::::::    "); // line sixteen
+            Console.WriteLine("    `:::::::::"+"_______________"+":::::::'    "); // line seventeen
             Console.WriteLine("       `::::::::88::88::P::::88::::::::'      "); // line eighteen
             Console.WriteLine("         `::::::d88888888888888::::::'       "); // line nineteen
             Console.WriteLine("            ``:::::::::::::::::::''       "); // line twenty
@@ -527,5 +552,5 @@ public static class BlackMana
 
         }
     }
-
+    #endregion
 }

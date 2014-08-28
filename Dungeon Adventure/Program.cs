@@ -72,6 +72,10 @@ namespace Dungeon_Adventure
             // Game Start Up
 
             GameHelpers.RefreshConsole();
+           
+
+
+
             BlackMana.myBlackManaColor();
 
             using (SpeechSynthesizer synth = new SpeechSynthesizer())
