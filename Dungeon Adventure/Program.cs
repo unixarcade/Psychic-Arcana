@@ -345,6 +345,12 @@ namespace Dungeon_Adventure
 
                                // Attack Choice
                                 Console.WriteLine(" How will you attack please input 1, 2, or 3");
+                                Console.WriteLine("Choice 1 is a howl from beyond");
+                                Console.WriteLine("Choice 2 Drain Life");
+                                Console.WriteLine("Choice 3 Syphon Soul");
+
+
+
                                 Int32 attackchoice;
                                 string mychoice;
                                 // convert string to int
@@ -355,19 +361,47 @@ namespace Dungeon_Adventure
                               {
                                   if (attackchoice == 1)
                                   {
-                                     
-                                          Console.WriteLine("line one");
-                                  } else if( attackchoice == 2) 
+                                      GameHelpers.RefreshConsole();
+                                          Console.WriteLine("You Howl at the moon");
+                                          Console.WriteLine("");
+                                          Console.WriteLine("As you howl you become the moon beast");
+                                          Console.WriteLine("");
+                                      Console.WriteLine("The being has stirred in your heart for quite sometime.");
+                                      Console.WriteLine("");
+                                      Console.WriteLine("The fiend comes upon you but you smile as you rend and tear in to the fiend");
+                                          Console.WriteLine("What is left of the fiend is blood and gristle");
+                                          Console.WriteLine("");
+                                      Console.WriteLine("You smile your deadly smile as you transform again from wolf to man.");
+                                      Console.WriteLine("");
+                                  
+                                  } else if( attackchoice == 2)
                                   {
+                                      GameHelpers.RefreshConsole();
+                                      Console.WriteLine("Killing the bat comes back to you");
+                                      Console.WriteLine("");
+                                      Console.WriteLine("The spirit of the bat flutters in your mind");
+                                      Console.WriteLine("");
+                                      Console.WriteLine("The icon and reality of the small spell larger");
+                                      Console.WriteLine("");
+                                      Console.WriteLine("As you delve into the deep of the minds spell");
+                                      Console.WriteLine("");
+                                      Console.WriteLine("You feel the swamp fiend crushed underneath your magic");
+
+
 
                                       
-                                          Console.WriteLine("line two");
+                                         
                                   } else if(attackchoice == 3)
                                   {
 
-                                     
-                                          Console.WriteLine("line three");
-                                         
+                                      GameHelpers.RefreshConsole();
+                                      Console.WriteLine("Syphon Soul seemed to do something against this ghastly field");
+                                      Console.WriteLine("");
+                                          Console.WriteLine("Under the bad moon the fiend simply seemed to get more angry as it grinned");
+                                          Console.WriteLine("");
+                                          Console.WriteLine("Death comes upon you in this swamps maze");
+                                          BlackMana.myBlackManaAnimation();
+                                          myexit();
                                    }
                               }
                               else
