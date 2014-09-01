@@ -138,7 +138,8 @@ namespace Dungeon_Adventure
                                                       };
 
                 string manasent = " mana infuses you. ";
-                string[] mycolor = { " Green ", "Red", "White", "Blue", " Black " };
+                string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
+                string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar " };
                 switch (adventure)
                 {
 
@@ -487,9 +488,13 @@ namespace Dungeon_Adventure
                             BlackMana.myBlackMana();
                             managoal++;
                            
+                            Console.WriteLine(" You take the cloak from the swamp fiend \n");
+                            Console.WriteLine(" You then adorn yourself with this cloak \n");
+                            Console.WriteLine(" You feel the manarush through you becoming you \n");
+                            Console.WriteLine(" Once again you move in rank and form \n");
+                            Console.WriteLine(" No Longer an Adept you become a Master \n");
 
-
-                            Console.Write(" You have grown in Dark Power  ");
+                          
                             BlackMana.BlackManaCount(name, managoal);
 
                             Console.ReadKey();
@@ -499,7 +504,7 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
                         }
@@ -513,9 +518,93 @@ namespace Dungeon_Adventure
                     // Adventure Choice Six
                         if (managoal == 6)
                         {
+                            // convert string to int
+                            Int32 answerchoice;
+                            string mychoice;
+
+                           
 
 
-                            GameHelpers.SpaceandClean();
+                            do
+                            {
+                                GameHelpers.SpaceandClean();
+
+                            Console.WriteLine(" {0} As you find yourself ever deeper into the depths of the swamps and marshes \n ", name);
+                            Console.WriteLine(" You see a being that resembles yourself  \n ");
+                            Console.WriteLine(" Your body seems to move against its will  \n ");
+                            Console.WriteLine(" You sit across from a being that seems to have had its eyes forcefully removed  \n ");
+                            Console.WriteLine(" Its speech is in echoes  \n ");
+                            Console.WriteLine(" What is the primary virtue of the black hand path  \n ");
+
+
+                            Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
+                            Console.WriteLine("Choice 1: Peace");
+                            Console.WriteLine("Choice 2: Sin");
+                            Console.WriteLine("Choice 3: Power");
+
+
+
+                           
+                           
+                           
+                                
+                                
+                            mychoice = Console.ReadLine();
+
+                            answerchoice = Convert.ToInt32(mychoice);
+                           
+                                if (answerchoice < 4 && answerchoice > 0)
+                                {
+                                    if (answerchoice == 1)
+                                    {
+                                        Console.Clear();
+
+                                        Console.WriteLine(" Peace is an admirable answer \n");
+
+                                        Console.WriteLine(" Even peace is achievable via the path \n");
+
+                                        Console.WriteLine(" As you may soon see \n");
+
+                                        Console.ReadKey();
+
+
+                                    }
+                                    else if (answerchoice == 2)
+                                    {
+                                        Console.Clear();
+
+                                        Console.WriteLine(" Sin is a foolish response \n");
+                                        Console.WriteLine(" The swamp alit with willow of the wisps \n");
+                                        Console.WriteLine(" Sin is missing the mark \n");
+                                        Console.WriteLine(" Missing the mark is never what we should do, though we may \n");
+                                        Console.WriteLine(" I will let you live this time \n");
+                                        Console.ReadKey();
+
+
+                                    }
+                                    else if (answerchoice == 3)
+                                    {
+
+                                        Console.Clear();
+
+
+                                        Console.WriteLine(" Power is the answer \n");
+                                        Console.WriteLine(" Though you will want to contemplate both the question and answer in the future \n");
+                                        Console.ReadKey();
+                                    }
+                                }
+                                else
+                                {
+                                    Console.Clear();
+
+                                    Console.WriteLine("You are a wiley" + status[3]);
+                                    Console.ReadKey();
+                                    BlackMana.myBlackManaAnimation();
+                                    myexit();
+                                }
+
+                            } while (answerchoice != 3);
+
 
 
                             BlackMana.myBlackMana();
@@ -563,7 +652,7 @@ namespace Dungeon_Adventure
                         else
                         {
                             GameHelpers.SpaceandClean();
-                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
                         }
@@ -597,7 +686,7 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
                         }
@@ -632,7 +721,7 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
                         }
@@ -647,7 +736,15 @@ namespace Dungeon_Adventure
                             if (managoal == 10)
                             {
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You are now the avatar of Black Mana");
+                                for (int victory = 0; victory < 10; victory++)
+                                {
+                                    BlackMana.myBlackMana();
+                                    GameHelpers.RefreshConsole();
+                                    BlackMana.myBlackManaColor();
+                                    GameHelpers.RefreshConsole();
+                                    
+                                }
+                                    Console.WriteLine(" " + name + " are now the " + status[4] + " of Black Mana");
                                 break;
                             }
                             else
