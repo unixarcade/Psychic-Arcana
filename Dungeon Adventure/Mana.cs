@@ -109,6 +109,9 @@ Console.WriteLine("                ``:::::::::''           ");  // line twentyon
             // end line three
 
             Console.WriteLine("       .:::::::::::d8888:::::::::::::::.  ");     // line four
+
+
+            // end line four
             Console.WriteLine("     .::::::::::::d88888b::::::::::::::::.  ");  // line five
             Console.WriteLine("    :::::::::::::d8888888::::::::::::::::::  ");        // line six
             Console.WriteLine("   ::::::::::::d888888888b::::::::::::::::::  ");      // line seven
@@ -167,26 +170,26 @@ Console.WriteLine("               ``:::::::::''         ");
         {
 
  Console.WriteLine("               ..::::;::::..       "); // line one
- Console.WriteLine("          ..:::::::::8:::::::::.."); // line one
- Console.WriteLine("       .::::::db::::d8b::::::::::::."); // line one
- Console.WriteLine("      .::::::::88:::d888b:::::d888::::."); // line one
- Console.WriteLine("    .:::::::::d88b::88888:::d888P:::::::."); // line one
- Console.WriteLine("   :::::::::::888888P???Y88888P:::d88:::::"); // line one
- Console.WriteLine("  :::::888ba::888P?::aaa::?Y88::d888P:::::: "); // line one            
- Console.WriteLine(" ::::::Y8888888P:aad88888baa:Y8888P::::::::: "); // line one          
- Console.WriteLine(".::::::::Y8888P:d88888888888b:Y8P:::aaaadP::. ");  // line one       
- Console.WriteLine(":::::::::::Y8P:a8888888888888a:Y88888888P::::  "); // line one      
- Console.WriteLine("::::aaaaaaad88:888888888888888:888888P:::::::  "); // line one     
- Console.WriteLine("::::8888888888:?8888888888888?:d888P:::::::::   ");  // line one  
- Console.WriteLine("`:::????????Y8b:Y88888888888P:d88:::::::::::'   ");   // line one
- Console.WriteLine(" :::::::::::ad8b:??Y88888P??:d8888b:::::::::    ");  // line one
- Console.WriteLine("  :::::aa88888888ba;:???:;ad888::Y88b::::::     "); // line one
- Console.WriteLine("  :::::::::?Y888888baaaad88888::::Y8b::::   "); // line one
- Console.WriteLine("    `::::::::::d88P:88888P88888:::::::::' "); // line one
- Console.WriteLine("      `:::::::d8P:::8888P:::Y88:::::::'  "); // line one
- Console.WriteLine("        `:::::P:::::888P:::::YP:::::'   "); // line one
- Console.WriteLine("           ``:::::::Y8P:::::::::''     "); // line one
- Console.WriteLine("               ``:::::::::''         "); // line one
+ Console.WriteLine("          ..:::::::::8:::::::::.."); // line two
+ Console.WriteLine("       .::::::db::::d8b::::::::::::."); // line three
+ Console.WriteLine("      .::::::::88:::d888b:::::d888::::."); // line four
+ Console.WriteLine("    .:::::::::d88b::88888:::d888P:::::::."); // line five
+ Console.WriteLine("   :::::::::::888888P???Y88888P:::d88:::::"); // line six
+ Console.WriteLine("  :::::888ba::888P?::aaa::?Y88::d888P:::::: "); // line seven            
+ Console.WriteLine(" ::::::Y8888888P:aad88888baa:Y8888P::::::::: "); // line eight          
+ Console.WriteLine(".::::::::Y8888P:d88888888888b:Y8P:::aaaadP::. ");  // line nine       
+ Console.WriteLine(":::::::::::Y8P:a8888888888888a:Y88888888P::::  "); // line ten      
+ Console.WriteLine("::::aaaaaaad88:888888888888888:888888P:::::::  "); // line eleven     
+ Console.WriteLine("::::8888888888:?8888888888888?:d888P:::::::::   ");  // line twelve  
+ Console.WriteLine("`:::????????Y8b:Y88888888888P:d88:::::::::::'   ");   // line thirteen
+ Console.WriteLine(" :::::::::::ad8b:??Y88888P??:d8888b:::::::::    ");  // line fourteen
+ Console.WriteLine("  :::::aa88888888ba;:???:;ad888::Y88b::::::     "); // line fifteen
+ Console.WriteLine("  :::::::::?Y888888baaaad88888::::Y8b::::   "); // line sixteen
+ Console.WriteLine("    `::::::::::d88P:88888P88888:::::::::' "); // line seventeen
+ Console.WriteLine("      `:::::::d8P:::8888P:::Y88:::::::'  "); // line eighteen
+ Console.WriteLine("        `:::::P:::::888P:::::YP:::::'   "); // line nineteen
+ Console.WriteLine("           ``:::::::Y8P:::::::::''     "); // line twenty
+ Console.WriteLine("               ``:::::::::''         "); // line twentyone
         }
 
 #endregion
@@ -194,62 +197,126 @@ Console.WriteLine("               ``:::::::::''         ");
         #region myGreenMana
         public static void myGreenMana()
         {
-Console.WriteLine("                   ..:::;;;:::..         ");
- Console.WriteLine("          ..:::::d88888b::;;:::..     ");
- Console.WriteLine("       .:::d88bad8888888::88888b:::. ");
-Console.WriteLine("      .::d88888888888:?88:888888888b::.  ");
-Console.WriteLine("    .::d8888888888888a:88888888888888b::.");
-Console.WriteLine("   :::d8888888888888888888888888888888b:::  ");       
-Console.WriteLine("  ::::8888?88888888888888888888888888888b::    ");   
-Console.WriteLine(" :::ad8??:a888?8888:888888:888888888888888b:     ");
-Console.WriteLine(".:d8888a888888a:?88:88888?:8888888888888888:.   ");
-Console.WriteLine("::)8888888888888a88888888:a8888888888888888b:  ");
-Console.WriteLine("::888888888888:???888888888??:::888888888888: ");
-Console.WriteLine("::Y888888888888sss:8888888aaa8888888888888P::");
-Console.WriteLine("`::???::::::::::::888888888:::::::::::::::::'");
-Console.WriteLine(" :::::::::::::::::888888888:::::::::::::::::");
-Console.WriteLine("  ::::::::::::::::888888888::::::::::::::::");
-Console.WriteLine("   :::::::::::::::888888888:::::::::::::::");
-Console.WriteLine("    `:::::::::::::888888888:::::::::::::'");
-Console.WriteLine("      `:::::::::::888888888::::aa:::::' ");
-Console.WriteLine("        `::::ad8888888888888888P::::'  ");
-Console.WriteLine("           ``::??Y888888888P??::''    ");
-Console.WriteLine("                ``:::::::::''");
+            Console.WriteLine("                   ..:::;;;:::..         "); // line one
+            Console.WriteLine("          ..:::::d88888b::;;:::..     ");// line two
+            Console.WriteLine("       .:::d88bad8888888::88888b:::. ");// line three
+            Console.WriteLine("      .::d88888888888:?88:888888888b::.  ");// line four
+            Console.WriteLine("    .::d8888888888888a:88888888888888b::.");// line five
+            Console.WriteLine("   :::d8888888888888888888888888888888b:::  ");   // line six   
+            Console.WriteLine("  ::::8888?88888888888888888888888888888b::    ");   // line seven
+            Console.WriteLine(" :::ad8??:a888?8888:888888:888888888888888b:     ");// line eight
+            Console.WriteLine(".:d8888a888888a:?88:88888?:8888888888888888:.   ");// line nine
+            Console.WriteLine("::)8888888888888a88888888:a8888888888888888b:  ");// line ten
+            Console.WriteLine("::888888888888:???888888888??:::888888888888: ");// line eleven
+            Console.WriteLine("::Y888888888888sss:8888888aaa8888888888888P::");// line twelve
+            Console.WriteLine("`::???::::::::::::888888888:::::::::::::::::'");// line thirteen
+            Console.WriteLine(" :::::::::::::::::888888888:::::::::::::::::");// line fourteen
+            Console.WriteLine("  ::::::::::::::::888888888::::::::::::::::");// line fifteen
+            Console.WriteLine("   :::::::::::::::888888888:::::::::::::::");// line sixteen
+            Console.WriteLine("    `:::::::::::::888888888:::::::::::::'");// line seventeen
+            Console.WriteLine("      `:::::::::::888888888::::aa:::::' ");// line eighteen
+            Console.WriteLine("        `::::ad8888888888888888P::::'  ");// line nineteen
+            Console.WriteLine("           ``::??Y888888888P??::''    ");// line twenty
+            Console.WriteLine("                ``:::::::::''");// line twentyone
 
         }
         #endregion
+
+
+
+        #region myGreenManaColor
+        public static void myGreenManaColor()
+        {
+            Console.WriteLine("                   ..:::;;;:::..         "); // line one
+            Console.WriteLine("          ..:::::d88888b::;;:::..     ");// line two
+            Console.WriteLine("       .:::d88bad8888888::88888b:::. ");// line three
+            Console.WriteLine("      .::d88888888888:?88:888888888b::.  ");// line four
+            Console.WriteLine("    .::d8888888888888a:88888888888888b::.");// line five
+            Console.WriteLine("   :::d8888888888888888888888888888888b:::  ");   // line six   
+            Console.WriteLine("  ::::8888?88888888888888888888888888888b::    ");   // line seven
+            Console.WriteLine(" :::ad8??:a888?8888:888888:888888888888888b:     ");// line eight
+            Console.WriteLine(".:d8888a888888a:?88:88888?:8888888888888888:.   ");// line nine
+            Console.WriteLine("::)8888888888888a88888888:a8888888888888888b:  ");// line ten
+            Console.WriteLine("::888888888888:???888888888??:::888888888888: ");// line eleven
+            Console.WriteLine("::Y888888888888sss:8888888aaa8888888888888P::");// line twelve
+            Console.WriteLine("`::???::::::::::::888888888:::::::::::::::::'");// line thirteen
+            Console.WriteLine(" :::::::::::::::::888888888:::::::::::::::::");// line fourteen
+            Console.WriteLine("  ::::::::::::::::888888888::::::::::::::::");// line fifteen
+            Console.WriteLine("   :::::::::::::::888888888:::::::::::::::");// line sixteen
+            Console.WriteLine("    `:::::::::::::888888888:::::::::::::'");// line seventeen
+            Console.WriteLine("      `:::::::::::888888888::::aa:::::' ");// line eighteen
+            Console.WriteLine("        `::::ad8888888888888888P::::'  ");// line nineteen
+            Console.WriteLine("           ``::??Y888888888P??::''    ");// line twenty
+            Console.WriteLine("                ``:::::::::''");// line twentyone
+
+        }
+        #endregion
+
+
 
 
 
         #region myRedMana
         public static void myRedMana()
         {
- Console.WriteLine("             ..:::::::::..             ");
- Console.WriteLine("          ..:::::?Y8888888b::::..       ");
- Console.WriteLine("       .:::::d8888P:::Y8888888b::::.   ");
- Console.WriteLine("     .:::::d88888b:::::Y88P::Y888b:::.    ");  
- Console.WriteLine("   .::::::d8P:::::::::::88::::88888b:::.   ");
-Console.WriteLine("   :::::::P:d:::::::::::d??ba:d8888888b::: ");
- Console.WriteLine(" :::::::::?::::::::::::::::::::::Y8888b:Y:  ");
-Console.WriteLine(" ::::::::::::::::::::::::::::::::::Y8888b:Y: ");
-Console.WriteLine(".::::::::::::::::::::::::::::::::b::88888:8:.");
-Console.WriteLine(":::::::::::::::::;;:::::::;;a:::::b::888888::");
-Console.WriteLine(":::::::::::::::d8888baaaaa88::::::)P:888888::");
-Console.WriteLine(":::::::::::::d8888888888888P::::::d:d88888P::");
-Console.WriteLine("`:::::::::::d88888888888P::::::::d8888888P::'");
-Console.WriteLine(" ::::::::::d88888888888P::::::d8888888P::;:: ");
-Console.WriteLine("  ::::::::d888888888888::::d88888888P?:dP::   ");
-Console.WriteLine("   :::::::888888888888888888888888888bdP::   ");
-Console.WriteLine("    `:::::888888888888888888888888888P::'   ");
-Console.WriteLine("      `::::Y888888888888888888888P::::'   ");
-Console.WriteLine("        `::::Y8888888888888888P:::::'   ");
-Console.WriteLine("           ``:::::Y8888888baaa;:''    ");
-Console.WriteLine("                 ``:::::::::''       ");
+            Console.WriteLine("             ..:::::::::..             ");// line one
+            Console.WriteLine("          ..:::::?Y8888888b::::..       ");// line two
+            Console.WriteLine("       .:::::d8888P:::Y8888888b::::.   ");// line three
+            Console.WriteLine("     .:::::d88888b:::::Y88P::Y888b:::.    ");  // line four
+            Console.WriteLine("   .::::::d8P:::::::::::88::::88888b:::.   ");// line five
+            Console.WriteLine("   :::::::P:d:::::::::::d??ba:d8888888b::: ");// line six
+            Console.WriteLine(" :::::::::?::::::::::::::::::::::Y8888b:Y:  ");// line seven
+            Console.WriteLine(" ::::::::::::::::::::::::::::::::::Y8888b:Y: ");// line eight
+            Console.WriteLine(".::::::::::::::::::::::::::::::::b::88888:8:.");// line nine
+            Console.WriteLine(":::::::::::::::::;;:::::::;;a:::::b::888888::");// line ten
+            Console.WriteLine(":::::::::::::::d8888baaaaa88::::::)P:888888::");// line eleven
+            Console.WriteLine(":::::::::::::d8888888888888P::::::d:d88888P::");// line twelve
+            Console.WriteLine("`:::::::::::d88888888888P::::::::d8888888P::'");// line thirteen
+            Console.WriteLine(" ::::::::::d88888888888P::::::d8888888P::;:: ");// line fourteen
+            Console.WriteLine("  ::::::::d888888888888::::d88888888P?:dP::   ");// line fifteen
+            Console.WriteLine("   :::::::888888888888888888888888888bdP::   ");// line sixteen
+            Console.WriteLine("    `:::::888888888888888888888888888P::'   ");// line seventeen
+            Console.WriteLine("      `::::Y888888888888888888888P::::'   ");// line eighteen
+            Console.WriteLine("        `::::Y8888888888888888P:::::'   ");// line nineteen
+            Console.WriteLine("           ``:::::Y8888888baaa;:''    ");// line twenty
+            Console.WriteLine("                 ``:::::::::''       ");// line twentyone
 
 
         }
 
         #endregion
+
+
+        #region myRedManaColor
+        public static void myRedManaColor()
+        {
+            Console.WriteLine("             ..:::::::::..             ");// line one
+            Console.WriteLine("          ..:::::?Y8888888b::::..       ");// line two
+            Console.WriteLine("       .:::::d8888P:::Y8888888b::::.   ");// line three
+            Console.WriteLine("     .:::::d88888b:::::Y88P::Y888b:::.    ");  // line four
+            Console.WriteLine("   .::::::d8P:::::::::::88::::88888b:::.   ");// line five
+            Console.WriteLine("   :::::::P:d:::::::::::d??ba:d8888888b::: ");// line six
+            Console.WriteLine(" :::::::::?::::::::::::::::::::::Y8888b:Y:  ");// line seven
+            Console.WriteLine(" ::::::::::::::::::::::::::::::::::Y8888b:Y: ");// line eight
+            Console.WriteLine(".::::::::::::::::::::::::::::::::b::88888:8:.");// line nine
+            Console.WriteLine(":::::::::::::::::;;:::::::;;a:::::b::888888::");// line ten
+            Console.WriteLine(":::::::::::::::d8888baaaaa88::::::)P:888888::");// line eleven
+            Console.WriteLine(":::::::::::::d8888888888888P::::::d:d88888P::");// line twelve
+            Console.WriteLine("`:::::::::::d88888888888P::::::::d8888888P::'");// line thirteen
+            Console.WriteLine(" ::::::::::d88888888888P::::::d8888888P::;:: ");// line fourteen
+            Console.WriteLine("  ::::::::d888888888888::::d88888888P?:dP::   ");// line fifteen
+            Console.WriteLine("   :::::::888888888888888888888888888bdP::   ");// line sixteen
+            Console.WriteLine("    `:::::888888888888888888888888888P::'   ");// line seventeen
+            Console.WriteLine("      `::::Y888888888888888888888P::::'   ");// line eighteen
+            Console.WriteLine("        `::::Y8888888888888888P:::::'   ");// line nineteen
+            Console.WriteLine("           ``:::::Y8888888baaa;:''    ");// line twenty
+            Console.WriteLine("                 ``:::::::::''       ");// line twentyone
+
+
+        }
+
+        #endregion
+
 
 
     }
