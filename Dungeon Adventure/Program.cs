@@ -72,8 +72,10 @@ namespace Dungeon_Adventure
             // Game Start Up
 
             GameHelpers.RefreshConsole();
-           
 
+         //   Mana.myBlueColorMana();
+
+            Console.WriteLine();
 
 
             BlackMana.myBlackManaColor();
@@ -200,7 +202,7 @@ namespace Dungeon_Adventure
 
                     #region Swamp Region
                     case "SWAMPS":
-                        Console.Clear();
+                        GameHelpers.RefreshConsole();
                         BlackMana.myBlackMana();
                         Console.WriteLine(" ");
                         Console.BackgroundColor = ConsoleColor.DarkGray;
@@ -210,6 +212,7 @@ namespace Dungeon_Adventure
                     
 #region Adventure Choice One
                         // Adventure Choice One
+                        
                         Console.WriteLine();
                         Console.WriteLine();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -247,6 +250,8 @@ namespace Dungeon_Adventure
 
 #region  Adventure Choice Two
                         // Adventure Choice Two
+                        Console.Clear();
+
 
                         if (managoal == 2)
 
@@ -275,6 +280,9 @@ namespace Dungeon_Adventure
 
 #region Adventure Choice Three
                         // Adventure Choice Three
+                        Console.Clear();
+
+
                         if (managoal == 3)
                         {
                             Console.Clear();
@@ -285,7 +293,9 @@ namespace Dungeon_Adventure
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
-                                
+                                Console.Clear();
+
+
                                     Console.WriteLine(" The old spindly man you met earlier sits at a roll top desk. ");
                                     Console.WriteLine("");
                                     Console.WriteLine(" He looks up at you and laughs.");
@@ -295,6 +305,8 @@ namespace Dungeon_Adventure
                                     
                                     mycode = myYesNo();
                                     if (mycode == "YES") {
+
+
                                         Console.Clear();
                                         Console.WriteLine(" You study with the Dark Tutor for a year ");
                                         Console.WriteLine();
@@ -305,6 +317,8 @@ namespace Dungeon_Adventure
                                         managoal++;
                                     
                                     }  else  {
+
+                                        Console.Clear();
                                     Console.WriteLine(" You leave the cave and the swamp crackling with black mana " + " Mana Force: ");
                                         break;
                                 }                          
@@ -312,6 +326,7 @@ namespace Dungeon_Adventure
                         }
                         else
                         {
+                            Console.Clear();
                             Console.WriteLine(" One Day you may be a master, Adept.");
                             Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;
@@ -320,6 +335,8 @@ namespace Dungeon_Adventure
 
 #region Adventure Choice Four
                         // Adventure Choice Four
+                        Console.Clear();
+                        
                         if (managoal == 4)
                         {
                             Console.Clear();
@@ -334,7 +351,7 @@ namespace Dungeon_Adventure
                             mycode = myYesNo();
                             
                             if(mycode == "YES"){
-
+                                Console.Clear();
 
                                 Console.WriteLine(" You Engage this swamp fiend, and at first your mind is in terror, even as your power has grown");
                                 Console.WriteLine();
@@ -361,7 +378,8 @@ namespace Dungeon_Adventure
                               {
                                   if (attackchoice == 1)
                                   {
-                                      GameHelpers.RefreshConsole();
+                                      Console.Clear();
+                                      
                                           Console.WriteLine("You Howl at the moon");
                                           Console.WriteLine("");
                                           Console.WriteLine("As you howl you become the moon beast");
@@ -376,7 +394,8 @@ namespace Dungeon_Adventure
                                   
                                   } else if( attackchoice == 2)
                                   {
-                                      GameHelpers.RefreshConsole();
+                                      Console.Clear();
+
                                       Console.WriteLine("Killing the bat comes back to you");
                                       Console.WriteLine("");
                                       Console.WriteLine("The spirit of the bat flutters in your mind");
@@ -394,7 +413,9 @@ namespace Dungeon_Adventure
                                   } else if(attackchoice == 3)
                                   {
 
-                                      GameHelpers.RefreshConsole();
+                                      Console.Clear();
+
+
                                       Console.WriteLine("Syphon Soul seemed to do something against this ghastly field");
                                       Console.WriteLine("");
                                           Console.WriteLine("Under the bad moon the fiend simply seemed to get more angry as it grinned");
@@ -406,6 +427,8 @@ namespace Dungeon_Adventure
                               }
                               else
                               {
+                                  Console.Clear();
+
                                   Console.WriteLine("The swamp fiend has defeated you");
                                   Console.ReadKey();
                                   BlackMana.myBlackManaAnimation();
@@ -420,6 +443,8 @@ namespace Dungeon_Adventure
                             }
                             else
                             {
+                                Console.Clear();
+
                                 Console.WriteLine(" You will spend all of your years in the swamp, Adept.");
                                 Console.WriteLine(" Your Mana Force is : " + managoal);
                                 break;
@@ -427,6 +452,8 @@ namespace Dungeon_Adventure
                         }
                         else
                         {
+                            Console.Clear();
+
                             Console.WriteLine(" One Day you may be a master, Adept.");
                             Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;
@@ -436,9 +463,13 @@ namespace Dungeon_Adventure
 
 #region  Adventure Choice Five
                         // Adventure Choice Five
+                        Console.Clear();
+
 
                         if (managoal == 5)
                         {
+                            Console.Clear();
+
                             BlackMana.myBlackMana();
                             managoal++;
                            
@@ -452,6 +483,8 @@ namespace Dungeon_Adventure
                         }
                         else
                         {
+                            Console.Clear();
+
                             Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
@@ -461,7 +494,9 @@ namespace Dungeon_Adventure
 
 
 #region Adventure Choice Six
-                        // Adventure Choice Six
+                        Console.Clear();
+                    
+                    // Adventure Choice Six
                         if (managoal == 6)
                         {
                             BlackMana.myBlackMana();
@@ -477,6 +512,8 @@ namespace Dungeon_Adventure
                         }
                         else
                         {
+                            Console.Clear();
+
                             Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;   
@@ -486,10 +523,13 @@ namespace Dungeon_Adventure
 
 
 #region Adventure Choice Seven
-                        // Adventure Choice Seven
+                        Console.Clear();
+                    
+                    // Adventure Choice Seven
 
                         if (managoal == 7)
                         {
+                            Console.Clear();
                             BlackMana.myBlackMana();
                             managoal++;
 
@@ -503,6 +543,7 @@ namespace Dungeon_Adventure
                         }
                         else
                         {
+                            Console.Clear();
                             Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
@@ -512,7 +553,9 @@ namespace Dungeon_Adventure
 
 
 #region Adventure Choice Eight
-                        // Adventure Choice Eight
+                        Console.Clear();
+                    
+                    // Adventure Choice Eight
 
 
                         if (managoal == 8)
@@ -530,6 +573,8 @@ namespace Dungeon_Adventure
                         }
                         else
                         {
+                            Console.Clear();
+
                             Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
@@ -539,7 +584,9 @@ namespace Dungeon_Adventure
 
 
 #region Adventure Choice Nine
-                        // Adventure Choice Nine
+                        Console.Clear();
+                    
+                    // Adventure Choice Nine
 
                         if (managoal == 9)
                         {
@@ -559,6 +606,8 @@ namespace Dungeon_Adventure
                         }
                         else
                         {
+                            Console.Clear();
+
                             Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
                             Console.WriteLine("Your Mana Force is : " + managoal);
                             break;
@@ -568,18 +617,23 @@ namespace Dungeon_Adventure
 
 
 #region Adventure Choice Ten
-                        // Adventure Choice Ten
+                        Console.Clear();
+                    
+                    // Adventure Choice Ten
                             if (managoal == 10)
                             {
                                 Console.WriteLine("You are now the avatar of Black Mana");
                                 break;
                             }
                             else
-                            {   
+                            {
+                                Console.Clear();
+                                
                                 Console.WriteLine(" The Force of Dark Power is still out of your Grasp.");
                                 break;
                             }
                            default:
+                                Console.Clear();
                                 Console.WriteLine(" I did not hear you correctly. Where did you want to go? ");
                                 break;
                         }             
