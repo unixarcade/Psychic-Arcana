@@ -46,6 +46,12 @@ public static class BlackMana
 
     }
 
+    #region BlackManaCount
+    public static void BlackManaCount(string name, int managoal)
+    { Console.Write(" " + name + " You have grown in Dark Power " + " Mana Force: " + managoal); }
+
+
+    #endregion
 
     public static void myBlackManaColor()
     {

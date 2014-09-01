@@ -273,8 +273,10 @@ namespace Dungeon_Adventure
                                 GameHelpers.SpaceandClean();
 
                                 managoal++;
-                                Console.Write(" You have grown in Dark Power " + " Mana Force: " + managoal);
                                
+
+                               // Console.Write(" " + name +" You have grown in Dark Power " + " Mana Force: " + managoal);
+                                BlackMana.BlackManaCount(name, managoal);
                             }
                             else
                             {
@@ -324,6 +326,7 @@ namespace Dungeon_Adventure
                                         Console.WriteLine(" You are ready to continue down the path to the heart of the swamp, as an adept crackling with mana." + " Mana Force: " + managoal);
  
                                         managoal++;
+                                        BlackMana.BlackManaCount(name, managoal);
                                     
                                     }  else  {
 
@@ -448,6 +451,7 @@ namespace Dungeon_Adventure
 
                                 BlackMana.myBlackMana();
                                 managoal++;
+                                BlackMana.BlackManaCount(name, managoal);
                                 Console.ReadKey();
                             }
                             else
@@ -486,7 +490,7 @@ namespace Dungeon_Adventure
 
 
                             Console.Write(" You have grown in Dark Power  ");
-                            Console.WriteLine(managoal);
+                            BlackMana.BlackManaCount(name, managoal);
 
                             Console.ReadKey();
 
