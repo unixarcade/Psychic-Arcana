@@ -648,7 +648,7 @@ namespace Dungeon_Adventure
 
 
                             Console.WriteLine("Would you like to study with me you want to study with me he asks? ");
-
+// this is where i am working
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
@@ -660,7 +660,7 @@ namespace Dungeon_Adventure
                                 int questioncounter = 0;
                                 Console.WriteLine("Would you like to study a year? \n");
                                 mycode = myYesNo();
-                                for (int x = 0; x == 10; x++)
+                                for (int x = 0; x <= 3; x++)
                                 {
                                     //questioncounter++;
                                     //Console.WriteLine("Would you like to study a year? \n");
@@ -675,10 +675,11 @@ namespace Dungeon_Adventure
                                             questioncounter++;
                                             Console.WriteLine("You have studied {0} years \n", questioncounter);
                                             
-                                        if (questioncounter == 10)
+                                        if (questioncounter == 3)
                                         {
                                             Console.WriteLine(" After Ten Years of Study you have attained the answer you have sought");
                                             managoal++;
+                                            break;
                                         }
                                         } else if(mycode == "NO") {
 
