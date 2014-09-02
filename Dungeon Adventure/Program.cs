@@ -639,23 +639,123 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
                             BlackMana.myBlackMana();
-                            managoal++;
-
-
-
-                            Console.Write(" You have grown in Dark Power  ");
-                            Console.WriteLine(managoal);
-
-                            Console.ReadKey();
                            
+                            Console.WriteLine(" The being in front of you fades into a floating ball of undulating light  \n");
+                            Console.WriteLine(" This ball of light this swamp spirit floats off into the swamp glittering this way or that  \n");
+                            Console.WriteLine(" You see this might be a nice place to relax for a while and contemplate that question  \n");
+
+                            //
+
+
+                            Console.WriteLine("Would you like to study with me you want to study with me he asks? ");
+
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                GameHelpers.SpaceandClean();
+
+                               
+                               
+                                 #region forloop
+                                int questioncounter = 0;
+                                Console.WriteLine("Would you like to study a year? \n");
+                                mycode = myYesNo();
+                                for (int x = 0; x == 10; x++)
+                                {
+                                    //questioncounter++;
+                                    //Console.WriteLine("Would you like to study a year? \n");
+                                    //mycode = myYesNo();
+                                    //if (mycode == "YES")
+                                    //{
+                                       
+                                        if (mycode == "YES") {
+                                            Console.WriteLine("Would you like to study a year? \n");
+                                            mycode = myYesNo();
+                                            GameHelpers.SpaceandClean();
+                                            questioncounter++;
+                                            Console.WriteLine("You have studied {0} years \n", questioncounter);
+                                            
+                                        if (questioncounter == 10)
+                                        {
+                                            Console.WriteLine(" After Ten Years of Study you have attained the answer you have sought");
+                                            managoal++;
+                                        }
+                                        } else if(mycode == "NO") {
+
+                                        Console.WriteLine(" Though you may be a " + status[3] + "You still have yet to understand the teachings of BlackMana ");
+                                        BlackMana.myBlackManaAnimation();
+                                        myexit();
+                                    }
+
+                                }
+                                }
+                                  
+                            
+#endregion
+                            //else
+                            //{
+
+                            //    GameHelpers.SpaceandClean();
+                            //    Console.WriteLine(" You leave the cave and the swamp crackling with black mana " + " Mana Force: ");
+                            //    break;
+                            //}    
+
+                            //                          
+                            //BlackMana.BlackManaCount(name, managoal);
+                            
                         }
-                        else
-                        {
-                            GameHelpers.SpaceandClean();
-                            Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
-                            Console.WriteLine("Your Mana Force is : " + managoal);
-                            break;
-                        }
+
+
+
+                        //        for (int x = 0; x == 10; x++)
+                        //        {
+                        //            questioncounter++;
+                        //            Console.WriteLine("Would you like to study a year? \n");
+                        //            mycode = myYesNo();
+                        //            if (mycode == "YES")
+                        //            {
+                        //                Console.WriteLine("Would you like to study a year? \n");
+                        //                mycode = myYesNo();
+                        //                if (mycode == "YES") {
+                        //                    GameHelpers.SpaceandClean();
+                        //                    questioncounter++;
+                        //                    Console.WriteLine("You have studied {0} years \n", questioncounter);
+                        //                if (questioncounter == 10)
+                        //                {
+                        //                    Console.WriteLine(" After Ten Years of Study you have attained the answer you have sought");
+                        //                    managoal++;
+                        //                }
+                        //                }
+                        //            } else if(mycode == "NO") {
+
+                        //                Console.WriteLine(" Though you may be a " + status[3] + "You still have yet to understand the teachings of BlackMana ");
+                        //                BlackMana.myBlackManaAnimation();
+                        //                myexit();
+                        //            }
+                                   
+
+                        //        }
+                                  
+                        //    }
+                        //    //else
+                        //    //{
+
+                        //    //    GameHelpers.SpaceandClean();
+                        //    //    Console.WriteLine(" You leave the cave and the swamp crackling with black mana " + " Mana Force: ");
+                        //    //    break;
+                        //    //}    
+
+                        //    //                          
+                        //    BlackMana.BlackManaCount(name, managoal);
+                        //    Console.ReadKey();
+                        //}
+                        //else
+                        //{
+                        //    GameHelpers.SpaceandClean();
+                        //    Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
+                        //    Console.WriteLine("Your Mana Force is : " + managoal);
+                        //    break;
+                        //}
 
 #endregion
 
