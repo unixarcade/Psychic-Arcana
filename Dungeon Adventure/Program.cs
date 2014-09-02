@@ -61,6 +61,8 @@ namespace Dungeon_Adventure
 #region Vars
             string name, adventure;
             int managoal = 0;
+            Int32 answerchoice;
+            string mychoice;
 
 #endregion
           
@@ -139,7 +141,7 @@ namespace Dungeon_Adventure
 
                 string manasent = " mana infuses you. ";
                 string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
-                string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar " };
+                string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
                 switch (adventure)
                 {
 
@@ -382,7 +384,7 @@ namespace Dungeon_Adventure
 
 
                                 Int32 attackchoice;
-                                string mychoice;
+                                
                                 // convert string to int
                                mychoice = Console.ReadLine();
                                 
@@ -519,8 +521,7 @@ namespace Dungeon_Adventure
                         if (managoal == 6)
                         {
                             // convert string to int
-                            Int32 answerchoice;
-                            string mychoice;
+                          
 
                            
 
@@ -769,17 +770,78 @@ namespace Dungeon_Adventure
 
                         if (managoal == 8)
                         {
+
+
+
+
+
                             GameHelpers.SpaceandClean();
 
 
-                            BlackMana.myBlackMana();
-                            managoal++;
+                            Console.WriteLine(" You see now with new eyes of mastery \n");
+                            Console.WriteLine(" As you peer into the maze where you have sat in life and in study ");
+                            Console.WriteLine(" You see a path that would lead you back to the world from whence you came.");
+
+                            Console.WriteLine(" Do you want to end your quest or push on further 1, 2 ");
+                            Console.WriteLine("Choice 1: Leave the swamp");
+                            Console.WriteLine("Choice 2: Press deeper into the dark");
+                            
 
 
 
-                            Console.Write(" You have grown in Dark Power  ");
-                            Console.WriteLine(managoal);
 
+
+
+
+
+                            mychoice = Console.ReadLine();
+
+                            answerchoice = Convert.ToInt32(mychoice);
+
+                            if (answerchoice < 3 && answerchoice > 0)
+                            {
+                                if (answerchoice == 1)
+                                {
+                                    GameHelpers.SpaceandClean();
+
+                                    Console.WriteLine(" You leave the swamp a victor \n");
+                                    Console.WriteLine(" And a {0} of {1} Magic! \n", status[3], mycolor[4]);
+                                    Console.ReadKey();
+                                    myexit();
+
+                                }
+                                else if (answerchoice == 2)
+                                {
+                                   GameHelpers.SpaceandClean();
+
+                                    Console.WriteLine(" You push further into the dark \n");
+                                    Console.WriteLine(" You find yourself changing in marked ways \n");
+                                    Console.WriteLine(" Only you know the way the dark has kissed your soul \n");
+                                    Console.ReadKey();
+                                    
+                                    BlackMana.myBlackMana();
+                                    managoal++;
+
+
+
+                                    Console.Write(" You have grown in Dark Power  ");
+                                    Console.WriteLine(managoal);
+
+
+                                }
+                             
+                            }
+                            else
+                            {
+                                Console.Clear();
+
+                                Console.WriteLine("You are a wiley" + status[3]);
+                                Console.ReadKey();
+                                BlackMana.myBlackManaAnimation();
+                                myexit();
+                            }
+
+                            
                             Console.ReadKey();
                            
                         }
