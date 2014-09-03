@@ -59,10 +59,20 @@ namespace Dungeon_Adventure
         {
            
 #region Vars
+
             string name, adventure;
             int managoal = 0;
             Int32 answerchoice;
             string mychoice;
+            string welcometo = " Welcome to the ";
+            string[][] thepowerof = new string[][]{
+                            new string[]{" The Power of "},
+                            new string[]{" Green ", " Red ", " White ", " Blue ", " Black "},
+                            new string[]{" mana infuses you. "}             
+                                                      };
+            string manasent = " mana infuses you. ";
+            string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
+            string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
 
 #endregion
           
@@ -131,17 +141,7 @@ namespace Dungeon_Adventure
                 adventure = Console.ReadLine();
                 adventure = adventure.ToUpper();
 
-                string welcometo = " Welcome to the ";
-
-                string[][] thepowerof = new string[][]{
-                            new string[]{" The Power of "},
-                            new string[]{" Green ", " Red ", " White ", " Blue ", " Black "},
-                            new string[]{" mana infuses you. "}             
-                                                      };
-
-                string manasent = " mana infuses you. ";
-                string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
-                string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
+               
                 switch (adventure)
                 {
 
