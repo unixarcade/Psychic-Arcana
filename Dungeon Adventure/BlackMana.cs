@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Speech.Synthesis;
+using System.Threading;
 public static class BlackMana
 {
     public static void myBlackMana()
@@ -477,7 +478,7 @@ public static class BlackMana
     public static void myBlackManaAnimation()
     {
         GameHelpers.RefreshConsole();
-        for (int x = 0; x <= 600; x++)
+        for (int x = 0; x <= 10; x++)
         {
             Console.Clear();
             Console.WriteLine("             .:::::::::..      "); // line one 
@@ -503,7 +504,7 @@ public static class BlackMana
             Console.WriteLine("                 ``:::::::::''           "); // line twentyone
 
 
-
+            Thread.Sleep(10);
             Console.Clear();
             Console.WriteLine("             .:::::::::..      "); // line one 
             Console.WriteLine("       ..:::aad8888888baa:::.."); // line two
@@ -526,8 +527,17 @@ public static class BlackMana
             Console.WriteLine("         `::::::d88888888888888::::::'       "); // line nineteen
             Console.WriteLine("            ``:::::::::::::::::::''       "); // line twenty
             Console.WriteLine("                 ``:::::::::''           "); // line twentyone
-
+            Thread.Sleep(60);
             Console.Clear();
+
+
+
+
+        
+
+
+
+
 
             Console.WriteLine("             .:::::::::..      "); // line one 
             Console.WriteLine("       ..:::aad8888888baa:::.."); // line two
@@ -545,11 +555,12 @@ public static class BlackMana
             Console.WriteLine("  :::::::::::::::88888888888888::::::::::::::"); // line fourteen
             Console.WriteLine("   :::::::::::::d88888888888888:::::::::::::  "); // line fifteen
             Console.WriteLine("   ::::::::::::88::88::88:::88::::::::::::::    "); // line sixteen
-            Console.WriteLine("    `:::::::::"+"_______________"+":::::::'    "); // line seventeen
+            Console.WriteLine("   `::::::" + "                " + ":::::::'    "); // line seventeen
             Console.WriteLine("       `::::::::88::88::P::::88::::::::'      "); // line eighteen
             Console.WriteLine("         `::::::d88888888888888::::::'       "); // line nineteen
             Console.WriteLine("            ``:::::::::::::::::::''       "); // line twenty
             Console.WriteLine("                 ``:::::::::''           "); // line twentyone
+            Thread.Sleep(100);
 
             Console.Clear();
         }
