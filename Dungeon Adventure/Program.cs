@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
+using System.Threading;
 
 // Luminosity
 // http://luminosity.livejournal.com
@@ -193,7 +194,8 @@ namespace Dungeon_Adventure
 
                     #region Island Region
                     case "ISLANDS":
-                        Mana.myBlueMana();
+                       
+                        Mana.myBlueColorMana();
                         Console.WriteLine();
                         Console.BackgroundColor = ConsoleColor.DarkBlue;
                         Console.ForegroundColor = ConsoleColor.White;
