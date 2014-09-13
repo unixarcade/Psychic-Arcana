@@ -192,7 +192,7 @@ namespace Dungeon_Adventure
                         # endregion
 
                         #region Adventure Choice Two
-                        // Adventure Choice One
+                        // Adventure Choice Two
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -202,7 +202,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
+                           
 
 
                             GameHelpers.SpaceandClean();
@@ -230,7 +230,7 @@ namespace Dungeon_Adventure
 
 
                         #region Adventure Choice Three
-                        // Adventure Choice One
+                        // Adventure Choice Three
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -240,7 +240,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
+                            
 
 
                             GameHelpers.SpaceandClean();
@@ -269,7 +269,7 @@ namespace Dungeon_Adventure
 
 
                         #region Adventure Choice Four
-                        // Adventure Choice One
+                        // Adventure Choice Four
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -279,8 +279,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
-
+                         
 
                             GameHelpers.SpaceandClean();
                             Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
@@ -307,7 +306,7 @@ namespace Dungeon_Adventure
 
 
                         #region Adventure Choice Five
-                        // Adventure Choice One
+                        // Adventure Choice Five
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -317,8 +316,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
-
+                           
 
                             GameHelpers.SpaceandClean();
                             Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
@@ -348,7 +346,7 @@ namespace Dungeon_Adventure
 
 
                         #region Adventure Choice Six
-                        // Adventure Choice One
+                        // Adventure Choice Six
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -358,7 +356,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
+                           
 
 
                             GameHelpers.SpaceandClean();
@@ -384,7 +382,7 @@ namespace Dungeon_Adventure
                         # endregion
 
                         #region Adventure Choice Seven
-                        // Adventure Choice One
+                        // Adventure Choice Seven
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -394,8 +392,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
-
+                           
 
                             GameHelpers.SpaceandClean();
                             Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
@@ -422,7 +419,7 @@ namespace Dungeon_Adventure
 
 
                         #region Adventure Choice Eight
-                        // Adventure Choice One
+                        // Adventure Choice Eight
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -432,8 +429,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
-
+                           
 
                             GameHelpers.SpaceandClean();
                             Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
@@ -461,7 +457,7 @@ namespace Dungeon_Adventure
 
 
                         #region Adventure Choice Nine
-                        // Adventure Choice One
+                        // Adventure Choice Nine
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -471,7 +467,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
+                          
 
 
                             GameHelpers.SpaceandClean();
@@ -499,7 +495,7 @@ namespace Dungeon_Adventure
 
 
                         #region Adventure Choice Ten
-                        // Adventure Choice One
+                        // Adventure Choice Ten
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -509,7 +505,7 @@ namespace Dungeon_Adventure
                         if (mycode == "YES")
                         {
                             //managoal++;
-                            managoal = 2;
+                           
 
 
                             GameHelpers.SpaceandClean();
