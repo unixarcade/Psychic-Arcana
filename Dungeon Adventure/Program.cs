@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
-using System.Threading;
 
 // Luminosity
 // http://luminosity.livejournal.com
@@ -76,10 +75,10 @@ namespace Dungeon_Adventure
             string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
 
 #endregion
+          
+            
 
-
-
-           // BlackMana.myBlackManaAnimation();
+            //BlackMana.myBlackMana();
 
 
             // Game Start Up
