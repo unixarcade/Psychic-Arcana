@@ -323,32 +323,34 @@ namespace Dungeon_Adventure
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
 
-
-                        mycode = myYesNo();
-                        if (mycode == "YES")
+                        if (managoal == 5)
                         {
-                            //managoal++;
-                           
-
-                            GameHelpers.SpaceandClean();
-                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
-
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
 
 
-
-                            Console.Write(" You have grown in Dark Power  ");
-                            Console.WriteLine(managoal);
-
-                            Console.ReadKey();
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
-                        }
-                        else
-                        {
 
-                            GameHelpers.SpaceandClean();
-                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
-                            break;
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
                         }
                         # endregion
 
@@ -363,33 +365,35 @@ namespace Dungeon_Adventure
                         GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
 
-
-                        mycode = myYesNo();
-                        if (mycode == "YES")
+                        if (managoal == 6)
                         {
-                            //managoal++;
-                           
-
-
-                            GameHelpers.SpaceandClean();
-                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
-
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
 
 
 
-                            Console.Write(" You have grown in Dark Power  ");
-                            Console.WriteLine(managoal);
-
-                            Console.ReadKey();
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
-                        }
-                        else
-                        {
 
-                            GameHelpers.SpaceandClean();
-                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
-                            break;
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
                         }
                         # endregion
 
