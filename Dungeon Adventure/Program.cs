@@ -1839,7 +1839,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice One
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine(" In the swamp you see a bat do you kill it with your magic yes or no?");
 
 
                         mycode = myYesNo();
@@ -1868,7 +1868,7 @@ namespace Dungeon_Adventure
                         {
                             
                             GameHelpers.SpaceandClean();
-                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            Console.WriteLine(" You may never grow strong enough to Wield the Dark Power");
                             break;
                         }
 # endregion
@@ -1885,9 +1885,9 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine(name + " As you go deeper in the swamp you see a person deeply garbed in ashen robes, with a spindly hand asking for directions.");
+                            Console.WriteLine(" {0} As you go deeper in the swamp you see a person deeply garbed in ashen robes, with a spindly hand asking for directions. ", name);
                             Console.WriteLine();
-                            Console.WriteLine("You know the way out of the swamp do you tell them the way?");
+                            Console.WriteLine(" You know the way out of the swamp do you tell them the way?");
                             mycode = myYesNo();
                             if (mycode == "NO")
                             {
@@ -1896,14 +1896,14 @@ namespace Dungeon_Adventure
                                 managoal++;
                                
 
-                               // Console.Write(" " + name +" You have grown in Dark Power " + " Mana Force: " + managoal);
+                              
                                 BlackMana.BlackManaCount(name, managoal);
                             }
                             else
                             {
                                 GameHelpers.SpaceandClean();
 
-                                Console.WriteLine(" The Force of Dark Power is still out of your Grasp.");
+                                Console.WriteLine(" The Force of Dark Power is still out of your Grasp. ");
                                 break;
                             }
                         }
@@ -1918,9 +1918,9 @@ namespace Dungeon_Adventure
                         if (managoal == 3)
                         {
                             GameHelpers.SpaceandClean();
-                            Console.WriteLine(name + " On the path of this winding road within the swamp you see in the distance a dimly lit cave. ");
+                            Console.WriteLine(" {0} On the path of this winding road within the swamp you see in the distance a dimly lit cave. ", name);
                             Console.WriteLine();
-                            Console.WriteLine("Do you enter");
+                            Console.WriteLine(" Do you enter? ");
                             Console.WriteLine();
                             mycode = myYesNo();
                             if (mycode == "YES")
@@ -1928,23 +1928,23 @@ namespace Dungeon_Adventure
                                 GameHelpers.SpaceandClean();
 
 
-                                    Console.WriteLine(" The old spindly man you met earlier sits at a roll top desk. ");
-                                    Console.WriteLine("");
-                                    Console.WriteLine(" He looks up at you and laughs.");
-                                    Console.WriteLine("");
-                                    Console.WriteLine("The cave smells of sulphur are abound and large tombs of arcane lore abound");
-                                    Console.WriteLine("Would you like to study with me you want to study with me he asks? ");
+                                    Console.WriteLine(" The old spindly man you met earlier sits at a roll top desk. \n");
+                                   
+                                    Console.WriteLine(" He looks up at you and laughs. \n");
+                                  
+                                    Console.WriteLine(" The cave smells of sulphur are abound and large tombs of arcane lore abound. \n ");
+                                    Console.WriteLine("Would you like to study with me you want to study with me he asks? \n");
                                     
                                     mycode = myYesNo();
                                     if (mycode == "YES") {
 
 
                                         GameHelpers.SpaceandClean();
-                                        Console.WriteLine(" You study with the Dark Tutor for a year ");
-                                        Console.WriteLine();
-                                        Console.WriteLine(" In this time you learn this is not just a man but some sort of spirit");
-                                        Console.WriteLine(" ");
-                                        Console.WriteLine(" You are ready to continue down the path to the heart of the swamp, as an adept crackling with mana." + " Mana Force: " + managoal);
+                                        Console.WriteLine(" You study with the Dark Tutor for a year. \n ");
+                                      
+                                        Console.WriteLine(" In this time you learn this is not just a man but some sort of spirit. \n");
+                                       
+                                        Console.WriteLine(" You are ready to continue down the path to the heart of the swamp, as an adept crackling with mana." + " Mana Force: {0}  \n", managoal);
  
                                         managoal++;
                                         BlackMana.BlackManaCount(name, managoal);
@@ -1952,7 +1952,7 @@ namespace Dungeon_Adventure
                                     }  else  {
 
                                         GameHelpers.SpaceandClean();
-                                    Console.WriteLine(" You leave the cave and the swamp crackling with black mana " + " Mana Force: ");
+                                        Console.WriteLine(" You leave the cave and the swamp crackling with black mana " + " Mana Force: {0}  \n", managoal);
                                         break;
                                 }                          
                             }
