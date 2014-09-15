@@ -1995,7 +1995,7 @@ namespace Dungeon_Adventure
 
                                // Attack Choice
                                 Console.WriteLine(" How will you attack please input 1, 2, or 3");
-                                Console.WriteLine("Choice 1 is a howl from beyond");
+                                Console.WriteLine("Choice 1 Howl from beyond");
                                 Console.WriteLine("Choice 2 Drain Life");
                                 Console.WriteLine("Choice 3 Syphon Soul");
 
@@ -2013,31 +2013,31 @@ namespace Dungeon_Adventure
                                   {
                                       GameHelpers.SpaceandClean();
                                       
-                                          Console.WriteLine("You Howl at the moon");
+                                          Console.WriteLine(" You Howl at the moon ");
                                           Console.WriteLine("");
-                                          Console.WriteLine("As you howl you become the moon beast");
+                                          Console.WriteLine(" As you howl you become the moon beast ");
                                           Console.WriteLine("");
-                                      Console.WriteLine("The being has stirred in your heart for quite sometime.");
+                                      Console.WriteLine(" The being has stirred in your heart for quite sometime. ");
                                       Console.WriteLine("");
-                                      Console.WriteLine("The fiend comes upon you but you smile as you rend and tear in to the fiend");
-                                          Console.WriteLine("What is left of the fiend is blood and gristle");
+                                      Console.WriteLine(" The fiend comes upon you but you smile as you rend and tear in to the fiend ");
+                                          Console.WriteLine(" What is left of the fiend is blood and gristle ");
                                           Console.WriteLine("");
-                                      Console.WriteLine("You smile your deadly smile as you transform again from wolf to man.");
+                                      Console.WriteLine(" You smile your deadly smile as you transform again from wolf to man. ");
                                       Console.WriteLine("");
                                   
                                   } else if( attackchoice == 2)
                                   {
                                       GameHelpers.SpaceandClean();
 
-                                      Console.WriteLine("Killing the bat comes back to you");
+                                      Console.WriteLine(" Killing the bat comes back to you ");
                                       Console.WriteLine("");
-                                      Console.WriteLine("The spirit of the bat flutters in your mind");
+                                      Console.WriteLine(" The spirit of the bat flutters in your mind ");
                                       Console.WriteLine("");
-                                      Console.WriteLine("The icon and reality of the small spell larger");
+                                      Console.WriteLine(" The icon and reality of the small spell larger ");
                                       Console.WriteLine("");
-                                      Console.WriteLine("As you delve into the deep of the minds spell");
+                                      Console.WriteLine(" As you delve into the deep of the minds spell ");
                                       Console.WriteLine("");
-                                      Console.WriteLine("You feel the swamp fiend crushed underneath your magic");
+                                      Console.WriteLine(" You feel the swamp fiend crushed underneath your magic ");
 
 
 
@@ -2049,11 +2049,11 @@ namespace Dungeon_Adventure
                                       GameHelpers.SpaceandClean();
 
 
-                                      Console.WriteLine("Syphon Soul seemed to do something against this ghastly field");
+                                      Console.WriteLine(" Syphon Soul seemed to do something against this ghastly field ");
                                       Console.WriteLine("");
-                                          Console.WriteLine("Under the bad moon the fiend simply seemed to get more angry as it grinned");
+                                          Console.WriteLine(" Under the bad moon the fiend simply seemed to get more angry as it grinned ");
                                           Console.WriteLine("");
-                                          Console.WriteLine("Death comes upon you in this swamps maze");
+                                          Console.WriteLine(" Death comes upon you in this swamps maze ");
                                           BlackMana.myBlackManaAnimation();
                                           myexit();
                                    }
@@ -2062,7 +2062,7 @@ namespace Dungeon_Adventure
                               {
                                   GameHelpers.SpaceandClean();
 
-                                  Console.WriteLine("The swamp fiend has defeated you");
+                                  Console.WriteLine(" The swamp fiend has defeated you ");
                                   Console.ReadKey();
                                   BlackMana.myBlackManaAnimation();
                                   myexit();
@@ -2079,7 +2079,7 @@ namespace Dungeon_Adventure
                             {
                                 GameHelpers.SpaceandClean();
 
-                                Console.WriteLine(" You will spend all of your years in the swamp, Adept.");
+                                Console.WriteLine(" You will spend all of your years in the swamp, Adept. ");
                                 Console.WriteLine(" Your Mana Force is : " + managoal);
                                 break;
                             }                           
@@ -2088,7 +2088,7 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine(" One Day you may be a master, Adept.");
+                            Console.WriteLine(" One Day you may be a master, Adept. ");
                             Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;
                         }
@@ -2124,8 +2124,8 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
-                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            Console.WriteLine(" The seed of black mana has been planted in your heart, " + status[3]);
+                            Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;
                         }
 
@@ -2241,8 +2241,8 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine("The seed of black mana has been planted in your heart, Adept");
-                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            Console.WriteLine(" The seed of black mana has been planted in your heart, Adept");
+                            Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;   
                         }
 
@@ -2312,70 +2312,12 @@ namespace Dungeon_Adventure
                                   
                             
 #endregion
-                            //else
-                            //{
-
-                            //    GameHelpers.SpaceandClean();
-                            //    Console.WriteLine(" You leave the cave and the swamp crackling with black mana " + " Mana Force: ");
-                            //    break;
-                            //}    
-
-                            //                          
-                            //BlackMana.BlackManaCount(name, managoal);
+                          
                             
                         }
 
 
 
-                        //        for (int x = 0; x == 10; x++)
-                        //        {
-                        //            questioncounter++;
-                        //            Console.WriteLine("Would you like to study a year? \n");
-                        //            mycode = myYesNo();
-                        //            if (mycode == "YES")
-                        //            {
-                        //                Console.WriteLine("Would you like to study a year? \n");
-                        //                mycode = myYesNo();
-                        //                if (mycode == "YES") {
-                        //                    GameHelpers.SpaceandClean();
-                        //                    questioncounter++;
-                        //                    Console.WriteLine("You have studied {0} years \n", questioncounter);
-                        //                if (questioncounter == 10)
-                        //                {
-                        //                    Console.WriteLine(" After Ten Years of Study you have attained the answer you have sought");
-                        //                    managoal++;
-                        //                }
-                        //                }
-                        //            } else if(mycode == "NO") {
-
-                        //                Console.WriteLine(" Though you may be a " + status[3] + "You still have yet to understand the teachings of BlackMana ");
-                        //                BlackMana.myBlackManaAnimation();
-                        //                myexit();
-                        //            }
-                                   
-
-                        //        }
-                                  
-                        //    }
-                        //    //else
-                        //    //{
-
-                        //    //    GameHelpers.SpaceandClean();
-                        //    //    Console.WriteLine(" You leave the cave and the swamp crackling with black mana " + " Mana Force: ");
-                        //    //    break;
-                        //    //}    
-
-                        //    //                          
-                        //    BlackMana.BlackManaCount(name, managoal);
-                        //    Console.ReadKey();
-                        //}
-                        //else
-                        //{
-                        //    GameHelpers.SpaceandClean();
-                        //    Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
-                        //    Console.WriteLine("Your Mana Force is : " + managoal);
-                        //    break;
-                        //}
 
 #endregion
 
@@ -2398,11 +2340,11 @@ namespace Dungeon_Adventure
 
                             Console.WriteLine(" You see now with new eyes of mastery \n");
                             Console.WriteLine(" As you peer into the maze where you have sat in life and in study ");
-                            Console.WriteLine(" You see a path that would lead you back to the world from whence you came.");
+                            Console.WriteLine(" You see a path that would lead you back to the world from whence you came. ");
 
                             Console.WriteLine(" Do you want to end your quest or push on further 1, 2 ");
-                            Console.WriteLine("Choice 1: Leave the swamp");
-                            Console.WriteLine("Choice 2: Press deeper into the dark");
+                            Console.WriteLine(" Choice 1: Leave the swamp ");
+                            Console.WriteLine(" Choice 2: Press deeper into the dark ");
                             
 
 
@@ -2453,7 +2395,7 @@ namespace Dungeon_Adventure
                             {
                                 Console.Clear();
 
-                                Console.WriteLine("You are a wiley" + status[3]);
+                                Console.WriteLine(" You are a wiley " + status[3]);
                                 Console.ReadKey();
                                 BlackMana.myBlackManaAnimation();
                                 myexit();
@@ -2467,8 +2409,8 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
-                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            Console.WriteLine(" The seed of black mana has been planted in your heart, " + status[3]);
+                            Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;
                         }
 
@@ -2502,8 +2444,8 @@ namespace Dungeon_Adventure
                         {
                             GameHelpers.SpaceandClean();
 
-                            Console.WriteLine("The seed of black mana has been planted in your heart, " + status[3]);
-                            Console.WriteLine("Your Mana Force is : " + managoal);
+                            Console.WriteLine(" The seed of black mana has been planted in your heart, " + status[3]);
+                            Console.WriteLine(" Your Mana Force is : " + managoal);
                             break;
                         }
 #endregion
