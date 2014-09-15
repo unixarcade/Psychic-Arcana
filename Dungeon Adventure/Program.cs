@@ -487,7 +487,7 @@ namespace Dungeon_Adventure
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
-                                //managoal++;
+                                managoal++;
 
 
 
@@ -518,12 +518,14 @@ namespace Dungeon_Adventure
 
                         #region Adventure Choice Ten
                         // Adventure Choice Ten
+                        if (managoal == 10)
+                        {
+                            GameHelpers.SpaceandClean();
+                            Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
 
-                        GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
 
-                       
                             mycode = myYesNo();
+
                             if (mycode == "YES")
                             {
 
@@ -540,7 +542,9 @@ namespace Dungeon_Adventure
                                 Console.WriteLine(managoal);
 
                                 Console.ReadKey();
+                            }
                                 break;
+
 
                             }
                             else
@@ -550,6 +554,10 @@ namespace Dungeon_Adventure
                                 Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
                                 break;
                             }
+                        
+                        
+                       
+                        
                         
                         # endregion
                         
