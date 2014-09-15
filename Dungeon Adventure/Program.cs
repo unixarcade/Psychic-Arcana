@@ -575,7 +575,411 @@ namespace Dungeon_Adventure
                         Console.WriteLine(thepowerof[0][0] + mycolor[1] + manasent);
 
 
-                        break;
+                        #region Adventure Choice One
+                        // Adventure Choice One
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+
+                        mycode = myYesNo();
+                        if (mycode == "YES")
+                        {
+
+
+                            //managoal++;
+                            managoal = 2;
+
+
+                            GameHelpers.SpaceandClean();
+                            Mana.myGreenMana();
+
+                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                            Console.Write(" You have grown in Dark Power  ");
+                            Console.WriteLine(managoal);
+
+                            Console.ReadKey();
+
+
+                        }
+                        else
+                        {
+
+                            GameHelpers.SpaceandClean();
+
+
+                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            break;
+                        }
+                        # endregion
+
+                        #region Adventure Choice Two
+                        // Adventure Choice Two
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 2)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Three
+                        // Adventure Choice Three
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 3)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+                        #region Adventure Choice Four
+                        // Adventure Choice Four
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 4)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Five
+                        // Adventure Choice Five
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 5)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+
+
+                        #region Adventure Choice Six
+                        // Adventure Choice Six
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 6)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+                        #region Adventure Choice Seven
+                        // Adventure Choice Seven
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 7)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Eight
+                        // Adventure Choice Eight
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 8)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+                        #region Adventure Choice Nine
+                        // Adventure Choice Nine
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 9)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Ten
+                        // Adventure Choice Ten
+                        if (managoal == 10)
+                        {
+                            GameHelpers.SpaceandClean();
+                            Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+
+                            mycode = myYesNo();
+
+                            if (mycode == "YES")
+                            {
+
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+                            }
+                            break;
+
+
+                        }
+                        else
+                        {
+
+                            GameHelpers.SpaceandClean();
+                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            break;
+                        }
+
+
+
+
+
+                        # endregion
                     #endregion 
 
 
@@ -591,7 +995,411 @@ namespace Dungeon_Adventure
                         Console.WriteLine(thepowerof[0][0] + mycolor[2] + manasent);
 
 
-                        break;
+                        #region Adventure Choice One
+                        // Adventure Choice One
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+
+                        mycode = myYesNo();
+                        if (mycode == "YES")
+                        {
+
+
+                            //managoal++;
+                            managoal = 2;
+
+
+                            GameHelpers.SpaceandClean();
+                            Mana.myGreenMana();
+
+                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                            Console.Write(" You have grown in Dark Power  ");
+                            Console.WriteLine(managoal);
+
+                            Console.ReadKey();
+
+
+                        }
+                        else
+                        {
+
+                            GameHelpers.SpaceandClean();
+
+
+                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            break;
+                        }
+                        # endregion
+
+                        #region Adventure Choice Two
+                        // Adventure Choice Two
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 2)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Three
+                        // Adventure Choice Three
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 3)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+                        #region Adventure Choice Four
+                        // Adventure Choice Four
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 4)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Five
+                        // Adventure Choice Five
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 5)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+
+
+                        #region Adventure Choice Six
+                        // Adventure Choice Six
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 6)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+                        #region Adventure Choice Seven
+                        // Adventure Choice Seven
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 7)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Eight
+                        // Adventure Choice Eight
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 8)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+                        #region Adventure Choice Nine
+                        // Adventure Choice Nine
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 9)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Ten
+                        // Adventure Choice Ten
+                        if (managoal == 10)
+                        {
+                            GameHelpers.SpaceandClean();
+                            Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+
+                            mycode = myYesNo();
+
+                            if (mycode == "YES")
+                            {
+
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+                            }
+                            break;
+
+
+                        }
+                        else
+                        {
+
+                            GameHelpers.SpaceandClean();
+                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            break;
+                        }
+
+
+
+
+
+                        # endregion
                     #endregion
 
 
@@ -606,7 +1414,411 @@ namespace Dungeon_Adventure
                         Console.WriteLine(welcometo + " Islands ");
                         Console.WriteLine(thepowerof[0][0] + mycolor[3] + manasent);
 
-                        break;
+                        #region Adventure Choice One
+                        // Adventure Choice One
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+
+                        mycode = myYesNo();
+                        if (mycode == "YES")
+                        {
+
+
+                            //managoal++;
+                            managoal = 2;
+
+
+                            GameHelpers.SpaceandClean();
+                            Mana.myGreenMana();
+
+                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                            Console.Write(" You have grown in Dark Power  ");
+                            Console.WriteLine(managoal);
+
+                            Console.ReadKey();
+
+
+                        }
+                        else
+                        {
+
+                            GameHelpers.SpaceandClean();
+
+
+                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            break;
+                        }
+                        # endregion
+
+                        #region Adventure Choice Two
+                        // Adventure Choice Two
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 2)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Three
+                        // Adventure Choice Three
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 3)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+                        #region Adventure Choice Four
+                        // Adventure Choice Four
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 4)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Five
+                        // Adventure Choice Five
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 5)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+
+
+                        #region Adventure Choice Six
+                        // Adventure Choice Six
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 6)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+                        #region Adventure Choice Seven
+                        // Adventure Choice Seven
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 7)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Eight
+                        // Adventure Choice Eight
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 8)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+
+                        #region Adventure Choice Nine
+                        // Adventure Choice Nine
+
+                        GameHelpers.SpaceandClean();
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                        if (managoal == 9)
+                        {
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                managoal++;
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+
+
+                            }
+                            else
+                            {
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+                        }
+                        # endregion
+
+
+
+                        #region Adventure Choice Ten
+                        // Adventure Choice Ten
+                        if (managoal == 10)
+                        {
+                            GameHelpers.SpaceandClean();
+                            Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+
+                            mycode = myYesNo();
+
+                            if (mycode == "YES")
+                            {
+
+
+
+
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+
+
+
+
+                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine(managoal);
+
+                                Console.ReadKey();
+                            }
+                            break;
+
+
+                        }
+                        else
+                        {
+
+                            GameHelpers.SpaceandClean();
+                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            break;
+                        }
+
+
+
+
+
+                        # endregion
 
                     #endregion
 
