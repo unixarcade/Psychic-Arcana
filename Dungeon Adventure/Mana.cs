@@ -10,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace Dungeon_Adventure
 {
+
     class Mana
     {
+
 
         public static void consolePaint()
         {
@@ -795,7 +797,7 @@ Console.WriteLine("               ``:::::::::''         ");
             ConsoleColor printdarkgreen = ConsoleColor.DarkGreen;
 
 
-            consolePaint();
+           // consolePaint();
 
            
             // line one
@@ -970,6 +972,28 @@ Console.WriteLine("               ``:::::::::''         ");
 
             // end line fifteen
             Console.WriteLine("   :::::::888888888888888888888888888bdP::   ");// line sixteen
+            Console.ForegroundColor = printblack;
+            Console.Write("   ");
+            Console.ForegroundColor = printwhite;
+            Console.Write(":::::::");
+            Console.ForegroundColor = printdarkred;
+            Console.Write("8");
+            Console.ForegroundColor = printlightred;
+            Console.Write("88888888888888888888888888");
+            Console.ForegroundColor = printdarkred;
+            Console.Write("b");
+            Console.ForegroundColor = printlightred;
+            Console.Write("d");
+            Console.ForegroundColor = printdarkred;
+            Console.Write("P");
+            Console.ForegroundColor = printwhite;
+            Console.Write("::");
+            Console.ForegroundColor = printblack;
+            Console.Write("   ");
+            Console.WriteLine();
+
+
+
 
             // end line sixteen
             
