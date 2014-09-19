@@ -73,6 +73,7 @@ namespace Dungeon_Adventure
                                                       };
             string manasent = " mana infuses you. ";
             string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
+            string[] mymananame = { "Forest ", " Mountain ", " Plains ", " Islands ", " Swamps " };
             string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
 
 #endregion
@@ -90,7 +91,7 @@ namespace Dungeon_Adventure
             
 
          //  Mana.myBlueColorMana();
-           // Mana.myRedManaColor();
+            //Mana.myRedManaColor();
 
             Console.WriteLine();
 
@@ -493,13 +494,16 @@ namespace Dungeon_Adventure
 
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                                
 
+                                Mana.myGreenManaColor();
 
+                                Console.WriteLine();
+                                Console.WriteLine(" {0} You have found the sacred heart of the {1} the Mox Emerald. \n", name, mymananame[0]);
 
-
-                                Console.Write(" You have grown in Dark Power  ");
+                                Console.Write(" You have grown in Lifes' Power  ");
                                 Console.WriteLine(managoal);
+                                
 
                                 Console.ReadKey();
 
@@ -913,12 +917,13 @@ namespace Dungeon_Adventure
 
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
+                                Mana.myRedManaColor();
 
+                                Console.WriteLine();
+                                Console.WriteLine(" {0} You have found the sacred heart of the {1} the Mox Ruby. \n", name, mymananame[1]);
 
-
-                                Console.Write(" You have grown in Dark Power  ");
+                                Console.Write(" You have grown in Fires' Power  ");
                                 Console.WriteLine(managoal);
 
                                 Console.ReadKey();
@@ -1333,12 +1338,13 @@ namespace Dungeon_Adventure
 
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
+                                Mana.myWhiteManaColor();
 
+                                Console.WriteLine();
+                                Console.WriteLine(" {0} You have found the sacred heart of the {1} the Mox Pearl. \n", name, mymananame[2]);
 
-
-                                Console.Write(" You have grown in Dark Power  ");
+                                Console.Write(" You have grown in Lights' Power  ");
                                 Console.WriteLine(managoal);
 
                                 Console.ReadKey();
@@ -1750,16 +1756,16 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
+                                Mana.myBlueColorMana();
 
-
-
-                                Console.Write(" You have grown in Dark Power  ");
+                                Console.WriteLine();
+                                Console.WriteLine(" {0} You have found the sacred heart of the {1} the Mox Sapphire. \n", name, mymananame[3]);
+                   
+                                Console.Write(" You have grown in Trickerys' Power  ");
                                 Console.WriteLine(managoal);
-
+                                
                                 Console.ReadKey();
 
 
@@ -2429,13 +2435,8 @@ namespace Dungeon_Adventure
 
                             BlackMana.myBlackMana();
 
-
-
-
-
-                           
                             Console.WriteLine();
-                            Console.WriteLine("   " + name + " " +"You have found the sacred heart of the swamp the mox jet. ");
+                            Console.WriteLine(" {0} You have found the sacred heart of the swamp the mox jet. ", name);
                             Console.WriteLine();
                             managoal++;
                             Console.ReadKey();
