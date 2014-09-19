@@ -75,6 +75,7 @@ namespace Dungeon_Adventure
             string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
             string[] mymananame = { "Forest ", " Mountain ", " Plains ", " Islands ", " Swamps " };
             string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
+            string[] powername = {" Dark ", " Lifes' ", " Fires' ", " Trickerys' ", "Lights' "};
 
 #endregion
           
