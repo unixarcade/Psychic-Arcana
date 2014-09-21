@@ -577,71 +577,497 @@ Console.WriteLine("               ``:::::::::''         ");
         #region myWhiteManaColor
         public static void myWhiteManaColor()
         {
+            ConsoleColor printblack = ConsoleColor.Black;
+            ConsoleColor printwhite = ConsoleColor.White;
+            ConsoleColor printdarkgrey = ConsoleColor.DarkGray;
+            ConsoleColor printlightgrey = ConsoleColor.Gray;
+            ConsoleColor printdarkblue = ConsoleColor.DarkBlue;
+            ConsoleColor printlightblue = ConsoleColor.Blue;
+            ConsoleColor printlightred = ConsoleColor.Red;
+            ConsoleColor printdarkred = ConsoleColor.DarkRed;
+            ConsoleColor printdarkyellow = ConsoleColor.DarkYellow;
+            ConsoleColor printlightyellow = ConsoleColor.Yellow;
+            ConsoleColor printlightgreen = ConsoleColor.Green;
+            ConsoleColor printdarkgreen = ConsoleColor.DarkGreen;
 
- Console.WriteLine("               ..::::;::::..       "); // line one
 
+// line one
+ Console.ForegroundColor = printblack;
+ Console.Write("               ");
+ Console.ForegroundColor = printwhite;
+ Console.Write("..::::;::::..");
+ Console.ForegroundColor = printblack;
+ Console.Write("       ");
+ Console.WriteLine();
 
  // end line one
- Console.WriteLine("          ..:::::::::8:::::::::.."); // line two
  
-            // end line one
- Console.WriteLine("       .::::::db::::d8b::::::::::::."); // line three
+            // line two
+            Console.ForegroundColor = printblack;
+            Console.Write("          ");
+            Console.ForegroundColor = printwhite;
+            Console.Write("..:::::::::");
+            Console.ForegroundColor = printlightyellow;
+            Console.Write("8");
+            Console.ForegroundColor = printwhite;
+            Console.Write(":::::::::..");
+            Console.WriteLine();
  
-            // end line one
- Console.WriteLine("      .::::::::88:::d888b:::::d888::::."); // line four
+            // end line two
 
- // end line one
- Console.WriteLine("    .:::::::::d88b::88888:::d888P:::::::."); // line five
 
- // end line one
- Console.WriteLine("   :::::::::::888888P???Y88888P:::d88:::::"); // line six
+ // line three
+ Console.ForegroundColor = printblack;
+ Console.Write("       ");
+ Console.ForegroundColor = printwhite;
+ Console.Write(".::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("db");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d8b");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::::::::::.");
+ Console.WriteLine();
 
- // end line one
- Console.WriteLine("  :::::888ba::888P?::aaa::?Y88::d888P:::::: "); // line seven 
+            // end line three
 
- // end line one
- Console.WriteLine(" ::::::Y8888888P:aad88888baa:Y8888P::::::::: "); // line eight
+ // line four
+ Console.ForegroundColor = printblack;
+ Console.Write("      ");
+ Console.ForegroundColor = printwhite;
+ Console.Write(".::::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("88");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d88b");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d888");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::.");
+ Console.WriteLine();
 
- // end line one
- Console.WriteLine(".::::::::Y8888P:d88888888888b:Y8P:::aaaadP::. ");  // line nine  
+ // end line four
+ 
+            
+            // line five
+ Console.ForegroundColor = printblack;
+ Console.Write("    ");
+ Console.ForegroundColor = printwhite;
+ Console.Write(".:::::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d88b");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("88888");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::.");
+ Console.WriteLine();
 
- // end line one
- Console.WriteLine(":::::::::::Y8P:a8888888888888a:Y88888888P::::  "); // line ten  
 
- // end line one
- Console.WriteLine("::::aaaaaaad88:888888888888888:888888P:::::::  "); // line eleven
 
- // end line one
- Console.WriteLine("::::8888888888:?8888888888888?:d888P:::::::::   ");  // line twelve  
 
- // end line one
- Console.WriteLine("`:::????????Y8b:Y88888888888P:d88:::::::::::'   ");   // line thirteen
+ // end line five
 
- // end line one
- Console.WriteLine(" :::::::::::ad8b:??Y88888P??:d8888b:::::::::    ");  // line fourteen
+// line six
+ Console.ForegroundColor = printblack;
+ Console.Write("   ");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("888888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write("???");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y88888P");
+ 
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d88");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::");
+ Console.WriteLine();
 
- // end line one
- Console.WriteLine("  :::::aa88888888ba;:???:;ad888::Y88b::::::     "); // line fifteen
 
- // end line one
- Console.WriteLine("  :::::::::?Y888888baaaad88888::::Y8b::::   "); // line sixteen
+ // end line six
 
- // end line one
- Console.WriteLine("    `::::::::::d88P:88888P88888:::::::::' "); // line seventeen
+// line seven 
+ Console.ForegroundColor = printblack;
+ Console.Write("  ");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("888ba");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("888P?");
 
- // end line one
- Console.WriteLine("      `:::::::d8P:::8888P:::Y88:::::::'  "); // line eighteen
+ Console.ForegroundColor = printwhite;
+ Console.Write("::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("aaa");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("?Y88");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::");
+ 
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::::");
+ Console.ForegroundColor = printblack;
+ Console.Write(" ");
+ Console.WriteLine();
 
- // end line one
- Console.WriteLine("        `:::::P:::::888P:::::YP:::::'   "); // line nineteen
+ // end line seven
+ 
+            // line eight
+ Console.ForegroundColor = printblack;
+ Console.Write(" ");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8888888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("aad88888baa");
 
- // end line one
- Console.WriteLine("           ``:::::::Y8P:::::::::''     "); // line twenty
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::");
+ 
 
- // end line one
- Console.WriteLine("               ``:::::::::''         "); // line twentyone
+ 
+ Console.ForegroundColor = printblack;
+ Console.Write(" ");
+ Console.WriteLine();
 
-            // end line one
+ // end line eight
+ 
+            // line nine  
+ 
+ Console.ForegroundColor = printwhite;
+ Console.Write(".::::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d88888888888b");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("aaaadP");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::.");
+ Console.ForegroundColor = printblack;
+ Console.Write(" ");
+ Console.WriteLine();
+
+
+ // end line nine
+  // line ten  
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("a8888888888888a");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y88888888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::");
+ 
+ Console.ForegroundColor = printblack;
+ Console.Write(" ");
+ Console.WriteLine();
+
+
+ // end line ten
+
+
+ // line eleven
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("aaaaaaad88");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("888888888888888");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("888888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::");
+
+ Console.ForegroundColor = printblack;
+ Console.Write("  ");
+ Console.WriteLine();
+
+
+ // end line eleven
+ 
+            
+            // line twelve  
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("8888888888");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":?");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("8888888888888?");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d888P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::");
+
+ Console.ForegroundColor = printblack;
+ Console.Write("   ");
+ Console.WriteLine();
+ // end line twelve
+
+
+    // line thirteen
+ Console.ForegroundColor = printwhite;
+ Console.Write("`:::????????");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8b");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y88888888888P");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d88");
+ 
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::::'");
+
+ Console.ForegroundColor = printblack;
+ Console.Write("   ");
+ Console.WriteLine();
+
+
+ // end line thirteen
+ 
+            // line fourteen
+ Console.ForegroundColor = printwhite;
+ Console.Write(" ");
+            Console.ForegroundColor = printwhite;
+            Console.Write(":::::::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8b");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y88888888888P");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d88");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::::'");
+
+ Console.ForegroundColor = printblack;
+ Console.Write("   ");
+ Console.WriteLine();
+
+
+ // end line fourteen
+
+            // line fifteen
+ Console.ForegroundColor = printwhite;
+ Console.Write("  ");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("aa88888888ba;:");
+ Console.ForegroundColor = printwhite;
+ Console.Write("???");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write(":;ad888");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write("::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y88b");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::::");
+
+ Console.ForegroundColor = printblack;
+ Console.Write("     ");
+ Console.WriteLine();
+ // end line fifteen
+
+
+
+            // line sixteen
+ Console.ForegroundColor = printwhite;
+ Console.Write("  ");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("?Y888888baaaad88888");
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8b");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write("::::");
+ 
+ Console.ForegroundColor = printblack;
+ Console.Write("   ");
+ Console.WriteLine();
+ // end line sixteen
+
+            // line seventeen
+ Console.ForegroundColor = printwhite;
+ Console.Write("    ");
+ Console.ForegroundColor = printwhite;
+ Console.Write("`::::::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d88P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("88888P88888");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::'");
+
+ Console.ForegroundColor = printblack;
+ Console.Write(" ");
+ Console.WriteLine();
+
+ // end line seventeen
+ 
+            // line eighteen
+ Console.ForegroundColor = printwhite;
+ Console.Write("      ");
+ Console.ForegroundColor = printwhite;
+ Console.Write("`:::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("d8P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("8888P");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y88");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::'");
+
+ Console.ForegroundColor = printblack;
+ Console.Write("  ");
+ Console.WriteLine();
+
+ // end line eightteen
+
+            // line nineteen
+ Console.ForegroundColor = printwhite;
+ Console.Write("        ");
+ Console.ForegroundColor = printwhite;
+ Console.Write("`:::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("888P");
+
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("YP");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::'");
+
+ Console.ForegroundColor = printblack;
+ Console.Write("   ");
+ Console.WriteLine();
+
+ // end line nineteen
+ 
+            // line twenty
+ Console.ForegroundColor = printwhite;
+ Console.Write("           ");
+ Console.ForegroundColor = printwhite;
+ Console.Write("``:::::::");
+ Console.ForegroundColor = printlightyellow;
+ Console.Write("Y8P");
+ Console.ForegroundColor = printwhite;
+ Console.Write(":::::::::''");
+ 
+ 
+
+ Console.ForegroundColor = printblack;
+ Console.Write("     ");
+ Console.WriteLine();
+
+
+
+ // end line twenty
+
+  // line twentyone
+ Console.ForegroundColor = printblack;
+ Console.Write(" ");
+            Console.ForegroundColor = printwhite;
+ Console.Write("               ");
+ Console.ForegroundColor = printwhite;
+ Console.Write("``:::::::::''");
+ 
+
+
+
+ Console.ForegroundColor = printblack;
+ Console.Write("         ");
+ Console.WriteLine();
+
+            // end line twentyone
         }
 
 #endregion
