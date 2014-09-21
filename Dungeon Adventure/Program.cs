@@ -93,7 +93,7 @@ namespace Dungeon_Adventure
 
          //  Mana.myBlueColorMana();
             //Mana.myRedManaColor();
-            Mana.myGreenManaColor();
+            //Mana.myGreenManaColor();
 
             Console.WriteLine();
 
