@@ -92,7 +92,7 @@ namespace Dungeon_Adventure
             
 
          //  Mana.myBlueColorMana();
-            //Mana.myRedManaColor();
+            Mana.myRedManaColor();
             //Mana.myGreenManaColor();
             //Mana.myWhiteManaColor();
 
