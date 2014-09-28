@@ -29,6 +29,15 @@ using System.Threading.Tasks;
         }
 #endregion
 
+# region TextSpace
+
+public static void TextSpace()
+{
+    Console.WriteLine("\n \n");
+}
+
+#  endregion
+
         #region Startup
         public static void Startup()
         {

@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 //luminosity
 // http://luminosity.livejournal.com
 
-namespace Dungeon_Adventure
-{
 
-    class Mana
+
+    public static class Mana
     {
 
 
@@ -2238,4 +2237,4 @@ Console.WriteLine("               ``:::::::::''         ");
 
 
     
-}
+

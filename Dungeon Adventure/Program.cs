@@ -30,8 +30,8 @@ namespace Dungeon_Adventure
         #region myYesNo
         static string myYesNo()
         {
-            Console.WriteLine(" Yes or No? ");
-
+            Console.WriteLine(" Yes or No? \n");
+            Console.Write("            ");
             string yn = Console.ReadLine();
             yn = yn.ToUpper();
             if (yn == "YES" || yn == "Y" || yn == "YE")
@@ -43,6 +43,7 @@ namespace Dungeon_Adventure
                 yn = "NO";
             }
 
+            GameHelpers.SpaceandClean();
             return yn;
         }
 # endregion
@@ -1416,8 +1417,9 @@ namespace Dungeon_Adventure
 
                     #region Island Region
                     case "ISLANDS":
-                       
-                        Mana.myBlueColorMana();
+                        Console.ReadKey();
+                        GameHelpers.SpaceandClean();
+                        Mana.myBlueMana();
                         Console.WriteLine();
                         Console.BackgroundColor = ConsoleColor.DarkBlue;
                         Console.ForegroundColor = ConsoleColor.White;
@@ -1427,8 +1429,13 @@ namespace Dungeon_Adventure
                         #region Adventure Choice One
                         // Adventure Choice One
 
+                        
+                         Console.ReadKey();
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine(" You set off to the islands ");
+                        Console.WriteLine(" {0} it's you the crew and the shallows ", name);
+                        Console.WriteLine(" Do you want to continue to the open sea?");
+                       
 
 
                         mycode = myYesNo();
@@ -1440,8 +1447,7 @@ namespace Dungeon_Adventure
                             managoal = 2;
 
 
-                            GameHelpers.SpaceandClean();
-                            Mana.myGreenMana();
+                            PsychicArcana.blueStart();
 
                             Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
@@ -1482,6 +1488,8 @@ namespace Dungeon_Adventure
 
 
                                 GameHelpers.SpaceandClean();
+                                Mana.myBlueMana();
+                                GameHelpers.TextSpace();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -1509,7 +1517,12 @@ namespace Dungeon_Adventure
                         #region Adventure Choice Three
                         // Adventure Choice Three
 
-                        GameHelpers.SpaceandClean();
+                        
+                         GameHelpers.SpaceandClean();
+                                Mana.myBlueMana();
+                                GameHelpers.TextSpace();
+
+
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
 
                         if (managoal == 3)
@@ -1562,6 +1575,8 @@ namespace Dungeon_Adventure
 
 
                                 GameHelpers.SpaceandClean();
+                                Mana.myBlueMana();
+                                GameHelpers.TextSpace();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -1589,7 +1604,9 @@ namespace Dungeon_Adventure
                         #region Adventure Choice Five
                         // Adventure Choice Five
 
-                        GameHelpers.SpaceandClean();
+ GameHelpers.SpaceandClean();
+                                Mana.myBlueMana();
+                                GameHelpers.TextSpace();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
 
                         if (managoal == 5)
@@ -1601,6 +1618,8 @@ namespace Dungeon_Adventure
 
 
                                 GameHelpers.SpaceandClean();
+                                Mana.myBlueMana();
+                                GameHelpers.TextSpace();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
