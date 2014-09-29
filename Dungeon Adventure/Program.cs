@@ -177,8 +177,7 @@ namespace Dungeon_Adventure
                             managoal = 2;
 
 
-                            GameHelpers.SpaceandClean();
-                            Mana.myGreenMana();
+                            PsychicArcana.greenStart();
 
                             Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
@@ -217,8 +216,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -258,7 +256,7 @@ namespace Dungeon_Adventure
 
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -298,7 +296,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -337,7 +335,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -380,7 +378,7 @@ namespace Dungeon_Adventure
 
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -417,7 +415,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -456,7 +454,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -497,10 +495,7 @@ namespace Dungeon_Adventure
 
 
 
-                                GameHelpers.SpaceandClean();
-                                
-
-                                Mana.myGreenManaColor();
+                                PsychicArcana.greenColorStart();
 
                                 Console.WriteLine();
                                 Console.WriteLine(" {0} You have found the sacred heart of the {1} the Mox Emerald. \n", name, mymananame[0]);
@@ -529,7 +524,9 @@ namespace Dungeon_Adventure
                         // Adventure Choice Ten
                         if (managoal == 10)
                         {
-                            GameHelpers.SpaceandClean();
+
+
+                            PsychicArcana.greenColorStart();
                             Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
 
 
