@@ -1858,7 +1858,7 @@ namespace Dungeon_Adventure
                             managoal  = 2;
 
 
-                            GameHelpers.SpaceandClean();
+                            PsychicArcana.blackStart();
                             Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
                             Console.WriteLine("");
                             Console.WriteLine(" The force is felt through you as you tense and point your finger at the bat.");
@@ -1892,8 +1892,8 @@ namespace Dungeon_Adventure
 
            if (managoal == 2)
                         {
-                            GameHelpers.SpaceandClean();
-
+                           
+                            PsychicArcana.blackStart();
                             Console.WriteLine(" {0} As you go deeper in the swamp you see a person deeply garbed in ashen robes, with a spindly hand asking for directions. ", name);
                             Console.WriteLine();
                             Console.WriteLine(" You know the way out of the swamp do you tell them the way?");
@@ -1926,7 +1926,7 @@ namespace Dungeon_Adventure
 
                         if (managoal == 3)
                         {
-                            GameHelpers.SpaceandClean();
+                            PsychicArcana.blackStart();
                             Console.WriteLine(" {0} On the path of this winding road within the swamp you see in the distance a dimly lit cave. ", name);
                             Console.WriteLine();
                             Console.WriteLine(" Do you enter? ");
@@ -1981,7 +1981,7 @@ namespace Dungeon_Adventure
                         
                         if (managoal == 4)
                         {
-                            GameHelpers.SpaceandClean();
+                            PsychicArcana.blackStart();
                             Console.WriteLine();
                             Console.WriteLine(" You feel the black mana growing as you find your way deeper into the swamps maze.");
                             Console.WriteLine();
@@ -2112,9 +2112,7 @@ namespace Dungeon_Adventure
                         if (managoal == 5)
                         {
 
-                            GameHelpers.SpaceandClean();
-
-                            BlackMana.myBlackMana();
+                            PsychicArcana.blackStart();
                             managoal++;
                            
                             Console.WriteLine(" You take the cloak from the swamp fiend \n");
@@ -2155,7 +2153,7 @@ namespace Dungeon_Adventure
 
                             do
                             {
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.blackStart();
 
                             Console.WriteLine(" {0} As you find yourself ever deeper into the depths of the swamps and marshes \n ", name);
                             Console.WriteLine(" You see a being that resembles yourself  \n ");
@@ -2265,8 +2263,7 @@ namespace Dungeon_Adventure
 
                         if (managoal == 7)
                         {
-                            GameHelpers.SpaceandClean();
-                            BlackMana.myBlackMana();
+                            PsychicArcana.blackStart();
                            
                             Console.WriteLine(" The being in front of you fades into a floating ball of undulating light  \n");
                             Console.WriteLine(" This ball of light this swamp spirit floats off into the swamp glittering this way or that  \n");
@@ -2344,7 +2341,7 @@ namespace Dungeon_Adventure
 
 
 
-                            GameHelpers.SpaceandClean();
+                            PsychicArcana.blackStart();
 
 
                             Console.WriteLine(" You see now with new eyes of mastery \n");
@@ -2433,9 +2430,7 @@ namespace Dungeon_Adventure
 
                         if (managoal == 9)
                         {
-                            GameHelpers.SpaceandClean();
-
-                            BlackMana.myBlackMana();
+                            PsychicArcana.blackColorStart();
 
                             Console.WriteLine();
                             Console.WriteLine(" {0} You have found the sacred heart of the swamp the mox jet. ", name);
@@ -2462,7 +2457,7 @@ namespace Dungeon_Adventure
                     // Adventure Choice Ten
                             if (managoal == 10)
                             {
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.blackColorStart();
                                 for (int victory = 0; victory < 10; victory++)
                                 {
                                     BlackMana.myBlackMana();
