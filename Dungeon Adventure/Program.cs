@@ -1487,9 +1487,7 @@ namespace Dungeon_Adventure
 
 
 
-                                GameHelpers.SpaceandClean();
-                                Mana.myBlueMana();
-                                GameHelpers.TextSpace();
+                                PsychicArcana.blueStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -1517,10 +1515,8 @@ namespace Dungeon_Adventure
                         #region Adventure Choice Three
                         // Adventure Choice Three
 
-                        
-                         GameHelpers.SpaceandClean();
-                                Mana.myBlueMana();
-                                GameHelpers.TextSpace();
+
+                        GameHelpers.SpaceandClean();
 
 
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
@@ -1574,9 +1570,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
-                                Mana.myBlueMana();
-                                GameHelpers.TextSpace();
+                                PsychicArcana.blueStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -1604,9 +1598,7 @@ namespace Dungeon_Adventure
                         #region Adventure Choice Five
                         // Adventure Choice Five
 
- GameHelpers.SpaceandClean();
-                                Mana.myBlueMana();
-                                GameHelpers.TextSpace();
+                        GameHelpers.SpaceandClean();
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
 
                         if (managoal == 5)
@@ -1617,9 +1609,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
-                                Mana.myBlueMana();
-                                GameHelpers.TextSpace();
+                                PsychicArcana.blueStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -1662,7 +1652,7 @@ namespace Dungeon_Adventure
 
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.blueStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -1699,7 +1689,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.blueStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -1738,7 +1728,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.blueStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
@@ -1778,9 +1768,7 @@ namespace Dungeon_Adventure
                                 managoal++;
 
 
-                                GameHelpers.SpaceandClean();
-
-                                Mana.myBlueColorMana();
+                                PsychicArcana.blueColorStart();
 
                                 Console.WriteLine();
                                 Console.WriteLine(" {0} You have found the sacred heart of the {1} the Mox Sapphire. \n", name, mymananame[3]);
@@ -1820,7 +1808,7 @@ namespace Dungeon_Adventure
 
 
 
-                                GameHelpers.SpaceandClean();
+                                PsychicArcana.blueColorStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
