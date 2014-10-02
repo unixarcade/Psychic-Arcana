@@ -78,6 +78,8 @@ namespace Dungeon_Adventure
             string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
             string[] powername = {" Dark ", " Lifes' ", " Fires' ", " Trickerys' ", "Lights' "};
 
+           
+
 #endregion
           
             
@@ -1441,13 +1443,15 @@ namespace Dungeon_Adventure
 
                             PsychicArcana.blueStart();
 
-                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                            Console.WriteLine("  Out to the open sea you sail, {0}. ", name);
 
 
 
 
-                            Console.Write(" You have grown in Dark Power  ");
-                            Console.WriteLine(managoal);
+                            Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                            Console.WriteLine(" You have Grown in the power of {0}, mana!" , mycolor[3]);
+                            Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                             Console.ReadKey();
 

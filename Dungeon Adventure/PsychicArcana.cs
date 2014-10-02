@@ -117,6 +117,19 @@ using System.Threading.Tasks;
         }
         #endregion Color Starts
 
+        #region Blue
+        //public static void blueColorFooter(powername[3], mycolor[3], managoal)
+        //{
+            
+        //    Console.WriteLine(" You have grown in {0}, power  ", powername[3]);
+        //    Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+        //    Console.WriteLine(" Mana Collected: {0}", managoal);
+        //}
+
+       //end blue
+        #endregion
+
+
     }
 
    
