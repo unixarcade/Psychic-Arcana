@@ -62,7 +62,7 @@ namespace Dungeon_Adventure
            
 #region Vars
 
-            string name, adventure;
+         string  name, adventure;
             int managoal = 0;
             Int32 answerchoice;
             string mychoice;
@@ -78,7 +78,18 @@ namespace Dungeon_Adventure
             string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
             string[] powername = {" Dark ", " Lifes' ", " Fires' ", " Trickerys' ", "Lights' "};
 
-           
+            ConsoleColor printblack = ConsoleColor.Black;
+            ConsoleColor printwhite = ConsoleColor.White;
+            ConsoleColor printdarkgrey = ConsoleColor.DarkGray;
+            ConsoleColor printlightgrey = ConsoleColor.Gray;
+            ConsoleColor printdarkblue = ConsoleColor.DarkBlue;
+            ConsoleColor printlightblue = ConsoleColor.Blue;
+            ConsoleColor printlightred = ConsoleColor.Red;
+            ConsoleColor printdarkred = ConsoleColor.DarkRed;
+            ConsoleColor printdarkyellow = ConsoleColor.DarkYellow;
+            ConsoleColor printlightyellow = ConsoleColor.Yellow;
+            ConsoleColor printlightgreen = ConsoleColor.Green;
+            ConsoleColor printdarkgreen = ConsoleColor.DarkGreen;
 
 #endregion
           
@@ -146,7 +157,19 @@ namespace Dungeon_Adventure
                 
 
                 Console.WriteLine(" Then let the adventure begin ");
-                Console.WriteLine(" Do you want to go to the Forests, Mountains, Plains, Islands, Swamps? ");
+                Console.Write(" Do you want to go to the ");  
+                Console.ForegroundColor = printlightgreen;
+                Console.Write(" Forests, ");
+                Console.ForegroundColor = printlightred;
+                Console.Write(" Mountains, ");
+                Console.ForegroundColor = printlightyellow;
+                Console.Write(" Plains, ");
+                 Console.ForegroundColor = printlightblue;
+                Console.Write(" Islands, ");
+                 Console.ForegroundColor = printlightgrey;
+                Console.Write(" Swamps?  \n");
+
+
                 adventure = Console.ReadLine();
                 adventure = adventure.ToUpper();
 
