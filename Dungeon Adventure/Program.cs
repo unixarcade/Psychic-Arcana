@@ -1512,8 +1512,10 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                                Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+                                Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                                 Console.ReadKey();
 
@@ -1555,8 +1557,10 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                                Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+                                Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                                 Console.ReadKey();
 
@@ -1595,8 +1599,10 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                                Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+                                Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                                 Console.ReadKey();
 
@@ -1634,8 +1640,10 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                                Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+                                Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                                 Console.ReadKey();
 
@@ -1677,8 +1685,10 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                                Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+                                Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                                 Console.ReadKey();
 
@@ -1714,8 +1724,10 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                                Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+                                Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                                 Console.ReadKey();
 
@@ -1753,8 +1765,10 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                                Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+                                Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                                 Console.ReadKey();
 
@@ -1833,8 +1847,10 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} power. \n  ", powername[3]);
+                                Console.WriteLine(" You have Grown in the power of {0}, mana!", mycolor[3]);
+                                Console.WriteLine(" Mana Collected: {0}", managoal);
+                           
 
                                 Console.ReadKey();
                             }
