@@ -2064,7 +2064,9 @@ namespace Dungeon_Adventure
                                   if (attackchoice == 1)
                                   {
                                       GameHelpers.SpaceandClean();
-                                      
+                                      Art.HowlFromBeyond();
+
+                                      Console.WriteLine();
                                           Console.WriteLine(" You Howl at the moon ");
                                           Console.WriteLine("");
                                           Console.WriteLine(" As you howl you become the moon beast ");

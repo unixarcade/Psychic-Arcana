@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animation.cs" />
+    <Compile Include="Art.cs" />
     <Compile Include="BlackMana.cs">
       <SubType>Code</SubType>
     </Compile>
