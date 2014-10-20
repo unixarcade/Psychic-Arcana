@@ -2082,6 +2082,8 @@ namespace Dungeon_Adventure
                                   } else if( attackchoice == 2)
                                   {
                                       GameHelpers.SpaceandClean();
+                                      Art.DrainLife();
+
 
                                       Console.WriteLine(" Killing the bat comes back to you ");
                                       Console.WriteLine("");
