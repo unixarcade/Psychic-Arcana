@@ -2104,6 +2104,8 @@ namespace Dungeon_Adventure
 
                                       GameHelpers.SpaceandClean();
 
+                                      Art.SyphonSoul();
+                                      Thread.Sleep(1000);
 
                                       Console.WriteLine(" Syphon Soul seemed to do something against this ghastly field ");
                                       Console.WriteLine("");
