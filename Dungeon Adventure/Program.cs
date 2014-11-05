@@ -95,7 +95,7 @@ namespace Dungeon_Adventure
           
             
 
-           
+        
 
 
             // Game Start Up
@@ -1486,7 +1486,7 @@ namespace Dungeon_Adventure
                             GameHelpers.SpaceandClean();
 
 
-                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                             break;
                         }
                         # endregion
@@ -1525,7 +1525,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1570,7 +1570,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1612,7 +1612,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1653,7 +1653,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1698,7 +1698,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1737,7 +1737,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1778,7 +1778,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1817,7 +1817,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1862,7 +1862,7 @@ namespace Dungeon_Adventure
                         {
 
                             GameHelpers.SpaceandClean();
-                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                             break;
                         }
 
