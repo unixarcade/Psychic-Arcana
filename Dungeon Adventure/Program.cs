@@ -174,6 +174,34 @@ namespace Dungeon_Adventure
                 adventure = adventure.ToUpper();
 
                
+#region Adventure_Short_Cut
+                if ( adventure == "S")
+                {
+                adventure = "SWAMPS";
+                }
+                else if (adventure == "I")
+                {
+                    adventure = "ISLANDS";
+                }else if (adventure == "F")
+                {
+                    adventure = "FORESTS";
+                }
+                else if (adventure == "M")
+                {
+                    adventure = "MOUNTAINS";
+                }
+                else if (adventure == "P")
+                {
+                    adventure = "PLAINS";
+                }
+               
+#endregion
+
+
+
+
+
+
                 switch (adventure)
                 {
 
