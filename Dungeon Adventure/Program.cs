@@ -76,7 +76,7 @@ namespace Dungeon_Adventure
             string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
             string[] mymananame = { "Forest ", " Mountain ", " Plains ", " Islands ", " Swamps " };
             string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
-            string[] powername = {" Dark ", " Lifes' ", " Fires' ", " Trickerys' ", "Lights' "};
+            string[] powername = {" Dark ", " Lifes' ", " Fires' ", " Trickerys' ", " Lights' "};
 
             ConsoleColor printblack = ConsoleColor.Black;
             ConsoleColor printwhite = ConsoleColor.White;
