@@ -638,7 +638,9 @@ namespace Dungeon_Adventure
                         // Adventure Choice One
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine(" You See the Mountains in the distance. \n");
+                        Console.WriteLine(" You continue walking forward the Mountains getting closer with every step. \n");
+                        Console.WriteLine("At the edge of the Mountain you see a path do you continue with the ascent, yes or no? \n");
 
 
                         mycode = myYesNo();
@@ -652,12 +654,12 @@ namespace Dungeon_Adventure
 
                             PsychicArcana.redStart();
 
-                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                            Console.WriteLine("{0}, You start to ascend the Mountain and you start to feel the red mana. ", name);
 
 
 
 
-                            Console.Write(" You have grown in Dark Power  ");
+                            Console.Write(" You have grown in {0} Power  ", powername[2]);
                             Console.WriteLine(managoal);
 
                             Console.ReadKey();
@@ -670,7 +672,7 @@ namespace Dungeon_Adventure
                             GameHelpers.SpaceandClean();
 
 
-                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                            Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[2]);
                             break;
                         }
                         # endregion
