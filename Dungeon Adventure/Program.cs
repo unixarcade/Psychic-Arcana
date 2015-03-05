@@ -48,6 +48,27 @@ namespace Dungeon_Adventure
         }
 # endregion
 
+        #region myRightLeft
+        static string myRightLeft()
+        {
+            Console.WriteLine(" Right or Left? \n");
+            Console.Write("             ");
+            string rl = Console.ReadLine();
+            rl = rl.ToUpper();
+            if (rl == "RIGHT" || rl == "R")
+            {
+                rl = "RIGHT";
+
+            }
+            else
+            {
+                rl = "LEFT";
+            }
+            GameHelpers.SpaceandClean();
+            return rl;
+        }
+
+        #endregion
 
 
         //static int mymanagoal(int managoal)
@@ -681,12 +702,12 @@ namespace Dungeon_Adventure
                         // Adventure Choice Two
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine("You walk on the mountain path and you make it to a fork in the road, do you want to go right or left?");
 
                         if (managoal == 2)
                         {
-                            mycode = myYesNo();
-                            if (mycode == "YES")
+                            mycode = myRightLeft();
+                            if (mycode == "RIGHT")
                             {
                                 managoal++;
 
@@ -705,9 +726,16 @@ namespace Dungeon_Adventure
 
 
                             }
-                            else
+                            else if (mycode == "LEFT")
                             {
 
+                                GameHelpers.SpaceandClean();
+                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                break;
+                            }
+
+                            else
+                            {
                                 GameHelpers.SpaceandClean();
                                 Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
                                 break;
