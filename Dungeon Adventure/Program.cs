@@ -680,7 +680,8 @@ namespace Dungeon_Adventure
 
 
 
-                            Console.Write(" You have grown in {0} Power  ", powername[2]);
+                         
+                            PsychicArcana.saymypower(2, managoal);
                             Console.WriteLine(managoal);
 
                             Console.ReadKey();
@@ -719,7 +720,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
+                               
+                                PsychicArcana.saymypower(2, managoal);
                                 Console.WriteLine(managoal);
 
                                 Console.ReadKey();
