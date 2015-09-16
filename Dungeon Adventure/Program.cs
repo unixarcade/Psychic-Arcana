@@ -239,13 +239,27 @@ namespace Dungeon_Adventure
                         // Adventure Choice One
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine("In the forest you see some thing moving would you like to investigate further yes or no?");
 
 
                         mycode = myYesNo();
                         if (mycode == "YES")
                         {
+                            Console.WriteLine(" Under further investigation you see a twinkle among the trees. ");
+                            Console.WriteLine(" Would you like to climb the trees to try to get a better look yes or no?");
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                Console.WriteLine(" You see the forest sprites dancing around and they invite you down to play ");
+                            }
+                            else
+                            {
+                                GameHelpers.SpaceandClean();
 
+
+                                Console.WriteLine("The forest sprites cast a spell on you and you fall into an eternal slumber");
+                                break;
+                            }
                             
                             //managoal++;
                             managoal = 2;
