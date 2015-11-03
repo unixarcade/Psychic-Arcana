@@ -239,14 +239,14 @@ namespace Dungeon_Adventure
                         // Adventure Choice One
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the forest you see some thing moving would you like to investigate further yes or no?");
+                        Console.WriteLine(" In the forest you see some thing moving would you like to investigate further yes or no? ");
 
 
                         mycode = myYesNo();
                         if (mycode == "YES")
                         {
                             Console.WriteLine(" Under further investigation you see a twinkle among the trees. ");
-                            Console.WriteLine(" Would you like to climb the trees to try to get a better look yes or no?");
+                            Console.WriteLine(" Would you like to climb the trees to try to get a better look yes or no? ");
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
@@ -257,7 +257,7 @@ namespace Dungeon_Adventure
                                 GameHelpers.SpaceandClean();
 
 
-                                Console.WriteLine("The forest sprites cast a spell on you and you fall into an eternal slumber");
+                                Console.WriteLine(" The forest sprites cast a spell on you and you fall into an eternal slumber ");
                                 break;
                             }
                             
@@ -272,7 +272,7 @@ namespace Dungeon_Adventure
 
 
 
-                            Console.Write(" You have grown in Dark Power  ");
+                            Console.Write(" You have grown in Lifes Power  ");
                             Console.WriteLine(managoal);
 
                             Console.ReadKey();
@@ -285,7 +285,8 @@ namespace Dungeon_Adventure
                             GameHelpers.SpaceandClean();
 
                             
-                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                           
+                            Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
                             break;
                         }
                         # endregion
@@ -1934,7 +1935,7 @@ namespace Dungeon_Adventure
                         {
 
                             GameHelpers.SpaceandClean();
-                            Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                            Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[3]);
                             break;
                         }
 
