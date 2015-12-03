@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 
@@ -36,10 +37,20 @@ public static void TextSpace()
     Console.WriteLine("\n \n");
 }
 
+#region TextAnimation
+
+
+public static void TextAnimation()
+{
+    Thread.Sleep(2100);
+    GameHelpers.SpaceandClean();
+}
+# endregion
+
 #  endregion
 
-        #region Startup
-        public static void Startup()
+#region Startup
+public static void Startup()
         {
             Console.WindowHeight = Console.LargestWindowHeight;
 

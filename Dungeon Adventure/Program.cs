@@ -167,7 +167,7 @@ namespace Dungeon_Adventure
                 
 
 
-            Console.WriteLine(" Would you like to go on an adventure " + name);
+            Console.WriteLine(" Would you like to go on an adventure " + name + "?");
 
            
             string mycode;
@@ -184,8 +184,9 @@ namespace Dungeon_Adventure
                 
 
                 Console.WriteLine(" Let the adventure begin ");
-                Thread.Sleep(2000);
-                GameHelpers.SpaceandClean();
+                GameHelpers.TextAnimation();
+                
+               
 
                 Console.Write(" Where would you like to travel to? ");  
                 Console.ForegroundColor = printlightgreen;
