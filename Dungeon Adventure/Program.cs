@@ -136,12 +136,7 @@ namespace Dungeon_Adventure
 
             BlackMana.myBlackManaColor();
 
-            using (SpeechSynthesizer synth = new SpeechSynthesizer())
-            {
-                BlackMana.myPsychicArcanaTitle();
-                synth.Speak("Psychic Arcana");
-               
-            }
+            
 
 
         
@@ -149,6 +144,17 @@ namespace Dungeon_Adventure
 
             Console.WriteLine("");
             Console.Title = " Mindscape Dungeon Adventure ";
+#region SpeechSynth
+            using (SpeechSynthesizer synth = new SpeechSynthesizer())
+            {
+                BlackMana.myPsychicArcanaTitle();
+                synth.Speak("Psychic Arcana");
+                synth.Speak(Console.Title);
+
+            }
+           
+#endregion
+            
             Console.WriteLine();
             Console.WriteLine(" Welcome Adventurer ");
             Console.WriteLine(" What is your name? ");
@@ -177,8 +183,11 @@ namespace Dungeon_Adventure
 
                 
 
-                Console.WriteLine(" Then let the adventure begin ");
-                Console.Write(" Do you want to go to the ");  
+                Console.WriteLine(" Let the adventure begin ");
+                Thread.Sleep(2000);
+                GameHelpers.SpaceandClean();
+
+                Console.Write(" Where would you like to travel to? ");  
                 Console.ForegroundColor = printlightgreen;
                 Console.Write(" Forests, ");
                 Console.ForegroundColor = printlightred;

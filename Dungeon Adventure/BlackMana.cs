@@ -44,7 +44,7 @@ public static class BlackMana
         Console.BackgroundColor = ConsoleColor.Black;
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine(" ");
-        Console.WriteLine("Psychic Arcana");
+        Console.WriteLine(" Psychic Arcana ");
 
     }
 
