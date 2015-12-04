@@ -37,7 +37,7 @@ public static class BlackMana
 
     }
 
-
+    # region myPsychicArcanaTitle
     public static void myPsychicArcanaTitle()
     {
 
@@ -48,6 +48,9 @@ public static class BlackMana
 
     }
 
+    #endregion
+
+
     #region BlackManaCount
     public static void BlackManaCount(string name, int managoal)
     {
@@ -56,6 +59,8 @@ public static class BlackMana
         Console.WriteLine("\n \n");
     }
     #endregion
+
+
 
     public static void myBlackManaColor()
     {

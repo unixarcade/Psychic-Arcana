@@ -40,9 +40,11 @@ public static void TextSpace()
 #region TextAnimation
 
 
-public static void TextAnimation()
+public static void TextAnimation(int time)
 {
-    Thread.Sleep(2100);
+    
+
+    Thread.Sleep(time);
     GameHelpers.SpaceandClean();
 }
 # endregion

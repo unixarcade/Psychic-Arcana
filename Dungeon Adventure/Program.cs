@@ -99,6 +99,8 @@ namespace Dungeon_Adventure
             string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
             string[] powername = {" Dark ", " Lifes' ", " Fires' ", " Trickerys' ", " Lights' "};
 
+
+            int time = 2100;
             ConsoleColor printblack = ConsoleColor.Black;
             ConsoleColor printwhite = ConsoleColor.White;
             ConsoleColor printdarkgrey = ConsoleColor.DarkGray;
@@ -184,7 +186,9 @@ namespace Dungeon_Adventure
                 
 
                 Console.WriteLine(" Let the adventure begin ");
-                GameHelpers.TextAnimation();
+               
+               
+                GameHelpers.TextAnimation(time);
                 
                
 
@@ -2053,6 +2057,7 @@ namespace Dungeon_Adventure
                         if (managoal == 3)
                         {
                             PsychicArcana.blackStart();
+                            GameHelpers.TextAnimation(2100);
                             Console.WriteLine(" {0} On the path of this winding road within the swamp you see in the distance a dimly lit cave. ", name);
                             Console.WriteLine();
                             Console.WriteLine(" Do you enter? ");
@@ -2060,8 +2065,10 @@ namespace Dungeon_Adventure
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
+                                GameHelpers.TextAnimation(1000);
                                 GameHelpers.SpaceandClean();
 
+                                   
 
                                     Console.WriteLine(" The old spindly man you met earlier sits at a roll top desk. \n");
                                    
@@ -2108,6 +2115,7 @@ namespace Dungeon_Adventure
                         if (managoal == 4)
                         {
                             PsychicArcana.blackStart();
+                            GameHelpers.TextAnimation(1000);
                             Console.WriteLine();
                             Console.WriteLine(" You feel the black mana growing as you find your way deeper into the swamps maze.");
                             Console.WriteLine();
