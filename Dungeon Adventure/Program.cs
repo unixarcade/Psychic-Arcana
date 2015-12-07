@@ -2082,6 +2082,7 @@ namespace Dungeon_Adventure
 
 
                                         GameHelpers.SpaceandClean();
+                                        GameHelpers.TextAnimation(2100);
                                         Console.WriteLine(" You study with the Dark Tutor for a year. \n ");
                                       
                                         Console.WriteLine(" In this time you learn this is not just a man but some sort of spirit. \n");
@@ -2155,7 +2156,9 @@ namespace Dungeon_Adventure
                                   if (attackchoice == 1)
                                   {
                                       GameHelpers.SpaceandClean();
+                                      
                                       Art.HowlFromBeyond();
+                                      GameHelpers.TextAnimation(2100);
 
                                       Console.WriteLine();
                                           Console.WriteLine(" You Howl at the moon ");
@@ -2174,7 +2177,7 @@ namespace Dungeon_Adventure
                                   {
                                       GameHelpers.SpaceandClean();
                                       Art.DrainLife();
-
+                                      GameHelpers.TextAnimation(2100);
 
                                       Console.WriteLine(" Killing the bat comes back to you ");
                                       Console.WriteLine("");
@@ -2196,7 +2199,7 @@ namespace Dungeon_Adventure
                                       GameHelpers.SpaceandClean();
 
                                       Art.SyphonSoul();
-                                      Thread.Sleep(1000);
+                                      GameHelpers.TextAnimation(2100);
 
                                       Console.WriteLine(" Syphon Soul seemed to do something against this ghastly field ");
                                       Console.WriteLine("");
@@ -2427,11 +2430,7 @@ namespace Dungeon_Adventure
                                 mycode = myYesNo();
                                 for (int x = 0; x <= 3; x++)
                                 {
-                                    //questioncounter++;
-                                    //Console.WriteLine("Would you like to study a year? \n");
-                                    //mycode = myYesNo();
-                                    //if (mycode == "YES")
-                                    //{
+                                    
                                        
                                         if (mycode == "YES") {
                                             Console.WriteLine("Would you like to study a year? \n");
@@ -2442,13 +2441,13 @@ namespace Dungeon_Adventure
                                             
                                         if (questioncounter == 3)
                                         {
-                                            Console.WriteLine(" After Ten Years of Study you have attained the answer you have sought");
+                                            Console.WriteLine(" After Ten Years of Study you have attained the answer you have sought ");
                                             managoal++;
                                             break;
                                         }
                                         } else if(mycode == "NO") {
 
-                                        Console.WriteLine(" Though you may be a " + status[3] + "You still have yet to understand the teachings of BlackMana ");
+                                        Console.WriteLine(" Though you may be a " + status[3] + " You still have yet to understand the teachings of BlackMana ");
                                         BlackMana.myBlackManaAnimation();
                                         myexit();
                                     }
