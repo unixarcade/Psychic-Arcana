@@ -1989,11 +1989,11 @@ namespace Dungeon_Adventure
 
 
                             PsychicArcana.blackStart();
-                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
-                            Console.WriteLine("");
-                            Console.WriteLine(" The force is felt through you as you tense and point your finger at the bat.");
-                            Console.WriteLine("");
-                            Console.WriteLine(" You feel an exchange in life between you and the bat as it falls to the swamp floor with a thud.");
+                            Console.WriteLine(" {0},  As try to focus the forces of mana through, you start to sweat. \n ", name);
+                           
+                            Console.WriteLine(" The force is felt through you as you tense and point your finger at the bat. \n");
+                           
+                            Console.WriteLine(" You feel an exchange in life between you and the bat as it falls to the swamp floor with a thud. \n");
 
 
 
@@ -2024,9 +2024,9 @@ namespace Dungeon_Adventure
                         {
                            
                             PsychicArcana.blackStart();
-                            Console.WriteLine(" {0} As you go deeper in the swamp you see a person deeply garbed in ashen robes, with a spindly hand asking for directions. ", name);
-                            Console.WriteLine();
-                            Console.WriteLine(" You know the way out of the swamp do you tell them the way?");
+                            Console.WriteLine(" {0} As you go deeper in the swamp you see a person deeply garbed in ashen robes, with a spindly hand asking for directions. \n", name);
+                            
+                            Console.WriteLine(" You know the way out of the swamp do you tell them the way? \n");
                             mycode = myYesNo();
                             if (mycode == "NO")
                             {
@@ -2058,10 +2058,10 @@ namespace Dungeon_Adventure
                         {
                             PsychicArcana.blackStart();
                             GameHelpers.TextAnimation(2100);
-                            Console.WriteLine(" {0} On the path of this winding road within the swamp you see in the distance a dimly lit cave. ", name);
-                            Console.WriteLine();
-                            Console.WriteLine(" Do you enter? ");
-                            Console.WriteLine();
+                            Console.WriteLine(" {0} On the path of this winding road within the swamp you see in the distance a dimly lit cave. \n", name);
+                            
+                            Console.WriteLine(" Do you enter? \n");
+                            
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
@@ -2118,30 +2118,49 @@ namespace Dungeon_Adventure
                             PsychicArcana.blackStart();
                             GameHelpers.TextAnimation(1000);
                             Console.WriteLine();
-                            Console.WriteLine(" You feel the black mana growing as you find your way deeper into the swamps maze.");
-                            Console.WriteLine();
-                            Console.WriteLine(" Your vision blurries as the mana creeps into your soul.");
-                            Console.WriteLine();
-                            Console.WriteLine(" In your blurried vision you see a fiend self producing itself from the swamps mana");
-                            Console.WriteLine();
-                            Console.WriteLine(" Do you engage this foe with the magic might you have fought so hard to procur?");
+                            Console.WriteLine(" You feel the black mana growing as you find your way deeper into the swamps maze. \n");
+                           
+                            Console.WriteLine(" Your vision blurries as the mana creeps into your soul. \n");
+                           
+                            Console.WriteLine(" In your blurried vision you see a fiend self producing itself from the swamps mana \n");
+                          
+                            Console.WriteLine(" Do you engage this foe with the magic might you have fought so hard to procur? \n");
                             mycode = myYesNo();
                             
                             if(mycode == "YES"){
                                 GameHelpers.SpaceandClean();
 
-                                Console.WriteLine(" You Engage this swamp fiend, and at first your mind is in terror, even as your power has grown");
-                                Console.WriteLine();
-                                Console.WriteLine(" The mana flows through you and you regain your composure.");
-                                Console.WriteLine();
-                                Console.WriteLine(" The beast that terrified you now also knows fear.");
-                                Console.WriteLine();
+                                Console.WriteLine(" You Engage this swamp fiend, and at first your mind is in terror, even as your power has grown. \n");
+                                
+                                Console.WriteLine(" The mana flows through you and you regain your composure. \n");
+                               
+                                Console.WriteLine(" The beast that terrified you now also knows fear. \n");
+                              
 
                                // Attack Choice
                                 Console.WriteLine(" How will you attack please input 1, 2, or 3");
-                                Console.WriteLine("Choice 1 Howl from beyond");
-                                Console.WriteLine("Choice 2 Drain Life");
-                                Console.WriteLine("Choice 3 Syphon Soul");
+
+                                // choice 1
+                                string mAttackChoice = " Choice ";
+                                Console.ForegroundColor = ConsoleColor.White;
+                                Console.Write(mAttackChoice + " 1: ");
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                Console.Write("Howl From Beyond \n");
+
+                                // choice 2
+                                Console.ForegroundColor = ConsoleColor.White;
+                                Console.Write(mAttackChoice + " 2: ");
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                Console.Write("Drain Life \n");
+                               
+                                // choice 3
+                                Console.ForegroundColor = ConsoleColor.White;
+                                Console.Write(mAttackChoice + " 3: ");
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                Console.Write("Syphon Soul \n");
+
+
+                                
 
 
 
@@ -2307,10 +2326,28 @@ namespace Dungeon_Adventure
 
 
                             Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
-                            Console.WriteLine("Choice 1: Peace");
-                            Console.WriteLine("Choice 2: Sin");
-                            Console.WriteLine("Choice 3: Power");
 
+                            string mAttackChoice = " Choice ";
+                                // choice 1
+                            
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.Write(mAttackChoice + " 1: ");
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            Console.Write("Peace \n");
+
+                                // choice 2
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.Write(mAttackChoice + " 2: ");
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            Console.Write("Sin \n");
+
+
+                            // choice 3
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.Write(mAttackChoice + " 3: ");
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            Console.Write("Power \n");
+                           
 
 
                            
@@ -2488,8 +2525,25 @@ namespace Dungeon_Adventure
                             Console.WriteLine(" You see a path that would lead you back to the world from whence you came. ");
 
                             Console.WriteLine(" Do you want to end your quest or push on further 1, 2 ");
-                            Console.WriteLine(" Choice 1: Leave the swamp ");
-                            Console.WriteLine(" Choice 2: Press deeper into the dark ");
+
+
+                            string mAttackChoice = " Choice ";
+                            // choice 1
+
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.Write(mAttackChoice + " 1: ");
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            Console.Write(" Leave the swamp \n");
+
+
+                            // choice 2
+
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.Write(mAttackChoice + " 2: ");
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            Console.Write(" Press deeper into the dark \n");
+                          
+                          
                             
 
 
@@ -2508,6 +2562,7 @@ namespace Dungeon_Adventure
                                 if (answerchoice == 1)
                                 {
                                     GameHelpers.SpaceandClean();
+                                    PsychicArcana.blackStart();
 
                                     Console.WriteLine(" You leave the swamp a victor \n");
                                     Console.WriteLine(" And a {0} of {1} Magic! \n", status[3], mycolor[4]);
@@ -2518,6 +2573,7 @@ namespace Dungeon_Adventure
                                 else if (answerchoice == 2)
                                 {
                                    GameHelpers.SpaceandClean();
+                                  
 
                                     Console.WriteLine(" You push further into the dark \n");
                                     Console.WriteLine(" You find yourself changing in marked ways \n");
@@ -2538,7 +2594,7 @@ namespace Dungeon_Adventure
                             }
                             else
                             {
-                                Console.Clear();
+                                GameHelpers.SpaceandClean();
 
                                 Console.WriteLine(" You are a wiley " + status[3]);
                                 Console.ReadKey();
@@ -2569,6 +2625,7 @@ namespace Dungeon_Adventure
 
                         if (managoal == 9)
                         {
+                            GameHelpers.SpaceandClean();
                             PsychicArcana.blackColorStart();
 
                             Console.WriteLine();
