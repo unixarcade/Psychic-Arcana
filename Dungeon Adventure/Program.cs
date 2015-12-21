@@ -253,14 +253,14 @@ namespace Dungeon_Adventure
                         // Adventure Choice One
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine(" In the forest you see some thing moving would you like to investigate further yes or no? ");
+                        Console.WriteLine(" In the forest you see some thing moving would you like to investigate further?");
 
 
                         mycode = myYesNo();
                         if (mycode == "YES")
                         {
                             Console.WriteLine(" Under further investigation you see a twinkle among the trees. ");
-                            Console.WriteLine(" Would you like to climb the trees to try to get a better look yes or no? ");
+                            Console.WriteLine(" Would you like to climb the trees to try to get a better look?");
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
@@ -281,7 +281,7 @@ namespace Dungeon_Adventure
 
                             PsychicArcana.greenStart();
 
-                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                            Console.WriteLine("{0},  As you try to focus the forces of mana through, you start to sweat. ", name);
 
 
 
@@ -309,7 +309,9 @@ namespace Dungeon_Adventure
                         // Adventure Choice Two
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine(" The play begins friendly and then it starts to turn. \n");
+
+                        Console.WriteLine(" Do you want to continue the play? ");
 
                         if (managoal == 2)
                         {
@@ -320,13 +322,14 @@ namespace Dungeon_Adventure
 
 
                                 PsychicArcana.greenStart();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                                Console.WriteLine("{0},  You continue the play and a choice must be made \n ", name);
 
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                              
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n" );
 
                                 Console.ReadKey();
 
@@ -363,10 +366,10 @@ namespace Dungeon_Adventure
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n");
 
-
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                               
 
                                 Console.ReadKey();
 
@@ -389,7 +392,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice Four
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic?");
 
                         if (managoal == 4)
                         {
@@ -405,8 +408,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
 
@@ -428,7 +431,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice Five
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic?");
 
                         if (managoal == 5)
                         {
@@ -444,8 +447,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
 
@@ -470,7 +473,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice Six
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic? ");
 
                         if (managoal == 6)
                         {
@@ -487,8 +490,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
 
@@ -508,7 +511,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice Seven
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic ");
 
                         if (managoal == 7)
                         {
@@ -524,8 +527,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
 
@@ -563,8 +566,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
 
@@ -603,9 +606,11 @@ namespace Dungeon_Adventure
                                 Console.WriteLine();
                                 Console.WriteLine(" {0} You have found the sacred heart of the {1} the Mox Emerald. \n", name, mymananame[0]);
 
-                                Console.Write(" You have grown in Lifes' Power  ");
-                                Console.WriteLine(managoal);
-                                
+                              
+
+
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
 
@@ -647,8 +652,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
                             }
