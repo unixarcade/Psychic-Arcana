@@ -114,6 +114,15 @@ namespace Dungeon_Adventure
             ConsoleColor printlightgreen = ConsoleColor.Green;
             ConsoleColor printdarkgreen = ConsoleColor.DarkGreen;
 
+
+#region Dungeon_Adventure_Dictionary
+
+            Dictionary<string, int> DungeonAdventureDictonary = new Dictionary<string, int>();
+            DungeonAdventureDictonary.Add("Choice", 0);
+
+#endregion
+
+
 #endregion
           
             
@@ -145,7 +154,12 @@ namespace Dungeon_Adventure
 
 
             Console.WriteLine("");
+            //Console.WriteLine(DungeonAdventureDictonary.ElementAt(0));
+
+
             Console.Title = " Mindscape Dungeon Adventure ";
+           // Console.WriteLine(DungeonAdventureDictonary.ElementAt(0));
+           // Console.WriteLine(DungeonAdventureDictonary.(0));
 #region SpeechSynth
             using (SpeechSynthesizer synth = new SpeechSynthesizer())
             {
