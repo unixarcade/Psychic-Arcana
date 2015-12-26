@@ -2173,20 +2173,20 @@ namespace Dungeon_Adventure
                                 Console.WriteLine(" How will you attack please input 1, 2, or 3");
 
                                 // choice 1
-                                string mAttackChoice = " Choice ";
+                               
                                 Console.ForegroundColor = ConsoleColor.White;
 
                                 for (int x = 1; x < 3; x++)
                                 {
                                     Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
 
-                                    //Console.Write(mAttackChoice + " 1: ");
+                                   
                                     Console.ForegroundColor = ConsoleColor.Black;
                                     Console.Write("Howl From Beyond \n");
 
                                     // choice 2
                                     Console.ForegroundColor = ConsoleColor.White;
-                                    //Console.Write(mAttackChoice + " 2: " + x++);
+                                   
                                     Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
                                     Console.ForegroundColor = ConsoleColor.Black;
                                     Console.Write("Drain Life \n");
@@ -2194,7 +2194,7 @@ namespace Dungeon_Adventure
                                     // choice 3
                                     Console.ForegroundColor = ConsoleColor.White;
                                     Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
-                                    //Console.Write(mAttackChoice + " 3: " + x++);
+                                    
                                     Console.ForegroundColor = ConsoleColor.Black;
                                     Console.Write("Syphon Soul \n");
                                 }
@@ -2366,28 +2366,38 @@ namespace Dungeon_Adventure
 
                             Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
 
-                            string mAttackChoice = " Choice ";
+                           
                                 // choice 1
-                            
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write(mAttackChoice + " 1: ");
-                            Console.ForegroundColor = ConsoleColor.Black;
-                            Console.Write("Peace \n");
+
+
+                            for (int x = 1; x < 3; x++)
+                            {
+                                
+
+                                Console.ForegroundColor = ConsoleColor.White;
+                                
+                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                Console.Write("Peace \n");
 
                                 // choice 2
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write(mAttackChoice + " 2: ");
-                            Console.ForegroundColor = ConsoleColor.Black;
-                            Console.Write("Sin \n");
+                                Console.ForegroundColor = ConsoleColor.White;
+                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+                                
+                                
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                Console.Write("Sin \n");
 
 
-                            // choice 3
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write(mAttackChoice + " 3: ");
-                            Console.ForegroundColor = ConsoleColor.Black;
-                            Console.Write("Power \n");
-                           
+                                // choice 3
+                                Console.ForegroundColor = ConsoleColor.White;
+                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+                              
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                Console.Write("Power \n");
 
+                            }
 
                            
                            
@@ -2566,23 +2576,28 @@ namespace Dungeon_Adventure
                             Console.WriteLine(" Do you want to end your quest or push on further 1, 2 ");
 
 
-                            string mAttackChoice = " Choice ";
-                            // choice 1
+                            
 
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write(mAttackChoice + " 1: ");
-                            Console.ForegroundColor = ConsoleColor.Black;
-                            Console.Write(" Leave the swamp \n");
+                            for (int x = 1; x < 2; x++)
+                            {
+                                // choice 1
+
+                                Console.ForegroundColor = ConsoleColor.White;
+                                //Console.Write(mAttackChoice + " 1: ");
+                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                Console.Write(" Leave the swamp \n");
 
 
-                            // choice 2
+                                // choice 2
 
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.Write(mAttackChoice + " 2: ");
-                            Console.ForegroundColor = ConsoleColor.Black;
-                            Console.Write(" Press deeper into the dark \n");
-                          
-                          
+                                Console.ForegroundColor = ConsoleColor.White;
+                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+                                // Console.Write(mAttackChoice + " 2: ");
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                Console.Write(" Press deeper into the dark \n");
+
+                            }
                             
 
 
