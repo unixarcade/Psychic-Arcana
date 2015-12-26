@@ -122,12 +122,18 @@ namespace Dungeon_Adventure
 
 #endregion
 
+            #region DungeonAdventureList
+            List<string> ChoiceList = new List<string>();
+            ChoiceList.Add("Choice");
+            ChoiceList.Add(":");
+            #endregion
+
 
 #endregion
-          
-            
 
-        
+
+
+
 
 
             // Game Start Up
@@ -154,12 +160,14 @@ namespace Dungeon_Adventure
 
 
             Console.WriteLine("");
-            //Console.WriteLine(DungeonAdventureDictonary.ElementAt(0));
+           
 
 
             Console.Title = " Mindscape Dungeon Adventure ";
-           // Console.WriteLine(DungeonAdventureDictonary.ElementAt(0));
-           // Console.WriteLine(DungeonAdventureDictonary.(0));
+
+            Console.WriteLine(" ");
+            
+          
 #region SpeechSynth
             using (SpeechSynthesizer synth = new SpeechSynthesizer())
             {
@@ -174,6 +182,11 @@ namespace Dungeon_Adventure
             Console.WriteLine();
             Console.WriteLine(" Welcome Adventurer ");
             Console.WriteLine(" What is your name? ");
+
+            
+          
+           
+
             name = Console.ReadLine();
 
             #region Game Loop
@@ -2162,22 +2175,29 @@ namespace Dungeon_Adventure
                                 // choice 1
                                 string mAttackChoice = " Choice ";
                                 Console.ForegroundColor = ConsoleColor.White;
-                                Console.Write(mAttackChoice + " 1: ");
-                                Console.ForegroundColor = ConsoleColor.Black;
-                                Console.Write("Howl From Beyond \n");
 
-                                // choice 2
-                                Console.ForegroundColor = ConsoleColor.White;
-                                Console.Write(mAttackChoice + " 2: ");
-                                Console.ForegroundColor = ConsoleColor.Black;
-                                Console.Write("Drain Life \n");
-                               
-                                // choice 3
-                                Console.ForegroundColor = ConsoleColor.White;
-                                Console.Write(mAttackChoice + " 3: ");
-                                Console.ForegroundColor = ConsoleColor.Black;
-                                Console.Write("Syphon Soul \n");
+                                for (int x = 1; x < 3; x++)
+                                {
+                                    Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
 
+                                    //Console.Write(mAttackChoice + " 1: ");
+                                    Console.ForegroundColor = ConsoleColor.Black;
+                                    Console.Write("Howl From Beyond \n");
+
+                                    // choice 2
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    //Console.Write(mAttackChoice + " 2: " + x++);
+                                    Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+                                    Console.ForegroundColor = ConsoleColor.Black;
+                                    Console.Write("Drain Life \n");
+
+                                    // choice 3
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+                                    //Console.Write(mAttackChoice + " 3: " + x++);
+                                    Console.ForegroundColor = ConsoleColor.Black;
+                                    Console.Write("Syphon Soul \n");
+                                }
 
                                 
 
