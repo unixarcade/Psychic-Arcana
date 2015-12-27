@@ -2010,7 +2010,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice One
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine(" In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine(" In the swamp you see a bat do you kill it with your magic? ");
 
 
                         mycode = myYesNo();
@@ -2711,9 +2711,12 @@ namespace Dungeon_Adventure
                                 for (int victory = 0; victory < 10; victory++)
                                 {
                                     BlackMana.myBlackMana();
+                                    GameHelpers.TextAnimation(150);
                                     GameHelpers.RefreshConsole();
                                     BlackMana.myBlackManaColor();
+                                    GameHelpers.TextAnimation(150);
                                     GameHelpers.RefreshConsole();
+                                    GameHelpers.TextAnimation(150);
                                     
                                 }
                                     Console.WriteLine(" " + name + " are now the " + status[4] + " of Black Mana");

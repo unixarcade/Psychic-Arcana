@@ -67,10 +67,13 @@
   <ItemGroup>
     <Compile Include="Animation.cs" />
     <Compile Include="Art.cs" />
-    <Compile Include="BlackMana.cs">
+    <Compile Include="Mana Files\BlackMana.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GameHelpers.cs" />
+    <Compile Include="Mana Files\BlueMana.cs" />
+    <Compile Include="Mana Files\GreenMana.cs" />
+    <Compile Include="Mana Files\WhiteMana.cs" />
     <Compile Include="Mana.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +88,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="PsychicArcana.cs" />
+    <Compile Include="Mana Files\RedMana.cs" />
     <Compile Include="WinformClass.cs" />
   </ItemGroup>
   <ItemGroup>
