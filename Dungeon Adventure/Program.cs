@@ -1563,20 +1563,16 @@ namespace Dungeon_Adventure
 
                     #region Island Region
                     case "ISLANDS":
-                        Console.ReadKey();
-                        GameHelpers.SpaceandClean();
-                        Mana.myBlueMana();
-                        Console.WriteLine();
-                        Console.BackgroundColor = ConsoleColor.DarkBlue;
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.WriteLine(welcometo + " Islands ");
-                        Console.WriteLine(thepowerof[0][0] + mycolor[3] + manasent);
+
+                        myBlueMana.myBlueStartScreen(welcometo, mycolor[3], manasent);
+                        
+
 
                         #region Adventure Choice One
                         // Adventure Choice One
 
-                        
-                         Console.ReadKey();
+                       
+                         
                         GameHelpers.SpaceandClean();
                         Console.WriteLine(" You set off to the islands ");
                         Console.WriteLine(" {0} it's you the crew and the shallows ", name);
