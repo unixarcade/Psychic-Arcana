@@ -196,7 +196,15 @@ namespace Dungeon_Adventure
                 
 
 
-            Console.WriteLine(" Would you like to go on an adventure " + name + "?");
+           
+            Console.Write(" Would you like to go on an ");
+            Console.ForegroundColor = printdarkyellow;
+                Console.Write(" adventure ");
+                Console.ForegroundColor = printwhite;
+                Console.Write( name + "? \n");
+
+
+
 
            
             string mycode;
