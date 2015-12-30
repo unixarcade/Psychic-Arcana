@@ -16,7 +16,13 @@ using System.Threading.Tasks;
        Console.WriteLine(managoal);
         }
 
+      public static void powerfail(int powernameindex, int managoal)
+      {
+          string[] powername = { " Dark ", " Lifes' ", " Fires' ", " Trickerys' ", "Lights' " };
+          Console.Write(" You may never have grow strong enough to Weild {0} Power  ", powername[powernameindex]);
+          Console.WriteLine(managoal);
 
+      }
 
 
         #region Color Starts

@@ -1606,8 +1606,9 @@ namespace Dungeon_Adventure
 
                             GameHelpers.SpaceandClean();
 
+                            PsychicArcana.powerfail(3, managoal);
 
-                            Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                            //Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                             break;
                         }
                         # endregion
@@ -1644,7 +1645,10 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+
+
+                                PsychicArcana.powerfail(3, managoal);
+                                //Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1689,7 +1693,9 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                //Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                PsychicArcana.powerfail(3, managoal);
+                                
                                 break;
                             }
                         }
@@ -1731,7 +1737,8 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                               // Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                PsychicArcana.powerfail(3, managoal);
                                 break;
                             }
                         }
@@ -1772,7 +1779,8 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                //Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                PsychicArcana.powerfail(3, managoal);
                                 break;
                             }
                         }
@@ -1817,7 +1825,9 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                PsychicArcana.powerfail(3, managoal);
+                                
+                                //Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
                                 break;
                             }
                         }
@@ -1856,7 +1866,8 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                //Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                PsychicArcana.powerfail(3, managoal);
                                 break;
                             }
                         }
@@ -1897,7 +1908,9 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                //Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                PsychicArcana.powerfail(3, managoal);
+                                
                                 break;
                             }
                         }
@@ -1936,7 +1949,9 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                //Console.WriteLine("You may never grow strong enough to Wield the {0} Power", powername[3]);
+                                PsychicArcana.powerfail(3, managoal);
+                                
                                 break;
                             }
                         }
@@ -1981,7 +1996,9 @@ namespace Dungeon_Adventure
                         {
 
                             GameHelpers.SpaceandClean();
-                            Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[3]);
+                           // Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[3]);
+                            PsychicArcana.powerfail(3, managoal);
+                            
                             break;
                         }
 
@@ -2039,7 +2056,9 @@ namespace Dungeon_Adventure
                         {
                             
                             GameHelpers.SpaceandClean();
-                            Console.WriteLine(" You may never grow strong enough to Wield the Dark Power");
+                            //Console.WriteLine(" You may never grow strong enough to Wield the Dark Power");
+                            PsychicArcana.powerfail(0, managoal);
+                            
                             break;
                         }
 # endregion
