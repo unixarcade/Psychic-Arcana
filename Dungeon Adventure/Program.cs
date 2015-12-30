@@ -1146,13 +1146,10 @@ namespace Dungeon_Adventure
 
                     #region Plains Region
                     case "PLAINS":
-                        Mana.myWhiteMana();
-                        Console.WriteLine();
-                        Console.BackgroundColor = ConsoleColor.DarkYellow;
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.WriteLine(welcometo + " Plains ");
+                        
 
-                        Console.WriteLine(thepowerof[0][0] + mycolor[2] + manasent);
+                        myWhiteMana.myWhiteStartScreen(welcometo, mycolor[2], manasent);
+                      
 
 
                         #region Adventure Choice One

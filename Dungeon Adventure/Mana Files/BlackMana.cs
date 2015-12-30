@@ -15,7 +15,7 @@ public static class BlackMana
         Console.BackgroundColor = ConsoleColor.Black;
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine(welcometo + " Swamps ");
-        //Console.WriteLine(thepowerof[0][0] + mycolor[3] + manasent);
+      
 
         Console.WriteLine("The Power of " + mycolor + manasent);
         GameHelpers.TextAnimation(2500);
