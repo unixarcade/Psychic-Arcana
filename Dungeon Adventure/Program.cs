@@ -278,12 +278,17 @@ namespace Dungeon_Adventure
                     #region Forest Region
                     case "FORESTS":
                         // colorint = 0;
-                        Mana.myGreenMana();
-                        Console.WriteLine();
-                        Console.BackgroundColor = ConsoleColor.DarkGreen;
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.WriteLine(welcometo + " Forests ");
-                        Console.WriteLine(thepowerof[0][0] + mycolor[0] + manasent);
+                        //Mana.myGreenMana();
+                        //Console.WriteLine();
+                        //Console.BackgroundColor = ConsoleColor.DarkGreen;
+                        //Console.ForegroundColor = ConsoleColor.White;
+                        //Console.WriteLine(welcometo + " Forests ");
+                        //Console.WriteLine(thepowerof[0][0] + mycolor[0] + manasent);
+
+
+                       myGreenMana.myGreenStartScreen(welcometo, mycolor[0], manasent);
+
+
                         #region Adventure Choice One
                         // Adventure Choice One
 
@@ -716,13 +721,7 @@ namespace Dungeon_Adventure
 
                     #region Mountain Region
                     case "MOUNTAINS":
-                        //Mana.myRedMana();
-                        //Console.WriteLine();
-                        //Console.BackgroundColor = ConsoleColor.DarkRed;
-                        //Console.ForegroundColor = ConsoleColor.White;
-                        //Console.WriteLine(welcometo + " Mountains");
-                        //Console.WriteLine(thepowerof[0][0] + mycolor[1] + manasent);
-
+                       
 
 
                         myRedMana.myRedStartScreen(welcometo, mycolor[1], manasent);
