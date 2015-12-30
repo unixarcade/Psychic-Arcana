@@ -716,12 +716,16 @@ namespace Dungeon_Adventure
 
                     #region Mountain Region
                     case "MOUNTAINS":
-                        Mana.myRedMana();
-                        Console.WriteLine();
-                        Console.BackgroundColor = ConsoleColor.DarkRed;
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.WriteLine(welcometo + " Mountains");
-                        Console.WriteLine(thepowerof[0][0] + mycolor[1] + manasent);
+                        //Mana.myRedMana();
+                        //Console.WriteLine();
+                        //Console.BackgroundColor = ConsoleColor.DarkRed;
+                        //Console.ForegroundColor = ConsoleColor.White;
+                        //Console.WriteLine(welcometo + " Mountains");
+                        //Console.WriteLine(thepowerof[0][0] + mycolor[1] + manasent);
+
+
+
+                        myRedMana.myRedStartScreen(welcometo, mycolor[1], manasent);
 
 
                         #region Adventure Choice One
