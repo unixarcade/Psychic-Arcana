@@ -2019,13 +2019,11 @@ namespace Dungeon_Adventure
                     #region Swamp Region
                     case "SWAMPS":
                         
-                        GameHelpers.RefreshConsole();
-                        BlackMana.myBlackMana();
-                        Console.WriteLine(" ");
-                        Console.BackgroundColor = ConsoleColor.DarkGray;
-                        Console.ForegroundColor = ConsoleColor.Black;
-                        Console.WriteLine(welcometo + " Swamps ");
-                        Console.WriteLine(thepowerof[0][0] + mycolor[4] + manasent);             
+                       
+
+
+
+                        BlackMana.myBlackStartScreen(welcometo, mycolor[4], manasent);
                     
 #region Adventure Choice One
                         // Adventure Choice One

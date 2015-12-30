@@ -4,6 +4,30 @@ using System.Threading;
 
 public static class BlackMana
 {
+    
+
+    #region StartScreen
+    public static void myBlackStartScreen(string welcometo,  string mycolor, string manasent)
+    {
+        GameHelpers.SpaceandClean();
+        BlackMana.myBlackManaColor();
+        Console.WriteLine();
+        Console.BackgroundColor = ConsoleColor.Black;
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine(welcometo + " Swamps ");
+        //Console.WriteLine(thepowerof[0][0] + mycolor[3] + manasent);
+
+        Console.WriteLine("The Power of " + mycolor + manasent);
+        GameHelpers.TextAnimation(2500);
+    }
+    #endregion
+
+
+
+
+
+
+
     public static void myBlackMana()
     {
 

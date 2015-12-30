@@ -5,7 +5,7 @@ using System.Threading;
 public static class myBlueMana
 {
 
-
+    #region StartScreen
     public static void myBlueStartScreen(string welcometo,  string mycolor, string manasent)
     {
         GameHelpers.SpaceandClean();
@@ -19,5 +19,6 @@ public static class myBlueMana
         Console.WriteLine("The Power of " + mycolor + manasent);
         GameHelpers.TextAnimation(2500);
     }
+    #endregion
 
 }
