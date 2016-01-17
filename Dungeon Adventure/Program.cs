@@ -139,8 +139,8 @@ namespace Dungeon_Adventure
             // Game Start Up
             GameHelpers.Startup();
 
-            
-            
+
+           
             
 
          //  Mana.myBlueColorMana();
@@ -367,7 +367,145 @@ namespace Dungeon_Adventure
 
 
 
+
+                                #region Test code
+
+                                
+#region Question Structure
+
+ //do
+                            {
+                               
+                                PsychicArcana.greenStart();
+                           
+
+
+
+Console.WriteLine(" The game is strange it is a game of the moment the game of spontaneous being \n");
+Console.WriteLine(" {0} it is a game of magic. \n ", name);
+Console.WriteLine(" With the sprites magic and your own what do you want to help them summon into existence \n");
+
+
+
+
+
+                            Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
+
+                           
+                                // choice 1
+
+
+                            for (int x = 1; x < 3; x++)
+                            {
+
+
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                
+                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+                                Console.ForegroundColor = ConsoleColor.Black;
+                                
+				Console.Write("Fairy \n");
+				
+
+
+                                // choice 2
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+                                
+                                
+                                Console.ForegroundColor = ConsoleColor.Black;
+                             
+				Console.Write("Being \n");
+
+
+                                // choice 3
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
                               
+                                Console.ForegroundColor = ConsoleColor.Black;
+                               
+				Console.Write("Tree \n");
+
+                            }
+
+                           
+                           
+                           
+                                
+                                
+                            mychoice = Console.ReadLine();
+
+                            answerchoice = Convert.ToInt32(mychoice);
+                           
+                                if (answerchoice < 4 && answerchoice > 0)
+                                {
+                                    if (answerchoice == 1)
+                                    {
+                                        Console.Clear();
+
+
+                                        // add sprite graphic
+                                        Console.WriteLine(" You think to yourself summon \n");
+                                        Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");
+                                        Console.WriteLine(" The fairy casts it's own spell leaving the the sprites confused they leave. \n");
+                                      
+
+                                        Console.ReadKey();
+					managoal++;
+
+                                    }
+                                    else if (answerchoice == 2)
+                                    {
+                                        Console.Clear();
+
+                                        // add giant growth graphic
+                                        Console.WriteLine(" You dig into the force of the forest. \n");
+                                        Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
+                                        Console.WriteLine(" You grow temporarily and you scare the sprites with your size \n");
+                                        Console.WriteLine(" They fly away afraid. You shift your size back \n");
+                                       
+                                        Console.ReadKey();
+                    managoal++;
+
+                                    }
+                                    else if (answerchoice == 3)
+                                    {
+
+                                        Console.Clear();
+
+                                        // add color green mana
+                                        Console.WriteLine(" Power force and subtlety moves through you.\n");
+                                        Console.WriteLine(" The forests power moves within and without. \n");
+                                        Console.WriteLine(" Trees start growing around you the forest becomes denser. \n");
+                                        Console.WriteLine(" The sprites leave something happened that neither you or they fully comprehend");
+
+                                        
+                                        Console.ReadKey();
+					//managoal++;
+                                        managoal = 5;
+                                    }
+                                }
+                                else
+                                {
+                                    Console.Clear();
+
+                                    Console.WriteLine("You are a wiley" + status[3]);
+                                    Console.ReadKey();
+                                    BlackMana.myBlackManaAnimation();
+                                    myexit();
+                                }
+
+                            } //while (answerchoice != 3);
+
+
+#endregion
+
+
+                                #endregion
+
+
+
                                 Console.WriteLine(" You have grown in {0} Power ", powername[1]);
                                 Console.WriteLine(managoal + " \n" );
 
@@ -391,7 +529,10 @@ namespace Dungeon_Adventure
                         // Adventure Choice Three
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine(" The Grove is peaceful? \n");
+                        Console.WriteLine(" Do you continue your walk? \n ");
+
+
 
                         if (managoal == 3)
                         {
@@ -403,7 +544,8 @@ namespace Dungeon_Adventure
 
 
                                 PsychicArcana.greenStart();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                                Console.WriteLine("{0},  You continue your walk. \n", name);
+                                Console.WriteLine(" The forest opens up to a wonderous grove full of light. \n");
 
 
                                 Console.WriteLine(" You have grown in {0} Power ", powername[1]);
@@ -419,6 +561,12 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
+
+
+                                Console.WriteLine(" You stay in the ring of trees and the trees put you into a eternal slumber");
+
+
+
                                 Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
                                 break;
                             }
