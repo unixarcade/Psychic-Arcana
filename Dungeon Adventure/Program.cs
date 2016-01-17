@@ -563,7 +563,7 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                                 GameHelpers.SpaceandClean();
 
 
-                                Console.WriteLine(" You stay in the ring of trees and the trees put you into a eternal slumber");
+                                Console.WriteLine(" You stay in the ring of trees and the trees put you into a eternal slumber. \n");
 
 
 
