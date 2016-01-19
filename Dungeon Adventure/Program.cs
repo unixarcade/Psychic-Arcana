@@ -580,7 +580,8 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                         // Adventure Choice Four
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic?");
+                        Console.WriteLine(" As you walk you come to a glorious grove of light? \n");
+                        Console.WriteLine(" Do you want to spend any time here?");
 
                         if (managoal == 4)
                         {
@@ -591,7 +592,8 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
 
 
                                 PsychicArcana.greenStart();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                                Console.WriteLine("{0} stands with your face pointing to the sun. ", name);
+                                Console.WriteLine(" As you wait for a moment the power of  {0}  flows within and without. \n", powername[1]);
 
 
 
@@ -607,7 +609,7 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
+                                Console.WriteLine(" If you never take time to feel {0} Power is it worth it? \n ", powername[1]);
                                 break;
                             }
                         }
