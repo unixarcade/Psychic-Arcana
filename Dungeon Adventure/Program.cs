@@ -458,7 +458,7 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                                     else if (answerchoice == 2)
                                     {
                                         Console.Clear();
-
+                                        myGreenMana.greenTxtScreen();
                                         // add giant growth graphic
                                         Console.WriteLine(" You dig into the force of the forest. \n");
                                         Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
@@ -473,8 +473,11 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                                     {
 
                                         Console.Clear();
-
+                                       
                                         // add color green mana
+
+                                        Mana.myGreenMana();
+                                        myGreenMana.greenTxtScreen();
                                         Console.WriteLine(" Power force and subtlety moves through you.\n");
                                         Console.WriteLine(" The forests power moves within and without. \n");
                                         Console.WriteLine(" Trees start growing around you the forest becomes denser. \n");
@@ -489,6 +492,7 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                                 else
                                 {
                                     Console.Clear();
+                                    myGreenMana.greenTxtScreen();
 
                                     Console.WriteLine("You are a wiley" + status[3]);
                                     Console.ReadKey();

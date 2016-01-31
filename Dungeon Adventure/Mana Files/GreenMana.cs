@@ -23,4 +23,15 @@ public static class myGreenMana
     }
     #endregion
 
+    #region greenTxtScreen
+    public static void greenTxtScreen()
+    {
+
+        GameHelpers.SpaceandClean();
+        GameHelpers.TextSpace();
+        Console.BackgroundColor = ConsoleColor.DarkGreen;
+        Console.ForegroundColor = ConsoleColor.White;
+    }
+    #endregion
+
 }
