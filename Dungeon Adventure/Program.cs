@@ -198,7 +198,7 @@ namespace Dungeon_Adventure
 
            
             Console.Write(" Would you like to go on an ");
-            Console.ForegroundColor = printdarkyellow;
+            Console.ForegroundColor = printlightyellow;
                 Console.Write(" adventure ");
                 Console.ForegroundColor = printwhite;
                 Console.Write( name + "? \n");
@@ -220,7 +220,11 @@ namespace Dungeon_Adventure
 
                 
 
-                Console.WriteLine(" Let the adventure begin ");
+                Console.Write(" Let the ");
+                Console.ForegroundColor = printlightyellow;
+                Console.Write("adventure ");
+                Console.ForegroundColor = printwhite;
+                Console.Write("begin \n");
                
                
                 GameHelpers.TextAnimation(time);
@@ -286,7 +290,7 @@ namespace Dungeon_Adventure
                         //Console.WriteLine(thepowerof[0][0] + mycolor[0] + manasent);
 
 
-                       myGreenMana.myGreenStartScreen(welcometo, mycolor[0], manasent);
+                        myGreenMana.myGreenStartScreen(welcometo, mycolor[0], manasent);
 
 
                         #region Adventure Choice One
@@ -314,7 +318,7 @@ namespace Dungeon_Adventure
                                 Console.WriteLine(" The forest sprites cast a spell on you and you fall into an eternal slumber ");
                                 break;
                             }
-                            
+
                             //managoal++;
                             managoal = 2;
 
@@ -338,8 +342,8 @@ namespace Dungeon_Adventure
 
                             GameHelpers.SpaceandClean();
 
-                            
-                           
+
+
                             Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
                             break;
                         }
@@ -370,140 +374,140 @@ namespace Dungeon_Adventure
 
                                 #region Test code
 
-                                
-#region Question Structure
 
- //do
-                            {
-                               
-                                PsychicArcana.greenStart();
-                           
+                                #region Question Structure
 
-
-
-Console.WriteLine(" The game is strange it is a game of the moment the game of spontaneous being \n");
-Console.WriteLine(" {0} it is a game of magic. \n ", name);
-Console.WriteLine(" With the sprites magic and your own what do you want to help them summon into existence \n");
-
-
-
-
-
-                            Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
-
-                           
-                                // choice 1
-
-
-                            for (int x = 1; x < 3; x++)
-                            {
-
-
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                
-                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
-
-                                Console.ForegroundColor = ConsoleColor.Black;
-                                
-				Console.Write("Fairy \n");
-				
-
-
-                                // choice 2
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
-                                
-                                
-                                Console.ForegroundColor = ConsoleColor.Black;
-                             
-				Console.Write("Being \n");
-
-
-                                // choice 3
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
-                              
-                                Console.ForegroundColor = ConsoleColor.Black;
-                               
-				Console.Write("Tree \n");
-
-                            }
-
-                           
-                           
-                           
-                                
-                                
-                            mychoice = Console.ReadLine();
-
-                            answerchoice = Convert.ToInt32(mychoice);
-                           
-                                if (answerchoice < 4 && answerchoice > 0)
+                                //do
                                 {
-                                    if (answerchoice == 1)
+
+                                    PsychicArcana.greenStart();
+
+
+
+
+                                    Console.WriteLine(" The game is strange it is a game of the moment the game of spontaneous being \n");
+                                    Console.WriteLine(" {0} it is a game of magic. \n ", name);
+                                    Console.WriteLine(" With the sprites magic and your own what do you want to help them summon into existence \n");
+
+
+
+
+
+                                    Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
+
+
+                                    // choice 1
+
+
+                                    for (int x = 1; x < 3; x++)
                                     {
-                                        Console.Clear();
 
 
-                                        // add sprite graphic
-                                        Console.WriteLine(" You think to yourself summon \n");
-                                        Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");
-                                        Console.WriteLine(" The fairy casts it's own spell leaving the the sprites confused they leave. \n");
-                                      
+                                        Console.ForegroundColor = ConsoleColor.Green;
 
-                                        Console.ReadKey();
-					managoal++;
+                                        Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+                                        Console.ForegroundColor = ConsoleColor.Black;
+
+                                        Console.Write("Fairy \n");
+
+
+
+                                        // choice 2
+                                        Console.ForegroundColor = ConsoleColor.Green;
+                                        Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+
+                                        Console.ForegroundColor = ConsoleColor.Black;
+
+                                        Console.Write("Being \n");
+
+
+                                        // choice 3
+                                        Console.ForegroundColor = ConsoleColor.Green;
+                                        Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+                                        Console.ForegroundColor = ConsoleColor.Black;
+
+                                        Console.Write("Tree \n");
 
                                     }
-                                    else if (answerchoice == 2)
+
+
+
+
+
+
+                                    mychoice = Console.ReadLine();
+
+                                    answerchoice = Convert.ToInt32(mychoice);
+
+                                    if (answerchoice < 4 && answerchoice > 0)
+                                    {
+                                        if (answerchoice == 1)
+                                        {
+                                            Console.Clear();
+
+
+                                            // add sprite graphic
+                                            Console.WriteLine(" You think to yourself summon \n");
+                                            Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");
+                                            Console.WriteLine(" The fairy casts it's own spell leaving the the sprites confused they leave. \n");
+
+
+                                            Console.ReadKey();
+                                            managoal++;
+
+                                        }
+                                        else if (answerchoice == 2)
+                                        {
+                                            Console.Clear();
+                                            myGreenMana.greenTxtScreen();
+                                            // add giant growth graphic
+                                            Console.WriteLine(" You dig into the force of the forest. \n");
+                                            Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
+                                            Console.WriteLine(" You grow temporarily and you scare the sprites with your size \n");
+                                            Console.WriteLine(" They fly away afraid. You shift your size back \n");
+
+                                            Console.ReadKey();
+                                            managoal++;
+
+                                        }
+                                        else if (answerchoice == 3)
+                                        {
+
+                                            Console.Clear();
+
+                                            // add color green mana
+
+                                            Mana.myGreenMana();
+                                            myGreenMana.greenTxtScreen();
+                                            Console.WriteLine(" Power force and subtlety moves through you.\n");
+                                            Console.WriteLine(" The forests power moves within and without. \n");
+                                            Console.WriteLine(" Trees start growing around you the forest becomes denser. \n");
+                                            Console.WriteLine(" The sprites leave something happened that neither you or they fully comprehend");
+
+
+                                            Console.ReadKey();
+                                            //managoal++;
+                                            managoal = 5;
+                                        }
+                                    }
+                                    else
                                     {
                                         Console.Clear();
                                         myGreenMana.greenTxtScreen();
-                                        // add giant growth graphic
-                                        Console.WriteLine(" You dig into the force of the forest. \n");
-                                        Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
-                                        Console.WriteLine(" You grow temporarily and you scare the sprites with your size \n");
-                                        Console.WriteLine(" They fly away afraid. You shift your size back \n");
-                                       
+
+                                        Console.WriteLine("You are a wiley" + status[3]);
                                         Console.ReadKey();
-                    managoal++;
-
+                                        BlackMana.myBlackManaAnimation();
+                                        myexit();
                                     }
-                                    else if (answerchoice == 3)
-                                    {
 
-                                        Console.Clear();
-                                       
-                                        // add color green mana
-
-                                        Mana.myGreenMana();
-                                        myGreenMana.greenTxtScreen();
-                                        Console.WriteLine(" Power force and subtlety moves through you.\n");
-                                        Console.WriteLine(" The forests power moves within and without. \n");
-                                        Console.WriteLine(" Trees start growing around you the forest becomes denser. \n");
-                                        Console.WriteLine(" The sprites leave something happened that neither you or they fully comprehend");
-
-                                        
-                                        Console.ReadKey();
-					//managoal++;
-                                        managoal = 5;
-                                    }
-                                }
-                                else
-                                {
-                                    Console.Clear();
-                                    myGreenMana.greenTxtScreen();
-
-                                    Console.WriteLine("You are a wiley" + status[3]);
-                                    Console.ReadKey();
-                                    BlackMana.myBlackManaAnimation();
-                                    myexit();
-                                }
-
-                            } //while (answerchoice != 3);
+                                } //while (answerchoice != 3);
 
 
-#endregion
+                                #endregion
 
 
                                 #endregion
@@ -511,7 +515,7 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
 
 
                                 Console.WriteLine(" You have grown in {0} Power ", powername[1]);
-                                Console.WriteLine(managoal + " \n" );
+                                Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
 
@@ -555,7 +559,7 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                                 Console.WriteLine(" You have grown in {0} Power ", powername[1]);
                                 Console.WriteLine(managoal + " \n");
 
-                               
+
 
                                 Console.ReadKey();
 
@@ -625,6 +629,161 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                         // Adventure Choice Five
 
                         GameHelpers.SpaceandClean();
+
+                        #region Test code Challenge
+
+
+                        #region Question Structure
+
+                        //do
+                        {
+                            GameHelpers.RefreshConsole();
+                            PsychicArcana.greenStart();
+
+                            Console.Clear();
+                            myGreenMana.greenTxtScreen();
+
+                            Console.WriteLine(" In the distance you see a thicket \n");
+                            Console.WriteLine(" The brush is moving this way and that in a semiviolent way \n");
+                            Console.WriteLine(" Do you want to investigate the thicket \n");
+
+                            mycode = myYesNo();
+                            if (mycode == "YES")
+                            {
+                                Console.Clear();
+                                myGreenMana.greenTxtScreen();
+
+                                Console.WriteLine(" A strange lizard like chicken jumps out of the thicket with a snake in it's mouth. \n");
+                                Console.WriteLine(" The creature still has not paid any attention to you. \n");
+                                Console.WriteLine(" It turns it's head torwards you. \n");
+                                Console.WriteLine(" What will you do \n");
+
+
+
+
+
+                                Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
+
+
+                                // choice 1
+
+
+                                for (int x = 1; x < 3; x++)
+                                {
+
+
+                                    Console.ForegroundColor = ConsoleColor.Green;
+
+                                    Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+                                    Console.ForegroundColor = ConsoleColor.Black;
+
+                                    Console.Write("Run \n");
+
+
+
+                                    // choice 2
+                                    Console.ForegroundColor = ConsoleColor.Green;
+                                    Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+
+                                    Console.ForegroundColor = ConsoleColor.Black;
+
+                                    Console.Write("Hide \n");
+
+
+                                    // choice 3
+                                    Console.ForegroundColor = ConsoleColor.Green;
+                                    Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+                                    Console.ForegroundColor = ConsoleColor.Black;
+
+                                    Console.Write("Stare \n");
+
+                                }
+
+
+
+
+
+
+                                mychoice = Console.ReadLine();
+
+                                answerchoice = Convert.ToInt32(mychoice);
+
+                                if (answerchoice < 4 && answerchoice > 0)
+                                {
+                                    if (answerchoice == 1)
+                                    {
+                                        Console.Clear();
+                                        myGreenMana.greenTxtScreen();
+
+                                        // Run
+                                        Console.WriteLine(" You think to yourself summon \n");
+                                        Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");
+                                        Console.WriteLine(" The fairy casts it's own spell leaving the the sprites confused they leave. \n");
+
+
+                                        Console.ReadKey();
+                                        managoal++;
+
+                                    }
+                                    else if (answerchoice == 2)
+                                    {
+                                        Console.Clear();
+                                        myGreenMana.greenTxtScreen();
+                                        // Hide
+                                        Console.WriteLine(" You dig into the force of the forest. \n");
+                                        Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
+                                        Console.WriteLine(" You grow temporarily and you scare the sprites with your size \n");
+                                        Console.WriteLine(" They fly away afraid. You shift your size back \n");
+
+                                        Console.ReadKey();
+                                        managoal++;
+
+                                    }
+                                    else if (answerchoice == 3)
+                                    {
+
+                                        Console.Clear();
+
+                                        // Stare
+
+                                       
+                                        myGreenMana.greenTxtScreen();
+                                        Mana.myGreenMana();
+                                        Console.WriteLine("{0}, you may have been a {1}, but you have been turned to stone by the cockatrice.",name,status[4]);
+                                        Console.WriteLine("{0} you will make a beautiful statue for all of the ages", name);
+
+
+                                        Console.ReadKey();
+                                        //managoal++;
+                                        break;
+                                    }
+                                }
+                                else
+                                {
+                                    Console.Clear();
+                                    myGreenMana.greenTxtScreen();
+
+                                    Console.WriteLine("You leave the forest a {0}.", status[4]);
+
+                                    Console.ReadKey();
+                                    BlackMana.myBlackManaAnimation();
+                                    break;
+                                }
+
+                            } //while (answerchoice != 3);
+                        } 
+
+                        #endregion
+
+
+                        #endregion
+
+
+
+
                         Console.WriteLine("In the swamp you see a bat do you kill it with your magic?");
 
                         if (managoal == 5)
@@ -800,7 +959,7 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
                                 Console.WriteLine();
                                 Console.WriteLine(" {0} You have found the sacred heart of the {1} the Mox Emerald. \n", name, mymananame[0]);
 
-                              
+
 
 
                                 Console.WriteLine(" You have grown in {0} Power ", powername[1]);
@@ -851,17 +1010,17 @@ Console.WriteLine(" With the sprites magic and your own what do you want to help
 
                                 Console.ReadKey();
                             }
-                                break;
+                            break;
 
 
-                            }
-                            else
-                            {
+                        }
+                        else
+                        {
 
-                                GameHelpers.SpaceandClean();
-                                Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
-                                break;
-                            }
+                            GameHelpers.SpaceandClean();
+                            Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
+                            break;
+                        }
                         
                         
                        
