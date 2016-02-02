@@ -114,6 +114,7 @@ namespace Dungeon_Adventure
             ConsoleColor printlightgreen = ConsoleColor.Green;
             ConsoleColor printdarkgreen = ConsoleColor.DarkGreen;
 
+            
 
 #region Dungeon_Adventure_Dictionary
 
@@ -198,7 +199,8 @@ namespace Dungeon_Adventure
 
            
             Console.Write(" Would you like to go on an ");
-            Console.ForegroundColor = printlightyellow;
+            //Console.ForegroundColor = printlightyellow;
+            GameHelpers.yellow();
                 Console.Write(" adventure ");
                 Console.ForegroundColor = printwhite;
                 Console.Write( name + "? \n");
