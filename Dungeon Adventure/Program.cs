@@ -199,8 +199,9 @@ namespace Dungeon_Adventure
 
            
             Console.Write(" Would you like to go on an ");
-            //Console.ForegroundColor = printlightyellow;
-            GameHelpers.yellow();
+            
+            
+                C.yellow();
                 Console.Write(" adventure ");
                 Console.ForegroundColor = printwhite;
                 Console.Write( name + "? \n");
