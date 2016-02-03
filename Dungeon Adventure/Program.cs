@@ -161,9 +161,9 @@ namespace Dungeon_Adventure
 
 
             Console.WriteLine("");
-           
 
 
+       
             Console.Title = " Mindscape Dungeon Adventure ";
 
             Console.WriteLine(" ");

@@ -110,6 +110,109 @@ using System.Threading.Tasks;
         #endregion
 
         #endregion
+
+
+        #region color pallette for background
+
+
+
+
+
+
+
+
+        #region darkyellowbg
+        public static void darkyellowbg()
+        {
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+        }
+        #endregion
+        #region darkredb
+        public static void darkredbg()
+        {
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+        }
+        #endregion
+
+        #region redbg
+        public static void redbg()
+        {
+            Console.BackgroundColor = ConsoleColor.Red;
+        }
+        #endregion
+
+
+        #region bluebg
+        public static void bluebg()
+        {
+            Console.BackgroundColor = ConsoleColor.Blue;
+        }
+
+        #endregion
+
+
+        #region darkbluebg
+        public static void darkbluebg()
+        {
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+        }
+
+        #endregion
+
+
+        #region
+        public static void darkgreybg()
+        {
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+        }
+
+        #endregion
+
+        #region graybg
+        public static void graybg()
+        {
+            Console.BackgroundColor = ConsoleColor.Gray;
+        }
+        #endregion
+
+
+        #region whitebg
+        public static void whitebg()
+        {
+            Console.BackgroundColor = ConsoleColor.White;
+        }
+        #endregion
+
+        #region darkgreenbg
+        public static void darkgreenbg()
+        {
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+        }
+        #endregion
+        #region blackbg
+
+
+        public static void blackbg()
+        {
+            Console.BackgroundColor = ConsoleColor.Black;
+        }
+        #endregion
+
+        #region lightgreenbg
+        public static void lightgreenbg()
+        {
+            Console.BackgroundColor = ConsoleColor.Green;
+        }
+        #endregion
+
+        #region yellowbg
+        public static void yellowbg()
+        {
+            Console.BackgroundColor = ConsoleColor.Yellow;
+        }
+        #endregion
+
+        #endregion
    
 
 
