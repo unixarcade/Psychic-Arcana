@@ -284,14 +284,7 @@ namespace Dungeon_Adventure
 
                     #region Forest Region
                     case "FORESTS":
-                        // colorint = 0;
-                        //Mana.myGreenMana();
-                        //Console.WriteLine();
-                        //Console.BackgroundColor = ConsoleColor.DarkGreen;
-                        //Console.ForegroundColor = ConsoleColor.White;
-                        //Console.WriteLine(welcometo + " Forests ");
-                        //Console.WriteLine(thepowerof[0][0] + mycolor[0] + manasent);
-
+                        
 
                         myGreenMana.myGreenStartScreen(welcometo, mycolor[0], manasent);
 
@@ -404,7 +397,7 @@ namespace Dungeon_Adventure
 
                                     for (int x = 1; x < 3; x++)
                                     {
-
+                                        
 
                                         Console.ForegroundColor = ConsoleColor.Green;
 
@@ -451,7 +444,9 @@ namespace Dungeon_Adventure
                                         {
                                             Console.Clear();
 
-
+                                            Art.Fairy();
+                                            GameHelpers.TextAnimation(2100);
+                                            Console.Clear();
                                             // add sprite graphic
                                             Console.WriteLine(" You think to yourself summon \n");
                                             Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");

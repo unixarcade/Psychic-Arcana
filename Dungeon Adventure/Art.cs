@@ -169,4 +169,90 @@ public static class Art
     }
 // end of Syphon Soul
     #endregion 
+
+
+    #region Fairy
+    public static void Fairy()
+    {
+        Console.WriteLine("     `                                                               ");
+        Console.WriteLine("         ` ;                                                              ");
+        Console.WriteLine("           #                                                              ");
+        Console.WriteLine("           ##                                                             ");
+        Console.WriteLine("         .+##+                                                            ");
+        Console.WriteLine("            ##,                                                           ");
+        Console.WriteLine("            ,##                                                           ");
+        Console.WriteLine("            `+#.                                                          ");
+        Console.WriteLine("             ,#;                                                          ");
+        Console.WriteLine("             ,#;                                                          ");
+        Console.WriteLine("             ,#'                                                          ");
+        Console.WriteLine("             :#+                                                          ");
+        Console.WriteLine("             '#+                                                          ");
+        Console.WriteLine("             +#+                                                          ");
+        Console.WriteLine("             @##                                                          ");
+        Console.WriteLine("             ###                                                          ");
+        Console.WriteLine("             ##@                                                          ");
+        Console.WriteLine("             ##@                                                          ");
+        Console.WriteLine("             ##@                                                          ");
+        Console.WriteLine("             ###           .                                              ");
+        Console.WriteLine("             ###         .:`                                              ");
+        Console.WriteLine("             ###      @, @###@                                            ");
+        Console.WriteLine("             ###:    @########@                                           ");
+        Console.WriteLine("             ####  ,####+#######      .                                   ");
+        Console.WriteLine("             @###  .+##########+#.        ;+##'                           ");
+        Console.WriteLine("             @###   +#############++,`,######@@@#`                        ");
+        Console.WriteLine("             '###:  :####################+#`     @                        ");
+        Console.WriteLine("             :####  '##################@:  .'     #                       ");
+        Console.WriteLine("             `####  #################@@@###``     +                       ");
+        Console.WriteLine("              ##### ###################',`                                ");
+        Console.WriteLine("              @####`#####+##################:.,:;'''+';:.`                ");
+        Console.WriteLine("              +########@`######################@##@@@@@########:          ");
+        Console.WriteLine("              .########+  `##+###########: .@##'     `   `.+@#####@:      ");
+        Console.WriteLine("               #########+ :+#@#########@'#@@``.+@+, ``         .+@###@,   ");
+        Console.WriteLine("               #########+#` . :########` `   ::`                  `#####' ");
+        Console.WriteLine("              ,###########'`   .##+@####+                           ,#+## ");
+        Console.WriteLine("             ##############      @#@;.  `;@.          ,              ;### ");
+        Console.WriteLine("           `###############@       .::'@`  `@           ;#.          '##+ ");
+        Console.WriteLine("           @################+                ,            ;###+,    #+#+` ");
+        Console.WriteLine("           ##################`                           `` @########@`   ");
+        Console.WriteLine("          `############+######               .`              ####@.       ");
+        Console.WriteLine("          ,############, @+####                `#+,`        `+##.         ");
+        Console.WriteLine("          +########### #  +####,       #`        `###@@+,,:####`          ");
+        Console.WriteLine("          ###########` @   #####`       #+        `##########@            ");
+        Console.WriteLine("          ##########+  +;   #####:       @+:       ########## `           ");
+        Console.WriteLine("         `##########   .@   `#####@      .###,     ####@#'.               ");
+        Console.WriteLine("         .#########,    #     @#####:   `;##########@                     ");
+        Console.WriteLine("         `#########     ##     .######,:##########+@`                     ");
+        Console.WriteLine("          #########     `#      .#################:                       ");
+        Console.WriteLine("          #########'     @@      `#####+#@:  :;:`                         ");
+        Console.WriteLine("          ##########@.   .@,     ``@####@                                 ");
+        Console.WriteLine("          @############,  @# `      :####;       ``                       ");
+        Console.WriteLine("          +#############@  #@  :     @####@  '@###,:,                     ");
+        Console.WriteLine("          ;###############:.## #,     '##########+##`                     ");
+        Console.WriteLine("          '################':####      ;#`@####@:                         ");
+        Console.WriteLine("          #+###############++.##'@      @'  ;@. `                         ");
+        Console.WriteLine("       `  ###################+ . ##` .  `#:                               ");
+        Console.WriteLine("         #+#################++@  `## .'`,##                               ");
+        Console.WriteLine("        `#######################   ###++###`                              ");
+        Console.WriteLine("        @########################;  ###+#+#`                              ");
+        Console.WriteLine("       ,#########################+#  ,#``''                               ");
+        Console.WriteLine("       ############:;@+############++                                     ");
+        Console.WriteLine("      +##########`     ###############@.                                  ");
+        Console.WriteLine("     .#########@         ################+;,`                             ");
+        Console.WriteLine("     @########@            :@+##+############@:                           ");
+        Console.WriteLine("    +#########               `#################@`                         ");
+        Console.WriteLine("   `########@                   #################;                        ");
+        Console.WriteLine("   #########                      :@@#############@                       ");
+        Console.WriteLine("  :+######@                             `#@#########:                     ");
+        Console.WriteLine("  ##########+':.      @#,         `        .@+#######+`                   ");
+        Console.WriteLine(" `###############@+:,####`                    :@+######                   ");
+        Console.WriteLine(" +#####################+##+                     `@######;                 ");
+        Console.WriteLine(" ###########################@,                     .+#####.               ");
+        Console.WriteLine(" `#@##################+########:                      .########@;         ");
+        Console.WriteLine("   :+#+;,``          .;+++';:;+@                        '#+######@        ");
+        Console.WriteLine("                                                         :+########       ");
+        Console.WriteLine("                                                           ########;      ");
+        Console.WriteLine("                                                              `'@###    ");
+
+    }
+    #endregion
 }
