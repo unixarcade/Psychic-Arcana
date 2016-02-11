@@ -444,10 +444,11 @@ namespace Dungeon_Adventure
                                         {
                                             Console.Clear();
 
+                                            // sprite graphic
                                             Art.Fairy();
                                             GameHelpers.TextAnimation(2100);
                                             Console.Clear();
-                                            // add sprite graphic
+                                            
                                             Console.WriteLine(" You think to yourself summon \n");
                                             Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");
                                             Console.WriteLine(" The fairy casts it's own spell leaving the the sprites confused they leave. \n");
@@ -461,7 +462,12 @@ namespace Dungeon_Adventure
                                         {
                                             Console.Clear();
                                             myGreenMana.greenTxtScreen();
-                                            // add giant growth graphic
+
+                                            // giantgrowth graphic
+                                            Art.GiantGrowth();
+                                            GameHelpers.TextAnimation(2100);
+                                            Console.Clear();
+                                            
                                             Console.WriteLine(" You dig into the force of the forest. \n");
                                             Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
                                             Console.WriteLine(" You grow temporarily and you scare the sprites with your size \n");
