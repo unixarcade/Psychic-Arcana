@@ -2344,9 +2344,16 @@ namespace Dungeon_Adventure
                     
 #region Adventure Choice One
                         // Adventure Choice One
+                         GameHelpers.SpaceandClean();
+                        Art.bat();
+                        GameHelpers.TextAnimation(2500);
+                       
+
 
                         GameHelpers.SpaceandClean();
                         Console.WriteLine(" In the swamp you see a bat do you kill it with your magic? ");
+
+                       
 
 
                         mycode = myYesNo();
