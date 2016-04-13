@@ -34,7 +34,7 @@ namespace Dungeon_Adventure
             Console.Write("            ");
             string yn = Console.ReadLine();
             yn = yn.ToUpper();
-            if (yn == "YES" || yn == "Y" || yn == "YE")
+            if (yn == "YES" || yn == "Y" || yn == "YE" || yn =="ES")
             {
                 yn = "YES";
             }
