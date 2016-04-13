@@ -189,6 +189,12 @@ namespace Dungeon_Adventure
            
 
             name = Console.ReadLine();
+            if (name == "l")
+            {
+                GameHelpers.RefreshConsole();
+                Mana.myWhiteMana();
+                Console.WriteLine(" It's Good to see you back at the cafe."); }
+            GameHelpers.TextAnimation(time);
 
             #region Game Loop
             // Game Loop
