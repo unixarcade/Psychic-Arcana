@@ -86,6 +86,7 @@ namespace Dungeon_Adventure
          string  name, adventure;
             int managoal = 0;
             Int32 answerchoice;
+            Int64 dieresult = 0;
             string mychoice;
             string welcometo = " Welcome to the ";
             string[][] thepowerof = new string[][]{
@@ -177,13 +178,22 @@ namespace Dungeon_Adventure
                 synth.Speak(Console.Title);
 
             }
-           
-#endregion
-            
-            Console.WriteLine();
-            Console.WriteLine(" Welcome Adventurer ");
-            Console.WriteLine(" What is your name? ");
 
+            #endregion
+
+
+           dieresult = GameHelpers.DieRoll();
+            if (dieresult >= 3)
+            {
+                Console.WriteLine();
+                Console.WriteLine(" Welcome Adventurer ");
+                Console.WriteLine(" What is your name? ");
+            } else
+            {
+                Console.WriteLine();
+                Console.WriteLine(" Welcome Adventurer ");
+                Console.WriteLine(" What's Ye Name? ");
+            }
             
           
            
