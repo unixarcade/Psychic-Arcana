@@ -181,22 +181,45 @@ namespace Dungeon_Adventure
 
             #endregion
 
-
-           dieresult = GameHelpers.DieRoll();
-            if (dieresult >= 3)
+            #region introtext
+            dieresult = GameHelpers.DieRoll();
+            if (dieresult == 1)
             {
                 Console.WriteLine();
                 Console.WriteLine(" Welcome Adventurer ");
                 Console.WriteLine(" What is your name? ");
-            } else
+            } else if (dieresult == 2)
             {
                 Console.WriteLine();
                 Console.WriteLine(" Welcome Adventurer ");
                 Console.WriteLine(" What's Ye Name? ");
+            } else if (dieresult == 3)
+            {
+                Console.WriteLine();
+                Console.WriteLine(" I think I have seen you around. ");
+                Console.WriteLine(" What's Ye Name? ");
+
+            } else if (dieresult == 4)
+            {
+                Console.WriteLine();
+                Console.WriteLine(" Ho Adventurer ");
+                Console.WriteLine(" What's Yar Name? ");
+            } else if (dieresult == 5)
+            {
+                Console.WriteLine();
+                Console.WriteLine(" Welcome Adventurer ");
+                Console.WriteLine(" What's thine Name? ");
+            } else
+            {
+                Console.WriteLine();
+                Console.WriteLine(" Welcome Adventurer ");
+                Console.WriteLine(" Your name please? ");
             }
-            
-          
-           
+
+
+            #endregion
+
+
 
             name = Console.ReadLine();
             if (name == "l")
