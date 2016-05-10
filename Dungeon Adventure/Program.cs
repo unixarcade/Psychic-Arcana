@@ -26,6 +26,13 @@ namespace Dungeon_Adventure
         }
         #endregion
 
+        //#region dieroll
+        //static void dieroll(Int64 dieresult)
+        //{
+        //    dieresult = GameHelpers.DieRoll();
+
+        //}
+        //#endregion
 
         #region myYesNo
         static string myYesNo()
@@ -183,6 +190,7 @@ namespace Dungeon_Adventure
 
             #region introtext
             dieresult = GameHelpers.DieRoll();
+            
             if (dieresult == 1)
             {
                 Console.WriteLine();
