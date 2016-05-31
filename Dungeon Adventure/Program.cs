@@ -835,37 +835,7 @@ namespace Dungeon_Adventure
 
 
 
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic?");
-
-                        if (managoal == 5)
-                        {
-                            mycode = myYesNo();
-                            if (mycode == "YES")
-                            {
-                                managoal++;
-
-
-                                PsychicArcana.greenStart();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
-
-
-
-
-                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
-                                Console.WriteLine(managoal + " \n");
-
-                                Console.ReadKey();
-
-
-                            }
-                            else
-                            {
-
-                                GameHelpers.SpaceandClean();
-                                Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
-                                break;
-                            }
-                        }
+                   
                         # endregion
 
 
@@ -877,7 +847,13 @@ namespace Dungeon_Adventure
                         // Adventure Choice Six
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic? ");
+                            Console.WriteLine("{0},  you escape the cockatrice ", name);
+                            
+
+
+
+
+                        Console.WriteLine(" Do you continue deeper into the forests mysteries? ");
 
                         if (managoal == 6)
                         {
@@ -889,12 +865,12 @@ namespace Dungeon_Adventure
 
 
                                 PsychicArcana.greenStart();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                                Console.WriteLine("{0},  As you try to focus the forces of mana through, you start to sweat. ", name);
 
 
 
 
-                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[4]);
                                 Console.WriteLine(managoal + " \n");
 
                                 Console.ReadKey();
