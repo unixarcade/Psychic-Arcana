@@ -891,7 +891,9 @@ namespace Dungeon_Adventure
                         // Adventure Choice Seven
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic ");
+                        Console.WriteLine(" A long walk in the forest around meandering streams ");
+                        Console.WriteLine(" Leaves you seeing a beautiful green plant in the middle of a meadow ");
+                        Console.WriteLine(" Do you want to explore further?");
 
                         if (managoal == 7)
                         {
