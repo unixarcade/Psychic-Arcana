@@ -904,7 +904,10 @@ namespace Dungeon_Adventure
 
 
                                 PsychicArcana.greenStart();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                                    Console.WriteLine(" You stare upon the plant and in your heart you hear a voice. \n");
+                                    // add more content
+
+                                    Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. \n", name);
 
 
 
@@ -920,6 +923,8 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
+                                    Console.WriteLine(" You take a path and leave the forest somehow feeling incomplete. \n");
+
                                 Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
                                 break;
                             }
@@ -932,8 +937,9 @@ namespace Dungeon_Adventure
                         // Adventure Choice Eight
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
-
+                            
+                        Console.WriteLine("You find yourself  at the toes of a giant force do you challenge it yes or no?");
+                            // force of nature graphic and question
                         if (managoal == 8)
                         {
                             mycode = myYesNo();
@@ -944,6 +950,8 @@ namespace Dungeon_Adventure
 
                                 PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                                    // question panel
+                                    Console.WriteLine(" Your first force is not strong enough what tricks will you employ \n");
 
 
 
