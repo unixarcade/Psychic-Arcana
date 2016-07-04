@@ -949,150 +949,146 @@ namespace Dungeon_Adventure
 
 
 
-//#region Question Structure
+                                    //#region Question Structure
 
-//                                    //do
-//                                    {
-//                                        GameHelpers.RefreshConsole();
-//                                        PsychicArcana.greenStart();
+                                    //                                    //do
+                                    //                                    {
+                                    //                                        GameHelpers.RefreshConsole();
+                                    //                                        PsychicArcana.greenStart();
 
-//                                        Console.Clear();
-//                                        myGreenMana.greenTxtScreen();
+                                    //                                        Console.Clear();
+                                    //                                        myGreenMana.greenTxtScreen();
 
-//                                        Console.WriteLine(" In the distance you see a thicket \n");
-//                                        Console.WriteLine(" The brush is moving this way and that in a semiviolent way \n");
-//                                        Console.WriteLine(" Do you want to investigate the thicket \n");
+                                    //                                     // Console.WriteLine(" The Force Grows to meet you ");
+                                    // Console.WriteLine(" The Forces Fist Comes to Smash you to smithereens.");
+                                   // Console.WriteLine(" Will you respond to this attack?");
 
-//                                        mycode = myYesNo();
-//                                        if (mycode == "YES")
-//                                        {
-//                                            Console.Clear();
-//                                            myGreenMana.greenTxtScreen();
+                                    //                                        mycode = myYesNo();
+                                    //                                        if (mycode == "YES")
+                                    //                                        {
+                                    //                                            Console.Clear();
+                                    //                                            myGreenMana.greenTxtScreen();
 
-//                                            Console.WriteLine(" A strange lizard like chicken jumps out of the thicket with a snake in it's mouth. \n");
-//                                            Console.WriteLine(" The creature still has not paid any attention to you. \n");
-//                                            Console.WriteLine(" It turns it's head torwards you. \n");
-//                                            Console.WriteLine(" What will you do \n");
+                                    //                                            
 
 
 
 
-
-//                                            Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
-
-
-//                                            // choice 1
+                                    //                                            Console.WriteLine(" How do you respond to this attack 1, 2, or 3");
 
 
-//                                            for (int x = 1; x < 3; x++)
-//                                            {
+                                    //                                            // choice 1
 
 
-//                                                Console.ForegroundColor = ConsoleColor.Green;
-
-//                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
-
-//                                                Console.ForegroundColor = ConsoleColor.Black;
-
-//                                                Console.Write("Run \n");
+                                    //                                            for (int x = 1; x < 3; x++)
+                                    //                                            {
 
 
+                                    //                                                Console.ForegroundColor = ConsoleColor.Green;
 
-//                                                // choice 2
-//                                                Console.ForegroundColor = ConsoleColor.Green;
-//                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+                                    //                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
 
+                                    //                                                Console.ForegroundColor = ConsoleColor.Black;
 
-//                                                Console.ForegroundColor = ConsoleColor.Black;
-
-//                                                Console.Write("Hide \n");
+                                    //                                                Console.Write("Run \n");
 
 
-//                                                // choice 3
-//                                                Console.ForegroundColor = ConsoleColor.Green;
-//                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
 
-//                                                Console.ForegroundColor = ConsoleColor.Black;
+                                    //                                                // choice 2
+                                    //                                                Console.ForegroundColor = ConsoleColor.Green;
+                                    //                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
 
-//                                                Console.Write("Stare \n");
 
-//                                            }
+                                    //                                                Console.ForegroundColor = ConsoleColor.Black;
+
+                                    //                                                Console.Write("Hide \n");
+
+
+                                    //                                                // choice 3
+                                    //                                                Console.ForegroundColor = ConsoleColor.Green;
+                                    //                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+                                    //                                                Console.ForegroundColor = ConsoleColor.Black;
+
+                                    //                                                Console.Write("Stare \n");
+
+                                    //                                            }
 
 
 
 
 
 
-//                                            mychoice = Console.ReadLine();
+                                    //                                            mychoice = Console.ReadLine();
 
-//                                            answerchoice = Convert.ToInt32(mychoice);
+                                    //                                            answerchoice = Convert.ToInt32(mychoice);
 
-//                                            if (answerchoice < 4 && answerchoice > 0)
-//                                            {
-//                                                if (answerchoice == 1)
-//                                                {
-//                                                    Console.Clear();
-//                                                    myGreenMana.greenTxtScreen();
+                                    //                                            if (answerchoice < 4 && answerchoice > 0)
+                                    //                                            {
+                                    //                                                if (answerchoice == 1)
+                                    //                                                {
+                                    //                                                    Console.Clear();
+                                    //                                                    myGreenMana.greenTxtScreen();
 
-//                                                    // Run
-//                                                    Console.WriteLine(" You think to yourself summon \n");
-//                                                    Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");
-//                                                    Console.WriteLine(" The fairy casts it's own spell leaving the the sprites confused they leave. \n");
-
-
-//                                                    Console.ReadKey();
-//                                                    managoal++;
-
-//                                                }
-//                                                else if (answerchoice == 2)
-//                                                {
-//                                                    Console.Clear();
-//                                                    myGreenMana.greenTxtScreen();
-//                                                    // Hide
-//                                                    Console.WriteLine(" You dig into the force of the forest. \n");
-//                                                    Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
-//                                                    Console.WriteLine(" You grow temporarily and you scare the sprites with your size \n");
-//                                                    Console.WriteLine(" They fly away afraid. You shift your size back \n");
-
-//                                                    Console.ReadKey();
-//                                                    managoal++;
-
-//                                                }
-//                                                else if (answerchoice == 3)
-//                                                {
-
-//                                                    Console.Clear();
-
-//                                                    // Stare
+                                    //                                                    // Run
+                                    //                                                    Console.WriteLine(" You think to yourself summon \n");
+                                    //                                                    Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");
+                                    //                                                    Console.WriteLine(" The fairy casts it's own spell leaving the the sprites confused they leave. \n");
 
 
-//                                                    myGreenMana.greenTxtScreen();
-//                                                    Mana.myGreenMana();
-//                                                    Console.WriteLine("{0}, you may have been a {1}, but you have been turned to stone by the cockatrice.", name, status[4]);
-//                                                    Console.WriteLine("{0} you will make a beautiful statue for all of the ages", name);
+                                    //                                                    Console.ReadKey();
+                                    //                                                    managoal++;
+
+                                    //                                                }
+                                    //                                                else if (answerchoice == 2)
+                                    //                                                {
+                                    //                                                    Console.Clear();
+                                    //                                                    myGreenMana.greenTxtScreen();
+                                    //                                                    // Hide
+                                    //                                                    Console.WriteLine(" You dig into the force of the forest. \n");
+                                    //                                                    Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
+                                    //                                                    Console.WriteLine(" You grow temporarily and you scare the sprites with your size \n");
+                                    //                                                    Console.WriteLine(" They fly away afraid. You shift your size back \n");
+
+                                    //                                                    Console.ReadKey();
+                                    //                                                    managoal++;
+
+                                    //                                                }
+                                    //                                                else if (answerchoice == 3)
+                                    //                                                {
+
+                                    //                                                    Console.Clear();
+
+                                    //                                                    // Stare
 
 
-//                                                    Console.ReadKey();
-//                                                    //managoal++;
-//                                                    break;
-//                                                }
-//                                            }
-//                                            else
-//                                            {
-//                                                Console.Clear();
-//                                                myGreenMana.greenTxtScreen();
+                                    //                                                    myGreenMana.greenTxtScreen();
+                                    //                                                    Mana.myGreenMana();
+                                    //                                                    Console.WriteLine("{0}, you may have been a {1}, but you have been turned to stone by the cockatrice.", name, status[4]);
+                                    //                                                    Console.WriteLine("{0} you will make a beautiful statue for all of the ages", name);
 
-//                                                Console.WriteLine("You leave the forest a {0}.", status[4]);
 
-//                                                Console.ReadKey();
-//                                                BlackMana.myBlackManaAnimation();
-//                                                break;
-//                                            }
+                                    //                                                    Console.ReadKey();
+                                    //                                                    //managoal++;
+                                    //                                                    break;
+                                    //                                                }
+                                    //                                            }
+                                    //                                            else
+                                    //                                            {
+                                    //                                                Console.Clear();
+                                    //                                                myGreenMana.greenTxtScreen();
 
-//                                        } //while (answerchoice != 3);
-//                                    }
+                                    //                                                Console.WriteLine("You leave the forest a {0}.", status[4]);
 
-//                                    #endregion
+                                    //                                                Console.ReadKey();
+                                    //                                                BlackMana.myBlackManaAnimation();
+                                    //                                                break;
+                                    //                                            }
+
+                                    //                                        } //while (answerchoice != 3);
+                                    //                                    }
+
+                                    //                                    #endregion
 
 
 
