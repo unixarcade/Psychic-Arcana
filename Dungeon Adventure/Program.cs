@@ -925,7 +925,7 @@ namespace Dungeon_Adventure
                                 GameHelpers.SpaceandClean();
                                     Console.WriteLine(" You take a path and leave the forest somehow feeling incomplete. \n");
 
-                                Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
+                               
                                 break;
                             }
                         }
@@ -945,12 +945,175 @@ namespace Dungeon_Adventure
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
-                                managoal++;
+
+
+
+
+//#region Question Structure
+
+//                                    //do
+//                                    {
+//                                        GameHelpers.RefreshConsole();
+//                                        PsychicArcana.greenStart();
+
+//                                        Console.Clear();
+//                                        myGreenMana.greenTxtScreen();
+
+//                                        Console.WriteLine(" In the distance you see a thicket \n");
+//                                        Console.WriteLine(" The brush is moving this way and that in a semiviolent way \n");
+//                                        Console.WriteLine(" Do you want to investigate the thicket \n");
+
+//                                        mycode = myYesNo();
+//                                        if (mycode == "YES")
+//                                        {
+//                                            Console.Clear();
+//                                            myGreenMana.greenTxtScreen();
+
+//                                            Console.WriteLine(" A strange lizard like chicken jumps out of the thicket with a snake in it's mouth. \n");
+//                                            Console.WriteLine(" The creature still has not paid any attention to you. \n");
+//                                            Console.WriteLine(" It turns it's head torwards you. \n");
+//                                            Console.WriteLine(" What will you do \n");
+
+
+
+
+
+//                                            Console.WriteLine(" How will you answer the question please input 1, 2, or 3");
+
+
+//                                            // choice 1
+
+
+//                                            for (int x = 1; x < 3; x++)
+//                                            {
+
+
+//                                                Console.ForegroundColor = ConsoleColor.Green;
+
+//                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+//                                                Console.ForegroundColor = ConsoleColor.Black;
+
+//                                                Console.Write("Run \n");
+
+
+
+//                                                // choice 2
+//                                                Console.ForegroundColor = ConsoleColor.Green;
+//                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+
+//                                                Console.ForegroundColor = ConsoleColor.Black;
+
+//                                                Console.Write("Hide \n");
+
+
+//                                                // choice 3
+//                                                Console.ForegroundColor = ConsoleColor.Green;
+//                                                Console.Write(ChoiceList[0] + " " + x++ + " " + ChoiceList[1] + " ");
+
+//                                                Console.ForegroundColor = ConsoleColor.Black;
+
+//                                                Console.Write("Stare \n");
+
+//                                            }
+
+
+
+
+
+
+//                                            mychoice = Console.ReadLine();
+
+//                                            answerchoice = Convert.ToInt32(mychoice);
+
+//                                            if (answerchoice < 4 && answerchoice > 0)
+//                                            {
+//                                                if (answerchoice == 1)
+//                                                {
+//                                                    Console.Clear();
+//                                                    myGreenMana.greenTxtScreen();
+
+//                                                    // Run
+//                                                    Console.WriteLine(" You think to yourself summon \n");
+//                                                    Console.WriteLine(" You feel this pulsation as your screen starts to light green white. \n");
+//                                                    Console.WriteLine(" The fairy casts it's own spell leaving the the sprites confused they leave. \n");
+
+
+//                                                    Console.ReadKey();
+//                                                    managoal++;
+
+//                                                }
+//                                                else if (answerchoice == 2)
+//                                                {
+//                                                    Console.Clear();
+//                                                    myGreenMana.greenTxtScreen();
+//                                                    // Hide
+//                                                    Console.WriteLine(" You dig into the force of the forest. \n");
+//                                                    Console.WriteLine(" You feel this pulsation as your body starts to light green white. \n");
+//                                                    Console.WriteLine(" You grow temporarily and you scare the sprites with your size \n");
+//                                                    Console.WriteLine(" They fly away afraid. You shift your size back \n");
+
+//                                                    Console.ReadKey();
+//                                                    managoal++;
+
+//                                                }
+//                                                else if (answerchoice == 3)
+//                                                {
+
+//                                                    Console.Clear();
+
+//                                                    // Stare
+
+
+//                                                    myGreenMana.greenTxtScreen();
+//                                                    Mana.myGreenMana();
+//                                                    Console.WriteLine("{0}, you may have been a {1}, but you have been turned to stone by the cockatrice.", name, status[4]);
+//                                                    Console.WriteLine("{0} you will make a beautiful statue for all of the ages", name);
+
+
+//                                                    Console.ReadKey();
+//                                                    //managoal++;
+//                                                    break;
+//                                                }
+//                                            }
+//                                            else
+//                                            {
+//                                                Console.Clear();
+//                                                myGreenMana.greenTxtScreen();
+
+//                                                Console.WriteLine("You leave the forest a {0}.", status[4]);
+
+//                                                Console.ReadKey();
+//                                                BlackMana.myBlackManaAnimation();
+//                                                break;
+//                                            }
+
+//                                        } //while (answerchoice != 3);
+//                                    }
+
+//                                    #endregion
+
+
+
+
+
+
+
+                                    managoal++;
 
 
                                 PsychicArcana.greenStart();
                                 Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
                                     // question panel
+
+
+
+
+
+
+
+                                    // end question panel
                                     Console.WriteLine(" Your first force is not strong enough what tricks will you employ \n");
 
 
