@@ -937,9 +937,14 @@ namespace Dungeon_Adventure
                         // Adventure Choice Eight
 
                         GameHelpers.SpaceandClean();
-                            
-                        Console.WriteLine("You find yourself  at the toes of a giant force do you challenge it yes or no?");
+                            Art.force();
+                            GameHelpers.TextAnimation(time);
+                            GameHelpers.SpaceandClean();
+
+                            Console.WriteLine("You find yourself  at the toes of a giant force do you challenge it yes or no?");
                             // force of nature graphic and question
+
+                           
                         if (managoal == 8)
                         {
                             mycode = myYesNo();
