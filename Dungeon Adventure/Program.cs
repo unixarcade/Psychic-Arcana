@@ -77,6 +77,29 @@ namespace Dungeon_Adventure
 
         #endregion
 
+        #region monsterfight
+
+        static string monsterfight(int monsterlife, int herolife) {
+            string victory = "";
+            
+
+            if(monsterlife == 0)
+            {
+                victory = "WIN";
+            }
+            if (herolife == 0)
+            {
+                victory = "LOSE";
+            }
+
+
+            return victory;
+        }
+
+
+
+        #endregion
+
 
         //static int mymanagoal(int managoal)
         //{
