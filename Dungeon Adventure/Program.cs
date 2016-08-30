@@ -976,6 +976,12 @@ namespace Dungeon_Adventure
 
 
 
+                                   // monsterfight(10, 10);
+                                    //do (victory == "WIN" || victory == "LOSE";){
+
+                                    //}
+
+
 
                                     //#region Question Structure
 
