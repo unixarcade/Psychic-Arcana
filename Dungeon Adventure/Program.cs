@@ -273,7 +273,8 @@ namespace Dungeon_Adventure
             
                 C.yellow();
                 Console.Write(" adventure ");
-                Console.ForegroundColor = printwhite;
+                C.white();
+                
                 Console.Write( name + "? \n");
 
 
@@ -1218,7 +1219,26 @@ namespace Dungeon_Adventure
 
 
                             PsychicArcana.greenColorStart();
-                            Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                              for (int victory = 0; victory < 10; victory++)
+                                {
+                                    
+                                    /* Green mana */
+                                    Mana.myGreenMana();
+                                    GameHelpers.TextAnimation(150);
+                                    GameHelpers.RefreshConsole();
+                                    Mana.myGreenManaColor();
+                                    GameHelpers.TextAnimation(150);
+                                    GameHelpers.RefreshConsole();
+                                    GameHelpers.TextAnimation(150);
+
+                                }
+                                Console.WriteLine(" " + name + " are now the " + status[4] + " of Green Mana");
+
+
+
+
+
+                                Console.WriteLine("Do you Leave the forest as the Avatar of Green Mana yes or no?");
 
 
                             mycode = myYesNo();
@@ -1248,7 +1268,8 @@ namespace Dungeon_Adventure
                         {
 
                             GameHelpers.SpaceandClean();
-                            Console.WriteLine(" You may never grow strong enough to Wield the {0} Power ", powername[1]);
+                            Console.WriteLine(" Your Strength in {0} Power  is at it's maximum", powername[1]);
+                                Console.WriteLine(" You stay in the forest and in time you become the forest whose power you have came to know");
                             break;
                         }
                         
