@@ -1173,7 +1173,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice Nine
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine(" Upon a four leaf clover you see a shining stone glimmering in the light do you take it yes or no?");
 
                         if (managoal == 9)
                         {
