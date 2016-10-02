@@ -295,9 +295,11 @@ namespace Dungeon_Adventure
                 
 
                 Console.Write(" Let the ");
-                Console.ForegroundColor = printlightyellow;
+                    C.yellow();
+                //Console.ForegroundColor = printlightyellow;
                 Console.Write("adventure ");
-                Console.ForegroundColor = printwhite;
+                    C.white();
+                //Console.ForegroundColor = printwhite;
                 Console.Write("begin \n");
                
                
