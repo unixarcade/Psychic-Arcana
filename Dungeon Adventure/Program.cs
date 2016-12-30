@@ -1725,7 +1725,12 @@ namespace Dungeon_Adventure
                         // Adventure Choice One
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+
+                            Console.WriteLine(" Though your inate talent you find yourselves on the these glorious plains.");
+                            Console.WriteLine(" The plains stretch on as far as you can see in every direction \n\n" );
+
+                            Console.WriteLine(" On the plains you must have missed the lion that is now rushing at you. \n");
+                        Console.WriteLine("do you want to kill it with your magic yes or no?");
 
 
                         mycode = myYesNo();
@@ -1733,33 +1738,33 @@ namespace Dungeon_Adventure
                         {
 
 
-                            //managoal++;
-                            managoal = 2;
+                           
 
-
-                            PsychicArcana.whiteStart();
-
-                            Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
-
-
-
-
-                            Console.Write(" You have grown in Dark Power  ");
-                            Console.WriteLine(managoal);
-
-                            Console.ReadKey();
-
-
-                        }
+                                Console.WriteLine("You may never grow strong enough to Wield {0} power",powername[4]);
+                                break;
+                            }
                         else
                         {
 
                             GameHelpers.SpaceandClean();
 
+                                //managoal++;
+                                managoal = 2;
 
-                            Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
-                            break;
-                        }
+
+                                PsychicArcana.whiteStart();
+
+                                Console.WriteLine("{0}, You focus your power and the lion ignores you", name);
+
+
+
+
+                                Console.WriteLine(" You have grown in {0} Power ", powername[4]);
+                                Console.WriteLine(managoal + " \n");
+
+                                Console.ReadKey();
+
+                            }
                         # endregion
 
                         #region Adventure Choice Two
