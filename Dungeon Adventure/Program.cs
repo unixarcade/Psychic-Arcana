@@ -1771,36 +1771,40 @@ namespace Dungeon_Adventure
                         // Adventure Choice Two
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine("As the lion leaves you you see a vast plain do you continue to explore yes or no?");
 
                         if (managoal == 2)
                         {
                             mycode = myYesNo();
-                            if (mycode == "YES")
-                            {
-                                managoal++;
+                                if (mycode == "YES")
+                                {
+                                    GameHelpers.SpaceandClean();
 
-
-                                PsychicArcana.whiteStart();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
-
+                                    Console.WriteLine("You continue your walk upon the plane ");
+                                    managoal++;
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
-
-                                Console.ReadKey();
+                                    PsychicArcana.whiteStart();
+                                    Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
 
 
-                            }
-                            else
-                            {
 
-                                GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
-                                break;
-                            }
+
+                                    Console.WriteLine(" You have grown in {0} Power ", powername[4]);
+                                    Console.WriteLine(managoal);
+
+                                    Console.ReadKey();
+
+
+                                }
+                                else
+                                {
+
+                                    GameHelpers.SpaceandClean();
+                                    Console.WriteLine("You may never grow strong enough to Wield {0} power", powername[4]);
+                                    break;
+                                }  
                         }
                         # endregion
 
