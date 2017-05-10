@@ -258,6 +258,20 @@ namespace Dungeon_Adventure
                 GameHelpers.RefreshConsole();
                 Mana.myWhiteMana();
                 Console.WriteLine(" It's Good to see you back at the cafe."); }
+            else if (name == "Luminosity")
+            {
+                GameHelpers.RefreshConsole();
+                Mana.myBlueColorMana();
+                Console.WriteLine(" Welcome Creator Lets Play");
+                    }
+            else {
+                GameHelpers.RefreshConsole();
+                Mana.myGreenManaColor();
+                Console.WriteLine(" Lets Play ");
+            }
+
+
+
             GameHelpers.TextAnimation(time);
 
             #region Game Loop
