@@ -2623,7 +2623,7 @@ namespace Dungeon_Adventure
 
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine(" In the swamp you see a bat do you kill it with your magic? ");
+                        Console.WriteLine(" In the murky swamp, you see a desmodus bat flying above do you kill it with your magic? ");
 
                        
 
