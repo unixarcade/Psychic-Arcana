@@ -2640,7 +2640,7 @@ namespace Dungeon_Adventure
                            
                             Console.WriteLine(" The force is felt through you as you tense and point your finger at the bat. \n");
                            
-                            Console.WriteLine(" You feel an exchange in life between you and the bat as it falls to the swamp floor with a thud. \n");
+                            Console.WriteLine(" You feel an exchange in an exchange in life's essence between you and the bat as it falls to the swamp floor with a thud. \n");
 
 
 
@@ -2675,7 +2675,7 @@ namespace Dungeon_Adventure
                             PsychicArcana.blackStart();
                             Console.WriteLine(" {0} As you go deeper in the swamp you see a person deeply garbed in ashen robes, with a spindly hand asking for directions. \n", name);
                             
-                            Console.WriteLine(" You know the way out of the swamp do you tell them the way? \n");
+                            Console.WriteLine(" You know the way out of the swamp behind you do you tell them the way? \n");
                             mycode = myYesNo();
                             if (mycode == "NO")
                             {
@@ -2724,7 +2724,7 @@ namespace Dungeon_Adventure
                                     Console.WriteLine(" He looks up at you and laughs. \n");
                                   
                                     Console.WriteLine(" The cave smells of sulphur are abound and large tombs of arcane lore abound. \n ");
-                                    Console.WriteLine("Would you like to study with me you want to study with me he asks? \n");
+                                    Console.WriteLine(" Would you like to study with me you want to study with me he asks? \n");
                                     
                                     mycode = myYesNo();
                                     if (mycode == "YES") {
@@ -2734,7 +2734,7 @@ namespace Dungeon_Adventure
                                         GameHelpers.TextAnimation(2100);
                                         Console.WriteLine(" You study with the Dark Tutor for a year. \n ");
                                       
-                                        Console.WriteLine(" In this time you learn this is not just a man but some sort of spirit. \n");
+                                        Console.WriteLine(" In this time you learn this is not just a man but some sort of dark spirit. \n");
                                        
                                         Console.WriteLine(" You are ready to continue down the path to the heart of the swamp, as an adept crackling with mana." + " Mana Force: {0}  \n", managoal);
  
@@ -2781,7 +2781,7 @@ namespace Dungeon_Adventure
 
                                 Console.WriteLine(" You Engage this swamp fiend, and at first your mind is in terror, even as your power has grown. \n");
                                 
-                                Console.WriteLine(" The mana flows through you and you regain your composure. \n");
+                                Console.WriteLine(" Black mana flows through you and you regain your composure. \n");
                                
                                 Console.WriteLine(" The beast that terrified you now also knows fear. \n");
                               
@@ -2854,7 +2854,7 @@ namespace Dungeon_Adventure
                                       Art.DrainLife();
                                       GameHelpers.TextAnimation(2100);
 
-                                      Console.WriteLine(" Killing the bat comes back to you ");
+                                      Console.WriteLine(" Killing the bat comes back to your minds spirit ");
                                       Console.WriteLine("");
                                       Console.WriteLine(" The spirit of the bat flutters in your mind ");
                                       Console.WriteLine("");
@@ -3136,11 +3136,11 @@ namespace Dungeon_Adventure
                                     
                                        
                                         if (mycode == "YES") {
-                                            Console.WriteLine("Would you like to study a year? \n");
+                                            Console.WriteLine(" Would you like to study a year? \n");
                                             mycode = myYesNo();
                                             GameHelpers.SpaceandClean();
                                             questioncounter++;
-                                            Console.WriteLine("You have studied {0} years \n", questioncounter);
+                                            Console.WriteLine(" You have studied {0} years \n", questioncounter);
                                             
                                         if (questioncounter == 3)
                                         {
