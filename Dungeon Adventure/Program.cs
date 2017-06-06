@@ -1744,7 +1744,7 @@ namespace Dungeon_Adventure
                             Console.WriteLine(" The plains stretch on as far as you can see in every direction \n\n" );
 
                             Console.WriteLine(" On the plains you must have missed the lion that is now rushing at you. \n");
-                        Console.WriteLine("do you want to kill it with your magic yes or no?");
+                        Console.WriteLine(" do you want to kill it with your magic yes or no? ");
 
 
                         mycode = myYesNo();
@@ -1754,7 +1754,7 @@ namespace Dungeon_Adventure
 
                            
 
-                                Console.WriteLine("You may never grow strong enough to Wield {0} power",powername[4]);
+                                Console.WriteLine(" You may never grow strong enough to Wield {0} power",powername[4]);
                                 break;
                             }
                         else
@@ -1785,7 +1785,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice Two
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("As the lion leaves you you see a vast plain do you continue to explore yes or no?");
+                        Console.WriteLine(" As the lion leaves you you see a vast plain do you continue to explore yes or no? ");
 
                         if (managoal == 2)
                         {
@@ -1794,7 +1794,7 @@ namespace Dungeon_Adventure
                                 {
                                     GameHelpers.SpaceandClean();
 
-                                    Console.WriteLine("You continue your walk upon the plane ");
+                                    Console.WriteLine(" You continue your walk upon the plane ");
                                     managoal++;
 
 
@@ -1816,7 +1816,7 @@ namespace Dungeon_Adventure
                                 {
 
                                     GameHelpers.SpaceandClean();
-                                    Console.WriteLine("You may never grow strong enough to Wield {0} power", powername[4]);
+                                    Console.WriteLine(" You may never grow strong enough to Wield {0} power", powername[4]);
                                     break;
                                 }  
                         }
@@ -1828,7 +1828,7 @@ namespace Dungeon_Adventure
                         // Adventure Choice Three
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine(" As you continue to walk upon the plain the night comes upon you do you want to rest? yes or no?");
 
                         if (managoal == 3)
                         {
