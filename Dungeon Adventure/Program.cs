@@ -2027,6 +2027,13 @@ namespace Dungeon_Adventure
                         // Adventure Choice Eight
 
                         GameHelpers.SpaceandClean();
+
+                            Art.angel();
+                            GameHelpers.TextAnimation(time);
+                            GameHelpers.SpaceandClean();
+
+
+
                             Console.WriteLine(" The Serra Angel comes to you in your waking dream");
                         Console.WriteLine(" Do you speak to her yes or no?");
 
