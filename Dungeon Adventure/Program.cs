@@ -1845,8 +1845,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                    Console.WriteLine(" You have grown in {0} Power ", powername[4]);
+                                    Console.WriteLine(managoal);
 
                                 Console.ReadKey();
 
@@ -1885,8 +1885,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                    Console.WriteLine(" You have grown in {0} Power ", powername[4]);
+                                    Console.WriteLine(managoal);
 
                                 Console.ReadKey();
 
@@ -1924,8 +1924,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                    Console.WriteLine(" You have grown in {0} Power ", powername[4]);
+                                    Console.WriteLine(managoal);
 
                                 Console.ReadKey();
 
@@ -1967,8 +1967,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                    Console.WriteLine(" You have grown in {0} Power ", powername[4]);
+                                    Console.WriteLine(managoal);
 
                                 Console.ReadKey();
 
@@ -2004,8 +2004,8 @@ namespace Dungeon_Adventure
 
 
 
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                    Console.WriteLine(" You have grown in {0} Power ", powername[4]);
+                                    Console.WriteLine(managoal);
 
                                 Console.ReadKey();
 
@@ -2027,13 +2027,16 @@ namespace Dungeon_Adventure
                         // Adventure Choice Eight
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                            Console.WriteLine(" The Serra Angel comes to you in your waking dream");
+                        Console.WriteLine(" Do you speak to her yes or no?");
 
                         if (managoal == 8)
                         {
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
+
+                                    // Serra Angels Dialog
                                 managoal++;
 
 
@@ -2042,9 +2045,9 @@ namespace Dungeon_Adventure
 
 
 
-
-                                Console.Write(" You have grown in Dark Power  ");
-                                Console.WriteLine(managoal);
+                                    
+                                    Console.WriteLine(" You have grown in {0} Power ", powername[4]);
+                                    Console.WriteLine(managoal);
 
                                 Console.ReadKey();
 
