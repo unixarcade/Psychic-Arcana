@@ -1868,8 +1868,10 @@ namespace Dungeon_Adventure
                         #region Adventure Choice Four
                         // Adventure Choice Four
 
+
+                            // depth of the plains digging deeper finding clues taking you to the angel
                         PsychicArcana.whiteStart();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                        Console.WriteLine("You find a glorious feather do you inspect it yes or no?");
 
                         if (managoal == 4)
                         {
@@ -1896,7 +1898,7 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine("You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine("You walk the plain into the sunset with the sun to your back never finding your angel.");
                                 break;
                             }
                         }
