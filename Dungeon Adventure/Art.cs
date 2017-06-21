@@ -488,6 +488,44 @@ public static class Art
     }
     #endregion
 
+    #region dragon 
+    public static void dragon()
+    {
+        Console.WriteLine("                        .:/+/-.            .:/--/.`       .-/oo/-`                              ");
+        Console.WriteLine("                         ./ohmms:`     `.--::/--+osymmddy+`         -odmdy+-                          ");
+        Console.WriteLine("                      .+hmmNh/`     `.-:++smmmmmmNNNNNNhyms:.`        `:yNmmdo-                       ");
+        Console.WriteLine("             `.-:::/+ymmNNh:      `.-:ohmNNNNNNNNNNNNs+yysyhmmh-         -yNNNmho/::::.`              ");
+        Console.WriteLine("              `-:+ymmNNNNho/:.   `-odmmNNNNNmhs+/+dNNmo/.  :ydNm:      .:+ohNNNNNmho:-`               ");
+        Console.WriteLine("           `-:/oymNNNNNms:`    .+hmmNNNNmho:``    `-::/yh+-..-/os:        `/hNNNNNNmyo/:-`            ");
+        Console.WriteLine("           -+ydmmNNNNmo.      :hmNNNNmy/.`              :hmhh-         .:   `+mNNNNNmmmho:`           ");
+        Console.WriteLine("        .+so/:odNNNNN+      `smNNNNmo.                   `-//         :dm/    +NNNNNNmo:/os+-         ");
+        Console.WriteLine("      ./:.` :hmNNNNNy      `hNNNNNy.              `..```-..`        `smNNm-    mNNNNNNmh/ `.:/.       ");
+        Console.WriteLine("     `.   -ymNNNNNNN-      hNNNNNh.:+:`      .:+sydhdhyhdhs+:-.`  `/dNo+mNd`   dNNNNNNNmmh:   `.      ");
+        Console.WriteLine("        `ody/mNNNNNN.     /NNNNNNhhs.     `/ydmNNNNNNNNNNNmhy+:-.+hmmo  :mN+  `mNNNNNNNm/sds.         ");
+        Console.WriteLine("       -yo. /NNNNNNNo     yNNNNNNNo`    ./hmNNNNNNNNNNNNNNNNNdsdmNNm/    yNh  oNNNNNNNNN/ .+y:        ");
+        Console.WriteLine("      /+.  .hNNNNNNNmo`   dNNNNNNNs-``-oydmNNNNNNNmmmNNNNNNNNNNNNNy/`    /Nd /mNNNNNNNNNd.  `++`      ");
+        Console.WriteLine("     :-    `mNNNNNNNNmd+. hNNNNNNNNmdhdddmNNNNmho:-..:odNNNNNNNNNdo:.    -Nh+mNNNNNNNNNNm`    ./`     ");
+        Console.WriteLine("    .`    `sNNNNNNNNNNNNmhdNNNNNNNNNNNNNNNNNmh:`       .smNNNNNNNdyy/.   -NmmNNNNNNNNNNNNy.    `.     ");
+        Console.WriteLine("         `s/NNNNNNNNNNmmmmNNNNNNNNNNNNNNNNNd+`           sNNNNNNNms:/o-  :NmddmNNNNNNNNNN:s.          ");
+        Console.WriteLine("         /. mNNNNNmmh+-..-smhymNNNNNNNNNmdo.             .NNNNNNNNmh-`-:`/o-..-/ymmNNNNNm `/          ");
+        Console.WriteLine("         `  hNNmNN/:       o. ./shhhhys+-`               .NNNNNNNNyoh: `..       :/NmmNNy  ``         ");
+        Console.WriteLine("            /NNhyN.               ```                   `yNNNNNNNNd+:s:           .mshNN:             ");
+        Console.WriteLine("            `dNm.s:                     ```            -yNNNNNNNNNh+-`+.          :+.mNh              ");
+        Console.WriteLine("             -mNo `              `.:-/syhhhys+:..```./smNNNNNNNNNmy/   :          ` sNm.              ");
+        Console.WriteLine("              :mm-           `.-/shdNNNNNNNNNNNmddddmNNNNNNNNNNNm/d     `          :md-               ");
+        Console.WriteLine("               :dd`         `-/odmNNNNmmmddmmNNNNNNNNNNNNNNNNNNd- o               .dh-                ");
+        Console.WriteLine("                `os        `.`:dNNNNNNmdo-.-/ydmNNNNNNNNNNNmmmd/  -              `s+`                 ");
+        Console.WriteLine("                  .`       `-omNNNNNNNd-      `:ohddmmddyyd+s++                  ``                   ");
+        Console.WriteLine("                            /hNNNNNNNN-            `..``.-.-`-                                        ");
+        Console.WriteLine("                           -:smNNNNNNN-                -+sss+`                                        ");
+        Console.WriteLine("                           `-s+mNNNNNNh`             `smo-.:dy                                        ");
+        Console.WriteLine("                            / `hmNNNNNNh-            +No    ym                                        ");
+        Console.WriteLine("                            ` .-/dmmNNNNmy:`         /my` `om+                                        ");
+        Console.WriteLine("                                 -o+dmmmNNNmyo/:--..--smdymh/   :///:-`                               ");
+        Console.WriteLine("                                  ``` .:+sydmmmmmmmmmdhs+oyo/-..ho--``..                              ");
+        Console.WriteLine("                                              ``.```        `-://:-`                                  ");
+    }
+        #endregion
 
 
 }
