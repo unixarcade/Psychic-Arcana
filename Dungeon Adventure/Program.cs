@@ -264,6 +264,12 @@ namespace Dungeon_Adventure
                 Mana.myBlueColorMana();
                 Console.WriteLine(" Welcome Creator Lets Play");
                     }
+            else if (name == "Jon Snow")
+            {
+                GameHelpers.RefreshConsole();
+                Mana.myRedManaColor();
+                Console.WriteLine(" You might want to consider going back to Westeroes.");
+            }
             else {
                 GameHelpers.RefreshConsole();
                 Mana.myGreenManaColor();
@@ -1642,7 +1648,8 @@ namespace Dungeon_Adventure
                         // Adventure Choice Nine
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine("In the swamp you see a bat do you kill it with your magic yes or no?");
+                            Art.dragon();
+                        Console.WriteLine(" You See The mighty Dragon flying above. ");
 
                         if (managoal == 9)
                         {
