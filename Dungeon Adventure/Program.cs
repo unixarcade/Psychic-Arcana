@@ -127,7 +127,7 @@ namespace Dungeon_Adventure
             string manasent = " mana infuses you. ";
             string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
             string[] mymananame = { "Forest ", " Mountain ", " Plains ", " Islands ", " Swamps " };
-            string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker" };
+            string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker " };
             string[] powername = {" Dark ", " Lifes' ", " Fires' ", " Trickerys' ", " Lights' "};
 
 
@@ -257,18 +257,18 @@ namespace Dungeon_Adventure
             {
                 GameHelpers.RefreshConsole();
                 Mana.myWhiteMana();
-                Console.WriteLine(" It's Good to see you back at the cafe."); }
+                Console.WriteLine(" It's Good to see you back at the cafe. "); }
             else if (name == "Luminosity")
             {
                 GameHelpers.RefreshConsole();
                 Mana.myBlueColorMana();
-                Console.WriteLine(" Welcome Creator Lets Play");
+                Console.WriteLine(" Welcome Creator Lets Play ");
                     }
             else if (name == "Jon Snow")
             {
                 GameHelpers.RefreshConsole();
                 Mana.myRedManaColor();
-                Console.WriteLine(" You might want to consider going back to Westeroes.");
+                Console.WriteLine(" You might want to consider going back to Westeroes. ");
             }
             else {
                 GameHelpers.RefreshConsole();
@@ -386,14 +386,14 @@ namespace Dungeon_Adventure
                         // Adventure Choice One
 
                         GameHelpers.SpaceandClean();
-                        Console.WriteLine(" In the forest you see some thing moving would you like to investigate further?");
+                        Console.WriteLine(" In the forest you see some thing moving would you like to investigate further? ");
 
 
                         mycode = myYesNo();
                         if (mycode == "YES")
                         {
                             Console.WriteLine(" Under further investigation you see a twinkle among the trees. ");
-                            Console.WriteLine(" Would you like to climb the trees to try to get a better look?");
+                            Console.WriteLine(" Would you like to climb the trees to try to get a better look? ");
                             mycode = myYesNo();
                             if (mycode == "YES")
                             {
@@ -419,8 +419,8 @@ namespace Dungeon_Adventure
 
 
 
-                            Console.Write(" You have grown in Lifes Power  ");
-                            Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[1]);
+                                Console.WriteLine(managoal);
 
                             Console.ReadKey();
 
