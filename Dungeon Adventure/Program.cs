@@ -1391,6 +1391,8 @@ namespace Dungeon_Adventure
 
                                 GameHelpers.SpaceandClean();
                                 Console.WriteLine(" In front of you see a crumbling path do you continue? \n");
+
+                                    // mycode my yes no then more path 
                                 break;
                             }
 
