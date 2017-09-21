@@ -1390,14 +1390,14 @@ namespace Dungeon_Adventure
                             {
 
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine(" You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine(" In front of you see a crumbling path do you continue? \n");
                                 break;
                             }
 
                             else
                             {
                                 GameHelpers.SpaceandClean();
-                                Console.WriteLine(" You may never grow strong enough to Wield the Dark Power");
+                                Console.WriteLine(" A long and winding road contiues off into the distance. \n");
                                 break;
                             }
                         }
