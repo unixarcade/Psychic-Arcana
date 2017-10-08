@@ -128,7 +128,7 @@ namespace Dungeon_Adventure
             string[] mycolor = { " Green ", " Red ", " White ", " Blue ", " Black " };
             string[] mymananame = { "Forest ", " Mountain ", " Plains ", " Islands ", " Swamps " };
             string[] status = { " Initiate ", " Acolyte ", " Adept ", " Master ", " Avatar ", " Planes Walker " };
-            string[] powername = {" Dark ", " Lifes' ", " Fires' ", " Trickerys' ", " Lights' "};
+            string[] powername = {" Darks' ", " Lifes' ", " Fires' ", " Trickerys' ", " Lights' "};
 
 
             int time = 2100;
@@ -2679,16 +2679,16 @@ namespace Dungeon_Adventure
 
 
                             PsychicArcana.blackStart();
-                            Console.WriteLine(" {0},  As try to focus the forces of mana through, you start to sweat. \n ", name);
+                            Console.WriteLine(" {0},  As try to focus the forces of mana through, your hands shake, you start to sweat. \n ", name);
                            
-                            Console.WriteLine(" The force is felt through you as you tense and point your finger at the bat. \n");
+                            Console.WriteLine(" The force moves within and without it is felt through you as you tense and point your finger at the bat. \n");
                            
-                            Console.WriteLine(" You feel an exchange in an exchange in life's essence between you and the bat as it falls to the swamp floor with a thud. \n");
+                            Console.WriteLine(" You feel an exchange in that exchange in life's essence between you and the bat as it falls to the swamp floor with a thud. \n");
 
+                                Console.WriteLine(" The bat lays dead at your feet. \n" );
 
-
-                            Console.Write(" You have grown in Dark Power  ");
-                            Console.WriteLine(managoal);
+                                Console.WriteLine(" You have grown in {0} Power ", powername[0]);
+                                Console.WriteLine(managoal);
 
                             Console.ReadKey();
                             
@@ -3231,7 +3231,7 @@ namespace Dungeon_Adventure
 
                             Console.WriteLine(" You see now with new eyes of mastery \n");
                             Console.WriteLine(" As you peer into the maze where you have sat in life and in study ");
-                            Console.WriteLine(" You see a path that would lead you back to the world from whence you came. ");
+                            Console.WriteLine(" You see a path that would lead you back to the world from whence you came. \n");
 
                             Console.WriteLine(" Do you want to end your quest or push on further 1, 2 ");
 
