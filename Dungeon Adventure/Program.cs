@@ -2879,17 +2879,17 @@ namespace Dungeon_Adventure
                                       GameHelpers.TextAnimation(2100);
 
                                       Console.WriteLine();
-                                          Console.WriteLine(" You Howl at the moon ");
-                                          Console.WriteLine("");
-                                          Console.WriteLine(" As you howl you become the moon beast ");
-                                          Console.WriteLine("");
-                                      Console.WriteLine(" The being has stirred in your heart for quite sometime. ");
-                                      Console.WriteLine("");
-                                      Console.WriteLine(" The fiend comes upon you but you smile as you rend and tear in to the fiend ");
-                                          Console.WriteLine(" What is left of the fiend is blood and gristle ");
-                                          Console.WriteLine("");
-                                      Console.WriteLine(" You smile your deadly smile as you transform again from wolf to man. ");
-                                      Console.WriteLine("");
+                                          Console.WriteLine(" You Howl at the moon \n");
+                                         
+                                          Console.WriteLine(" As you howl you become the moon beast \n");
+                                         
+                                      Console.WriteLine(" The being has stirred in your heart for quite sometime. \n");
+                                      
+                                      Console.WriteLine(" The fiend comes upon you but you smile as you rend and tear in to the fiend \n");
+                                          Console.WriteLine(" What is left of the fiend is blood and gristle \n");
+                                          
+                                      Console.WriteLine(" You smile your deadly smile as you transform again from wolf to man.\n ");
+                                     
                                   
                                   } else if( attackchoice == 2)
                                   {
@@ -2897,15 +2897,15 @@ namespace Dungeon_Adventure
                                       Art.DrainLife();
                                       GameHelpers.TextAnimation(2100);
 
-                                      Console.WriteLine(" Killing the bat comes back to your minds spirit ");
-                                      Console.WriteLine("");
-                                      Console.WriteLine(" The spirit of the bat flutters in your mind ");
-                                      Console.WriteLine("");
-                                      Console.WriteLine(" The icon and reality of the small spell larger ");
-                                      Console.WriteLine("");
-                                      Console.WriteLine(" As you delve into the deep of the minds spell ");
-                                      Console.WriteLine("");
-                                      Console.WriteLine(" You feel the swamp fiend crushed underneath your magic ");
+                                      Console.WriteLine(" Killing the bat comes back to your minds spirit \n");
+                                   
+                                      Console.WriteLine(" The spirit of the bat flutters in your mind \n");
+                                     
+                                      Console.WriteLine(" The icon and reality of the small spell larger \n");
+                                     
+                                      Console.WriteLine(" As you delve into the deep of the minds spell \n");
+                                  
+                                      Console.WriteLine(" You feel the swamp fiend crushed underneath your magic \n");
 
 
 
@@ -2919,11 +2919,12 @@ namespace Dungeon_Adventure
                                       Art.SyphonSoul();
                                       GameHelpers.TextAnimation(2100);
 
-                                      Console.WriteLine(" Syphon Soul seemed to do something against this ghastly field ");
-                                      Console.WriteLine("");
-                                          Console.WriteLine(" Under the bad moon the fiend simply seemed to get more angry as it grinned ");
-                                          Console.WriteLine("");
-                                          Console.WriteLine(" Death comes upon you in this swamps maze ");
+                                      Console.WriteLine(" Syphon Soul seemed to do something against this ghastly field \n");
+                                      
+                                          Console.WriteLine(" Under the bad moon the fiend simply seemed to get more angry as it grinned \n");
+                                         
+                                          Console.WriteLine(" Death comes upon you in this swamps maze \n");
+                                            Console.ReadKey();
                                           BlackMana.myBlackManaAnimation();
                                           myexit();
                                    }
@@ -3161,7 +3162,7 @@ namespace Dungeon_Adventure
                             //
 
 
-                            Console.WriteLine("Would you like to study with me you want to study with me he asks? ");
+                            Console.WriteLine(" Would you like to study with me you want to study with me he asks? ");
 // this is where i am working
                             mycode = myYesNo();
                             if (mycode == "YES")
