@@ -1373,7 +1373,7 @@ namespace Dungeon_Adventure
 
 
                                 PsychicArcana.redStart();
-                                Console.WriteLine("{0},  As try to focus the forces of mana through, you start to sweat. ", name);
+                                Console.WriteLine("{0},  As you try to focus the forces of mana through, you start to sweat. ", name);
 
 
 
@@ -1393,6 +1393,12 @@ namespace Dungeon_Adventure
                                 Console.WriteLine(" In front of you see a crumbling path do you continue? \n");
 
                                     // mycode my yes no then more path 
+
+                                    mycode = myYesNo();
+                                    if (mycode == "YES") {
+                                        Console.WriteLine(" There are boulders that impede your path you head back to where you started. \n ");
+                                        break;
+                                    }
                                 break;
                             }
 
